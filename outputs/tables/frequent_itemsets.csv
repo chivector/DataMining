@@ -1,0 +1,1828 @@
+﻿support,itemsets
+1.0,is_uncertain=0
+0.8925,noise_keyword_hit=none & noise_keyword_present=0
+0.8925,noise_keyword_present=0
+0.8925,noise_keyword_hit=none
+0.8925,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.8925,is_uncertain=0 & noise_keyword_hit=none
+0.8925,is_uncertain=0 & noise_keyword_present=0
+0.8125,uses_coordinate=0
+0.8125,is_uncertain=0 & uses_coordinate=0
+0.7225,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.7225,is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.7225,noise_keyword_hit=none & uses_coordinate=0
+0.7225,noise_keyword_present=0 & uses_coordinate=0
+0.7225,is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.7225,noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.5933333333333334,is_correct=1 & noise_keyword_hit=none
+0.5933333333333334,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.5933333333333334,is_correct=1
+0.5933333333333334,error_category=none & noise_keyword_present=0
+0.5933333333333334,error_category=none & is_uncertain=0
+0.5933333333333334,error_category=none & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.5933333333333334,error_category=none & is_uncertain=0 & noise_keyword_present=0
+0.5933333333333334,error_category=none & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.5933333333333334,is_correct=1 & noise_keyword_present=0
+0.5933333333333334,is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.5933333333333334,error_category=none & is_correct=1 & noise_keyword_hit=none
+0.5933333333333334,error_category=none & noise_keyword_hit=none & noise_keyword_present=0
+0.5933333333333334,error_category=none
+0.5933333333333334,error_category=none & is_correct=1 & noise_keyword_present=0
+0.5933333333333334,error_category=none & is_correct=1 & is_uncertain=0
+0.5933333333333334,is_correct=1 & is_uncertain=0
+0.5933333333333334,error_category=none & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.5933333333333334,error_category=none & noise_keyword_hit=none
+0.5933333333333334,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.5933333333333334,is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.5933333333333334,error_category=none & is_correct=1
+0.5933333333333334,error_category=none & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.5933333333333334,error_category=none & is_uncertain=0 & noise_keyword_hit=none
+0.5683333333333334,has_formula=0 & is_uncertain=0
+0.5683333333333334,has_formula=0
+0.55,ai_judgment=can_pass
+0.55,ai_judgment=can_pass & is_uncertain=0
+0.5391666666666667,has_formula=0 & is_uncertain=0 & uses_coordinate=0
+0.5391666666666667,has_formula=0 & uses_coordinate=0
+0.52,is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.52,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_hit=none
+0.52,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_present=0
+0.52,ai_judgment=can_pass & noise_keyword_hit=none & noise_keyword_present=0
+0.52,is_correct=1 & uses_coordinate=0
+0.52,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.52,is_correct=1 & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.52,is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.52,error_category=none & is_uncertain=0 & uses_coordinate=0
+0.52,error_category=none & noise_keyword_present=0 & uses_coordinate=0
+0.52,error_category=none & is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.52,error_category=none & is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.52,ai_judgment=can_pass & noise_keyword_present=0
+0.52,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.52,is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.52,is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.52,error_category=none & uses_coordinate=0
+0.52,error_category=none & is_correct=1 & uses_coordinate=0
+0.52,error_category=none & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.52,error_category=none & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.52,error_category=none & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.52,error_category=none & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.52,error_category=none & noise_keyword_hit=none & uses_coordinate=0
+0.52,ai_judgment=can_pass & noise_keyword_hit=none
+0.5066666666666667,has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.5066666666666667,has_formula=0 & is_uncertain=0 & noise_keyword_present=0
+0.5066666666666667,has_formula=0 & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.5066666666666667,has_formula=0 & is_uncertain=0 & noise_keyword_hit=none
+0.5066666666666667,has_formula=0 & noise_keyword_present=0
+0.5066666666666667,has_formula=0 & noise_keyword_hit=none
+0.5,criticality=wide
+0.5,criticality=wide & is_uncertain=0
+0.4775,has_formula=0 & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.4775,has_formula=0 & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.4775,has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.4775,has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.4775,has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.4666666666666667,ai_judgment=can_pass & is_uncertain=0 & uses_coordinate=0
+0.4666666666666667,ai_judgment=can_pass & uses_coordinate=0
+0.45916666666666667,criticality=wide & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.45916666666666667,criticality=wide & noise_keyword_hit=none
+0.45916666666666667,criticality=wide & is_uncertain=0 & noise_keyword_present=0
+0.45916666666666667,criticality=wide & noise_keyword_hit=none & noise_keyword_present=0
+0.45916666666666667,criticality=wide & is_uncertain=0 & noise_keyword_hit=none
+0.45916666666666667,criticality=wide & noise_keyword_present=0
+0.45,ai_judgment=cannot_pass & is_uncertain=0
+0.45,ai_judgment=cannot_pass
+0.44666666666666666,ai_judgment=can_pass & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.44666666666666666,ai_judgment=can_pass & error_category=none & is_correct=1 & is_uncertain=0
+0.44666666666666666,ai_judgment=can_pass & error_category=none & is_uncertain=0
+0.44666666666666666,ai_judgment=can_pass & is_correct=1 & is_uncertain=0
+0.44666666666666666,ai_judgment=can_pass & error_category=none & noise_keyword_hit=none
+0.44666666666666666,ai_judgment=can_pass & is_correct=1
+0.44666666666666666,ai_judgment=can_pass & error_category=none
+0.44666666666666666,ai_judgment=can_pass & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.44666666666666666,ai_judgment=can_pass & error_category=none & is_uncertain=0 & noise_keyword_hit=none
+0.44666666666666666,ai_judgment=can_pass & error_category=none & is_uncertain=0 & noise_keyword_present=0
+0.44666666666666666,ai_judgment=can_pass & error_category=none & is_correct=1 & noise_keyword_present=0
+0.44666666666666666,ai_judgment=can_pass & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.44666666666666666,ai_judgment=can_pass & error_category=none & is_correct=1
+0.44666666666666666,ai_judgment=can_pass & is_correct=1 & noise_keyword_hit=none
+0.44666666666666666,ai_judgment=can_pass & error_category=none & noise_keyword_present=0
+0.44666666666666666,ai_judgment=can_pass & error_category=none & noise_keyword_hit=none & noise_keyword_present=0
+0.44666666666666666,ai_judgment=can_pass & is_correct=1 & noise_keyword_present=0
+0.44666666666666666,ai_judgment=can_pass & error_category=none & is_correct=1 & noise_keyword_hit=none
+0.44083333333333335,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.44083333333333335,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.44083333333333335,ai_judgment=can_pass & noise_keyword_hit=none & uses_coordinate=0
+0.44083333333333335,ai_judgment=can_pass & noise_keyword_present=0 & uses_coordinate=0
+0.44083333333333335,ai_judgment=can_pass & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.43166666666666664,has_formula=1
+0.43166666666666664,has_formula=1 & is_uncertain=0
+0.41,criticality=wide & is_uncertain=0 & uses_coordinate=0
+0.41,criticality=wide & uses_coordinate=0
+0.4066666666666667,is_correct=0 & is_uncertain=0
+0.4066666666666667,is_correct=0
+0.39166666666666666,ai_judgment=can_pass & is_correct=1 & uses_coordinate=0
+0.39166666666666666,ai_judgment=can_pass & error_category=none & noise_keyword_present=0 & uses_coordinate=0
+0.39166666666666666,ai_judgment=can_pass & error_category=none & is_correct=1 & uses_coordinate=0
+0.39166666666666666,ai_judgment=can_pass & is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.39166666666666666,ai_judgment=can_pass & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.39166666666666666,ai_judgment=can_pass & is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.39166666666666666,ai_judgment=can_pass & error_category=none & noise_keyword_hit=none & uses_coordinate=0
+0.39166666666666666,ai_judgment=can_pass & error_category=none & uses_coordinate=0
+0.39166666666666666,ai_judgment=can_pass & error_category=none & is_uncertain=0 & uses_coordinate=0
+0.3858333333333333,has_formula=1 & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.3858333333333333,has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.3858333333333333,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.3858333333333333,has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.3858333333333333,has_formula=1 & noise_keyword_present=0
+0.3858333333333333,has_formula=1 & noise_keyword_hit=none
+0.37666666666666665,criticality=wide & noise_keyword_hit=none & uses_coordinate=0
+0.37666666666666665,criticality=wide & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.37666666666666665,criticality=wide & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.37666666666666665,criticality=wide & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.37666666666666665,criticality=wide & noise_keyword_present=0 & uses_coordinate=0
+0.3725,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.3725,ai_judgment=cannot_pass & noise_keyword_hit=none
+0.3725,ai_judgment=cannot_pass & noise_keyword_present=0
+0.3725,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_hit=none
+0.3725,ai_judgment=cannot_pass & noise_keyword_hit=none & noise_keyword_present=0
+0.3725,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_present=0
+0.35,criticality=borderline
+0.35,criticality=borderline & is_uncertain=0
+0.3458333333333333,ai_judgment=cannot_pass & uses_coordinate=0
+0.3458333333333333,ai_judgment=cannot_pass & is_uncertain=0 & uses_coordinate=0
+0.3333333333333333,has_formula=0 & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.3333333333333333,is_uncertain=0 & level=L1 & uses_coordinate=0
+0.3333333333333333,has_formula=0 & is_uncertain=0 & level=L1
+0.3333333333333333,level=L3
+0.3333333333333333,level=L2
+0.3333333333333333,is_uncertain=0 & level=L2
+0.3333333333333333,level=L2 & uses_coordinate=0
+0.3333333333333333,level=L1
+0.3333333333333333,level=L1 & uses_coordinate=0
+0.3333333333333333,has_formula=0 & level=L1
+0.3333333333333333,is_uncertain=0 & level=L1
+0.3333333333333333,has_formula=0 & level=L1 & uses_coordinate=0
+0.3333333333333333,is_uncertain=0 & level=L2 & uses_coordinate=0
+0.3333333333333333,is_uncertain=0 & level=L3
+0.3325,ai_judgment=can_pass & criticality=wide & is_uncertain=0 & noise_keyword_present=0
+0.3325,ai_judgment=can_pass & criticality=wide & noise_keyword_present=0
+0.3325,criticality=wide & error_category=none
+0.3325,ai_judgment=can_pass & criticality=wide & noise_keyword_hit=none & noise_keyword_present=0
+0.3325,criticality=wide & is_correct=1
+0.3325,criticality=wide & error_category=none & noise_keyword_hit=none & noise_keyword_present=0
+0.3325,criticality=wide & error_category=none & is_uncertain=0 & noise_keyword_present=0
+0.3325,criticality=wide & error_category=none & is_correct=1
+0.3325,ai_judgment=can_pass & criticality=wide
+0.3325,ai_judgment=can_pass & criticality=wide & is_uncertain=0
+0.3325,ai_judgment=can_pass & criticality=wide & noise_keyword_hit=none
+0.3325,criticality=wide & error_category=none & is_correct=1 & noise_keyword_hit=none
+0.3325,criticality=wide & error_category=none & is_correct=1 & noise_keyword_present=0
+0.3325,ai_judgment=can_pass & criticality=wide & error_category=none & is_correct=1
+0.3325,criticality=wide & is_correct=1 & noise_keyword_hit=none
+0.3325,criticality=wide & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.3325,ai_judgment=can_pass & criticality=wide & is_correct=1 & is_uncertain=0
+0.3325,criticality=wide & error_category=none & is_correct=1 & is_uncertain=0
+0.3325,ai_judgment=can_pass & criticality=wide & is_correct=1 & noise_keyword_present=0
+0.3325,ai_judgment=can_pass & criticality=wide & is_correct=1 & noise_keyword_hit=none
+0.3325,ai_judgment=can_pass & criticality=wide & is_uncertain=0 & noise_keyword_hit=none
+0.3325,criticality=wide & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.3325,criticality=wide & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.3325,ai_judgment=can_pass & criticality=wide & error_category=none & noise_keyword_present=0
+0.3325,ai_judgment=can_pass & criticality=wide & error_category=none & is_uncertain=0
+0.3325,ai_judgment=can_pass & criticality=wide & error_category=none & noise_keyword_hit=none
+0.3325,ai_judgment=can_pass & criticality=wide & error_category=none
+0.3325,criticality=wide & error_category=none & noise_keyword_present=0
+0.3325,criticality=wide & error_category=none & noise_keyword_hit=none
+0.3325,criticality=wide & error_category=none & is_uncertain=0
+0.3325,criticality=wide & is_correct=1 & is_uncertain=0
+0.3325,criticality=wide & is_correct=1 & noise_keyword_present=0
+0.3325,ai_judgment=can_pass & criticality=wide & is_correct=1
+0.3325,criticality=wide & error_category=none & is_uncertain=0 & noise_keyword_hit=none
+0.33,error_category=none & has_formula=0 & is_uncertain=0
+0.33,error_category=none & has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.33,error_category=none & has_formula=0 & is_uncertain=0 & noise_keyword_present=0
+0.33,has_formula=0 & is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.33,error_category=none & has_formula=0 & noise_keyword_present=0
+0.33,error_category=none & has_formula=0
+0.33,error_category=none & has_formula=0 & noise_keyword_hit=none
+0.33,error_category=none & has_formula=0 & is_correct=1 & noise_keyword_hit=none
+0.33,error_category=none & has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.33,has_formula=0 & is_correct=1
+0.33,error_category=none & has_formula=0 & uses_coordinate=0
+0.33,has_formula=0 & is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.33,error_category=none & has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.33,has_formula=0 & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.33,error_category=none & has_formula=0 & is_correct=1 & uses_coordinate=0
+0.33,error_category=none & has_formula=0 & is_correct=1 & is_uncertain=0
+0.33,has_formula=0 & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.33,has_formula=0 & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.33,has_formula=0 & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.33,error_category=none & has_formula=0 & is_uncertain=0 & noise_keyword_hit=none
+0.33,has_formula=0 & is_correct=1 & noise_keyword_hit=none
+0.33,error_category=none & has_formula=0 & is_uncertain=0 & uses_coordinate=0
+0.33,error_category=none & has_formula=0 & is_correct=1
+0.33,has_formula=0 & is_correct=1 & noise_keyword_present=0
+0.33,has_formula=0 & is_correct=1 & is_uncertain=0
+0.33,has_formula=0 & is_correct=1 & uses_coordinate=0
+0.33,error_category=none & has_formula=0 & is_correct=1 & noise_keyword_present=0
+0.31166666666666665,ai_judgment=can_pass & has_formula=0 & is_uncertain=0
+0.31166666666666665,ai_judgment=can_pass & has_formula=0
+0.30416666666666664,ai_judgment=can_pass & has_formula=0 & is_uncertain=0 & uses_coordinate=0
+0.30416666666666664,ai_judgment=can_pass & has_formula=0 & uses_coordinate=0
+0.30333333333333334,ai_judgment=cannot_pass & is_correct=0
+0.30333333333333334,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0
+0.30083333333333334,level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.30083333333333334,is_uncertain=0 & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.30083333333333334,is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.30083333333333334,is_uncertain=0 & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.30083333333333334,level=L2 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.30083333333333334,is_uncertain=0 & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.30083333333333334,level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.30083333333333334,level=L2 & noise_keyword_present=0
+0.30083333333333334,is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.30083333333333334,level=L2 & noise_keyword_hit=none
+0.30083333333333334,level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.3,has_formula=0 & level=L1 & noise_keyword_hit=none & noise_keyword_present=0
+0.3,is_uncertain=0 & level=L1 & noise_keyword_present=0 & uses_coordinate=0
+0.3,level=L1 & noise_keyword_present=0
+0.3,level=L1 & noise_keyword_hit=none
+0.3,level=L1 & noise_keyword_hit=none & uses_coordinate=0
+0.3,is_uncertain=0 & level=L1 & noise_keyword_hit=none
+0.3,is_uncertain=0 & level=L1 & noise_keyword_hit=none & uses_coordinate=0
+0.3,has_formula=0 & level=L1 & noise_keyword_hit=none
+0.3,has_formula=0 & is_uncertain=0 & level=L1 & noise_keyword_hit=none
+0.3,has_formula=0 & level=L1 & noise_keyword_hit=none & uses_coordinate=0
+0.3,is_uncertain=0 & level=L1 & noise_keyword_present=0
+0.3,level=L1 & noise_keyword_hit=none & noise_keyword_present=0
+0.3,is_uncertain=0 & level=L1 & noise_keyword_hit=none & noise_keyword_present=0
+0.3,level=L1 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.3,level=L1 & noise_keyword_present=0 & uses_coordinate=0
+0.3,has_formula=0 & level=L1 & noise_keyword_present=0
+0.3,has_formula=0 & level=L1 & noise_keyword_present=0 & uses_coordinate=0
+0.3,has_formula=0 & is_uncertain=0 & level=L1 & noise_keyword_present=0
+0.2991666666666667,is_correct=0 & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.2991666666666667,is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.2991666666666667,is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.2991666666666667,is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.2991666666666667,is_correct=0 & noise_keyword_hit=none
+0.2991666666666667,is_correct=0 & noise_keyword_present=0
+0.29583333333333334,criticality=borderline & is_uncertain=0 & noise_keyword_present=0
+0.29583333333333334,criticality=borderline & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.29583333333333334,criticality=borderline & noise_keyword_hit=none
+0.29583333333333334,criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0
+0.29583333333333334,criticality=borderline & noise_keyword_present=0
+0.29583333333333334,criticality=borderline & is_uncertain=0 & noise_keyword_hit=none
+0.2925,is_correct=0 & is_uncertain=0 & uses_coordinate=0
+0.2925,is_correct=0 & uses_coordinate=0
+0.2916666666666667,is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.2916666666666667,is_uncertain=0 & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.2916666666666667,is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.2916666666666667,level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.2916666666666667,ai_judgment=can_pass & has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.2916666666666667,ai_judgment=can_pass & has_formula=0 & is_uncertain=0 & noise_keyword_present=0
+0.2916666666666667,level=L3 & noise_keyword_hit=none
+0.2916666666666667,ai_judgment=can_pass & has_formula=0 & is_uncertain=0 & noise_keyword_hit=none
+0.2916666666666667,ai_judgment=can_pass & has_formula=0 & noise_keyword_present=0
+0.2916666666666667,ai_judgment=can_pass & has_formula=0 & noise_keyword_hit=none
+0.2916666666666667,level=L3 & noise_keyword_present=0
+0.29083333333333333,criticality=wide & is_correct=1 & uses_coordinate=0
+0.29083333333333333,ai_judgment=can_pass & criticality=wide & error_category=none & uses_coordinate=0
+0.29083333333333333,criticality=wide & error_category=none & noise_keyword_present=0 & uses_coordinate=0
+0.29083333333333333,ai_judgment=can_pass & criticality=wide & uses_coordinate=0
+0.29083333333333333,criticality=wide & error_category=none & is_correct=1 & uses_coordinate=0
+0.29083333333333333,ai_judgment=can_pass & criticality=wide & noise_keyword_present=0 & uses_coordinate=0
+0.29083333333333333,ai_judgment=can_pass & criticality=wide & noise_keyword_hit=none & uses_coordinate=0
+0.29083333333333333,ai_judgment=can_pass & criticality=wide & is_uncertain=0 & uses_coordinate=0
+0.29083333333333333,criticality=wide & error_category=none & uses_coordinate=0
+0.29083333333333333,criticality=wide & is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.29083333333333333,criticality=wide & is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.29083333333333333,criticality=wide & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.29083333333333333,criticality=wide & error_category=none & noise_keyword_hit=none & uses_coordinate=0
+0.29083333333333333,criticality=wide & error_category=none & is_uncertain=0 & uses_coordinate=0
+0.29083333333333333,ai_judgment=can_pass & criticality=wide & is_correct=1 & uses_coordinate=0
+0.2866666666666667,criticality=wide & has_formula=0
+0.2866666666666667,criticality=wide & has_formula=0 & is_uncertain=0
+0.2841666666666667,ai_judgment=can_pass & has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.2841666666666667,ai_judgment=can_pass & has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.2816666666666667,ai_judgment=cannot_pass & noise_keyword_present=0 & uses_coordinate=0
+0.2816666666666667,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.2816666666666667,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.2816666666666667,ai_judgment=cannot_pass & noise_keyword_hit=none & uses_coordinate=0
+0.2816666666666667,ai_judgment=cannot_pass & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.2791666666666667,criticality=borderline & uses_coordinate=0
+0.2791666666666667,criticality=borderline & is_uncertain=0 & uses_coordinate=0
+0.27416666666666667,criticality=wide & has_formula=0 & is_uncertain=0 & uses_coordinate=0
+0.27416666666666667,criticality=wide & has_formula=0 & uses_coordinate=0
+0.2733333333333333,has_formula=1 & is_uncertain=0 & uses_coordinate=0
+0.2733333333333333,has_formula=1 & uses_coordinate=0
+0.26666666666666666,criticality=wide & has_formula=0 & noise_keyword_hit=none
+0.26666666666666666,criticality=wide & has_formula=0 & noise_keyword_present=0
+0.26666666666666666,criticality=wide & has_formula=0 & is_uncertain=0 & noise_keyword_hit=none
+0.26666666666666666,criticality=wide & has_formula=0 & is_uncertain=0 & noise_keyword_present=0
+0.26666666666666666,criticality=wide & has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.2633333333333333,has_formula=1 & is_correct=1 & is_uncertain=0
+0.2633333333333333,has_formula=1 & is_correct=1 & noise_keyword_hit=none
+0.2633333333333333,has_formula=1 & is_correct=1 & noise_keyword_present=0
+0.2633333333333333,error_category=none & has_formula=1 & noise_keyword_hit=none
+0.2633333333333333,error_category=none & has_formula=1 & is_uncertain=0
+0.2633333333333333,error_category=none & has_formula=1 & noise_keyword_present=0
+0.2633333333333333,error_category=none & has_formula=1 & is_correct=1 & is_uncertain=0
+0.2633333333333333,has_formula=1 & is_correct=1
+0.2633333333333333,error_category=none & has_formula=1
+0.2633333333333333,error_category=none & has_formula=1 & is_correct=1
+0.2633333333333333,error_category=none & has_formula=1 & is_correct=1 & noise_keyword_present=0
+0.2633333333333333,error_category=none & has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.2633333333333333,error_category=none & has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.2633333333333333,error_category=none & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.2633333333333333,error_category=none & has_formula=1 & is_correct=1 & noise_keyword_hit=none
+0.2633333333333333,has_formula=1 & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.2633333333333333,has_formula=1 & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.2633333333333333,has_formula=1 & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.25666666666666665,ai_judgment=cannot_pass & has_formula=0
+0.25666666666666665,ai_judgment=cannot_pass & has_formula=0 & is_uncertain=0
+0.25416666666666665,criticality=wide & has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.25416666666666665,criticality=wide & has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.25,is_uncertain=0 & model=GPT-4o-sim
+0.25,ai_judgment=can_pass & error_category=none & has_formula=0 & uses_coordinate=0
+0.25,model=Claude-Sonnet-sim
+0.25,model=DeepSeek-V3-sim
+0.25,model=Small-LLM-sim
+0.25,ai_judgment=can_pass & has_formula=0 & is_correct=1 & noise_keyword_hit=none
+0.25,ai_judgment=can_pass & error_category=none & has_formula=0 & noise_keyword_hit=none
+0.25,ai_judgment=can_pass & error_category=none & has_formula=0 & noise_keyword_present=0
+0.25,ai_judgment=can_pass & has_formula=0 & is_correct=1
+0.25,ai_judgment=can_pass & error_category=none & has_formula=0 & is_correct=1
+0.25,ai_judgment=can_pass & has_formula=0 & is_correct=1 & uses_coordinate=0
+0.25,is_uncertain=0 & model=Small-LLM-sim
+0.25,is_uncertain=0 & model=Claude-Sonnet-sim
+0.25,is_uncertain=0 & model=DeepSeek-V3-sim
+0.25,model=GPT-4o-sim
+0.25,ai_judgment=can_pass & has_formula=0 & is_correct=1 & noise_keyword_present=0
+0.25,ai_judgment=can_pass & error_category=none & has_formula=0 & is_uncertain=0
+0.25,ai_judgment=can_pass & has_formula=0 & is_correct=1 & is_uncertain=0
+0.25,ai_judgment=can_pass & error_category=none & has_formula=0
+0.245,error_category=concept_confusion & is_correct=0
+0.245,error_category=concept_confusion & is_correct=0 & noise_keyword_present=0
+0.245,error_category=concept_confusion & noise_keyword_present=0
+0.245,error_category=concept_confusion & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.245,has_formula=1 & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.245,has_formula=1 & noise_keyword_present=0 & uses_coordinate=0
+0.245,has_formula=1 & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.245,error_category=concept_confusion
+0.245,error_category=concept_confusion & noise_keyword_hit=none
+0.245,error_category=concept_confusion & is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.245,error_category=concept_confusion & is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.245,has_formula=1 & noise_keyword_hit=none & uses_coordinate=0
+0.245,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.245,error_category=concept_confusion & is_uncertain=0 & noise_keyword_hit=none
+0.245,error_category=concept_confusion & noise_keyword_hit=none & noise_keyword_present=0
+0.245,error_category=concept_confusion & is_uncertain=0
+0.245,error_category=concept_confusion & is_correct=0 & noise_keyword_hit=none
+0.245,error_category=concept_confusion & is_correct=0 & is_uncertain=0
+0.245,error_category=concept_confusion & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.245,error_category=concept_confusion & is_uncertain=0 & noise_keyword_present=0
+0.23833333333333334,ai_judgment=can_pass & has_formula=1 & is_uncertain=0
+0.23833333333333334,has_formula=1 & is_uncertain=0 & level=L3
+0.23833333333333334,ai_judgment=can_pass & has_formula=1
+0.23833333333333334,has_formula=0 & is_correct=0 & is_uncertain=0
+0.23833333333333334,has_formula=0 & is_correct=0
+0.23833333333333334,has_formula=1 & level=L3
+0.235,ai_judgment=cannot_pass & has_formula=0 & is_uncertain=0 & uses_coordinate=0
+0.235,ai_judgment=cannot_pass & has_formula=0 & uses_coordinate=0
+0.23416666666666666,criticality=borderline & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.23416666666666666,criticality=borderline & noise_keyword_hit=none & uses_coordinate=0
+0.23416666666666666,criticality=borderline & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.23416666666666666,criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.23416666666666666,criticality=borderline & noise_keyword_present=0 & uses_coordinate=0
+0.23083333333333333,model=Claude-Sonnet-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.23083333333333333,model=Claude-Sonnet-sim & noise_keyword_present=0
+0.23083333333333333,is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.23083333333333333,model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.23083333333333333,is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.23083333333333333,model=GPT-4o-sim & noise_keyword_present=0
+0.23083333333333333,is_uncertain=0 & model=GPT-4o-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.23083333333333333,model=GPT-4o-sim & noise_keyword_hit=none
+0.23083333333333333,is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.23083333333333333,is_uncertain=0 & model=GPT-4o-sim & noise_keyword_present=0
+0.23083333333333333,is_uncertain=0 & model=GPT-4o-sim & noise_keyword_hit=none
+0.23083333333333333,model=GPT-4o-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.22833333333333333,ai_judgment=can_pass & has_formula=1 & noise_keyword_hit=none
+0.22833333333333333,ai_judgment=can_pass & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.22833333333333333,ai_judgment=can_pass & has_formula=1 & noise_keyword_present=0
+0.22833333333333333,ai_judgment=can_pass & has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.22833333333333333,ai_judgment=can_pass & has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.22583333333333333,ai_judgment=cannot_pass & is_correct=0 & noise_keyword_hit=none
+0.22583333333333333,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.22583333333333333,ai_judgment=cannot_pass & is_correct=0 & noise_keyword_present=0
+0.22583333333333333,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.22583333333333333,ai_judgment=cannot_pass & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.22416666666666665,is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.22416666666666665,is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.22416666666666665,model=DeepSeek-V3-sim & noise_keyword_present=0
+0.22416666666666665,model=DeepSeek-V3-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.22416666666666665,model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.22416666666666665,is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.2175,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0 & uses_coordinate=0
+0.2175,ai_judgment=cannot_pass & is_correct=0 & uses_coordinate=0
+0.215,ai_judgment=cannot_pass & has_formula=0 & is_uncertain=0 & noise_keyword_hit=none
+0.215,ai_judgment=cannot_pass & has_formula=0 & noise_keyword_hit=none
+0.215,ai_judgment=cannot_pass & has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.215,ai_judgment=cannot_pass & has_formula=0 & noise_keyword_present=0
+0.215,ai_judgment=cannot_pass & has_formula=0 & is_uncertain=0 & noise_keyword_present=0
+0.21416666666666667,has_formula=1 & level=L3 & noise_keyword_present=0
+0.21416666666666667,has_formula=1 & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.21416666666666667,has_formula=1 & level=L3 & noise_keyword_hit=none
+0.21416666666666667,has_formula=1 & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.21416666666666667,has_formula=1 & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.21333333333333335,criticality=wide & has_formula=1 & is_uncertain=0
+0.21333333333333335,criticality=wide & has_formula=1
+0.21083333333333334,has_formula=0 & is_correct=1 & level=L1 & uses_coordinate=0
+0.21083333333333334,is_correct=1 & level=L1 & noise_keyword_present=0 & uses_coordinate=0
+0.21083333333333334,has_formula=0 & is_correct=1 & is_uncertain=0 & level=L1
+0.21083333333333334,is_correct=1 & level=L1 & noise_keyword_hit=none & uses_coordinate=0
+0.21083333333333334,is_correct=1 & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.21083333333333334,is_correct=1 & is_uncertain=0 & level=L1 & noise_keyword_hit=none
+0.21083333333333334,has_formula=0 & is_correct=1 & level=L1 & noise_keyword_present=0
+0.21083333333333334,has_formula=0 & is_correct=1 & level=L1 & noise_keyword_hit=none
+0.21083333333333334,is_correct=1 & level=L1
+0.21083333333333334,error_category=none & level=L1 & noise_keyword_present=0
+0.21083333333333334,error_category=none & level=L1 & noise_keyword_hit=none
+0.21083333333333334,error_category=none & is_uncertain=0 & level=L1
+0.21083333333333334,is_correct=1 & level=L1 & uses_coordinate=0
+0.21083333333333334,has_formula=0 & is_correct=1 & level=L1
+0.21083333333333334,error_category=none & is_correct=1 & level=L1 & noise_keyword_present=0
+0.21083333333333334,error_category=none & is_correct=1 & level=L1 & noise_keyword_hit=none
+0.21083333333333334,error_category=none & is_correct=1 & is_uncertain=0 & level=L1
+0.21083333333333334,error_category=none & is_correct=1 & level=L1 & uses_coordinate=0
+0.21083333333333334,error_category=none & has_formula=0 & is_correct=1 & level=L1
+0.21083333333333334,is_correct=1 & level=L1 & noise_keyword_hit=none & noise_keyword_present=0
+0.21083333333333334,is_correct=1 & is_uncertain=0 & level=L1 & noise_keyword_present=0
+0.21083333333333334,error_category=none & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.21083333333333334,error_category=none & level=L1
+0.21083333333333334,is_correct=1 & is_uncertain=0 & level=L1
+0.21083333333333334,is_uncertain=0 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.21083333333333334,model=Claude-Sonnet-sim & uses_coordinate=0
+0.21083333333333334,is_correct=1 & level=L1 & noise_keyword_hit=none
+0.21083333333333334,is_correct=1 & level=L1 & noise_keyword_present=0
+0.21083333333333334,error_category=none & is_correct=1 & level=L1
+0.21083333333333334,error_category=none & has_formula=0 & level=L1 & uses_coordinate=0
+0.21083333333333334,error_category=none & has_formula=0 & is_uncertain=0 & level=L1
+0.21083333333333334,error_category=none & has_formula=0 & level=L1 & noise_keyword_hit=none
+0.21083333333333334,error_category=none & has_formula=0 & level=L1 & noise_keyword_present=0
+0.21083333333333334,error_category=none & is_uncertain=0 & level=L1 & noise_keyword_hit=none
+0.21083333333333334,error_category=none & level=L1 & noise_keyword_hit=none & uses_coordinate=0
+0.21083333333333334,error_category=none & level=L1 & noise_keyword_present=0 & uses_coordinate=0
+0.21083333333333334,error_category=none & has_formula=0 & level=L1
+0.21083333333333334,error_category=none & level=L1 & noise_keyword_hit=none & noise_keyword_present=0
+0.21083333333333334,error_category=none & is_uncertain=0 & level=L1 & noise_keyword_present=0
+0.21083333333333334,error_category=none & level=L1 & uses_coordinate=0
+0.20916666666666667,has_formula=0 & is_correct=0 & uses_coordinate=0
+0.20916666666666667,has_formula=0 & is_correct=0 & is_uncertain=0 & uses_coordinate=0
+0.2075,is_uncertain=0 & model=Small-LLM-sim & uses_coordinate=0
+0.2075,model=Small-LLM-sim & uses_coordinate=0
+0.20666666666666667,is_uncertain=0 & model=Small-LLM-sim & noise_keyword_present=0
+0.20666666666666667,model=Small-LLM-sim & noise_keyword_present=0
+0.20666666666666667,model=Small-LLM-sim & noise_keyword_hit=none
+0.20666666666666667,is_uncertain=0 & model=Small-LLM-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.20666666666666667,is_uncertain=0 & model=Small-LLM-sim & noise_keyword_hit=none
+0.20666666666666667,model=Small-LLM-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.2025,is_correct=0 & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.2025,is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.2025,is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.2025,is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.2025,is_correct=0 & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.20166666666666666,is_uncertain=0 & model=GPT-4o-sim & uses_coordinate=0
+0.20166666666666666,model=GPT-4o-sim & uses_coordinate=0
+0.20166666666666666,criticality=borderline & has_formula=0
+0.20166666666666666,criticality=borderline & has_formula=0 & is_uncertain=0
+0.2,noise_label=material_color
+0.2,noise_label=lighting
+0.2,noise_label=emotional_pressure
+0.2,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=lighting
+0.2,noise_label=none
+0.2,is_uncertain=0 & noise_keyword_present=0 & noise_label=lighting
+0.2,noise_keyword_present=0 & noise_label=lighting
+0.2,is_uncertain=0 & noise_label=lighting
+0.2,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=lighting
+0.2,is_uncertain=0 & noise_label=emotional_pressure
+0.2,is_uncertain=0 & noise_keyword_hit=none & noise_label=none
+0.2,is_uncertain=0 & noise_keyword_hit=none & noise_label=lighting
+0.2,is_uncertain=0 & noise_keyword_present=0 & noise_label=none
+0.2,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.2,noise_keyword_hit=none & noise_label=none
+0.2,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.2,is_uncertain=0 & noise_label=ambient_noise
+0.2,is_uncertain=0 & noise_label=none
+0.2,is_uncertain=0 & noise_label=material_color
+0.2,noise_keyword_present=0 & noise_label=none
+0.2,noise_keyword_hit=none & noise_label=lighting
+0.2,noise_label=ambient_noise
+0.19916666666666666,error_category=none & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.19916666666666666,error_category=none & is_correct=1 & level=L2 & noise_keyword_hit=none
+0.19916666666666666,is_correct=1 & level=L2 & noise_keyword_present=0
+0.19916666666666666,is_correct=1 & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.19916666666666666,error_category=none & level=L2 & noise_keyword_hit=none
+0.19916666666666666,error_category=none & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.19916666666666666,error_category=none & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.19916666666666666,is_correct=1 & level=L2 & uses_coordinate=0
+0.19916666666666666,error_category=none & is_correct=1 & level=L2 & uses_coordinate=0
+0.19916666666666666,is_correct=1 & is_uncertain=0 & level=L2
+0.19916666666666666,is_correct=1 & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.19916666666666666,error_category=none & is_uncertain=0 & level=L2
+0.19916666666666666,error_category=none & level=L2 & noise_keyword_present=0
+0.19916666666666666,error_category=none & is_correct=1 & is_uncertain=0 & level=L2
+0.19916666666666666,error_category=none & is_correct=1 & level=L2 & noise_keyword_present=0
+0.19916666666666666,is_correct=1 & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.19916666666666666,is_correct=1 & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.19916666666666666,is_correct=1 & level=L2
+0.19916666666666666,error_category=none & level=L2
+0.19916666666666666,is_correct=1 & level=L2 & noise_keyword_hit=none
+0.19916666666666666,error_category=none & is_correct=1 & level=L2
+0.19916666666666666,error_category=none & level=L2 & uses_coordinate=0
+0.19916666666666666,error_category=none & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.19916666666666666,error_category=none & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.19916666666666666,error_category=none & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.19916666666666666,is_correct=1 & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.19916666666666666,is_correct=1 & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.19666666666666666,ai_judgment=can_pass & error_category=none & has_formula=1 & is_correct=1
+0.19666666666666666,ai_judgment=can_pass & has_formula=1 & is_correct=1 & is_uncertain=0
+0.19666666666666666,ai_judgment=can_pass & error_category=none & has_formula=1 & noise_keyword_hit=none
+0.19666666666666666,ai_judgment=can_pass & error_category=none & has_formula=1 & noise_keyword_present=0
+0.19666666666666666,ai_judgment=can_pass & error_category=none & has_formula=1 & is_uncertain=0
+0.19666666666666666,ai_judgment=can_pass & error_category=none & has_formula=1
+0.19666666666666666,ai_judgment=can_pass & has_formula=1 & is_correct=1
+0.19666666666666666,ai_judgment=can_pass & has_formula=1 & is_correct=1 & noise_keyword_present=0
+0.19666666666666666,ai_judgment=can_pass & has_formula=1 & is_correct=1 & noise_keyword_hit=none
+0.19583333333333333,ai_judgment=can_pass & level=L1
+0.19583333333333333,ai_judgment=can_pass & has_formula=0 & is_uncertain=0 & level=L1
+0.19583333333333333,ai_judgment=can_pass & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.19583333333333333,ai_judgment=can_pass & level=L1 & uses_coordinate=0
+0.19583333333333333,ai_judgment=can_pass & has_formula=0 & level=L1
+0.19583333333333333,ai_judgment=can_pass & is_uncertain=0 & level=L1
+0.19583333333333333,ai_judgment=can_pass & has_formula=0 & level=L1 & uses_coordinate=0
+0.19416666666666665,model=Claude-Sonnet-sim & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.19416666666666665,is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none & uses_coordinate=0
+0.19416666666666665,model=Claude-Sonnet-sim & noise_keyword_present=0 & uses_coordinate=0
+0.19416666666666665,model=Claude-Sonnet-sim & noise_keyword_hit=none & uses_coordinate=0
+0.19416666666666665,is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_present=0 & uses_coordinate=0
+0.19333333333333333,has_formula=1 & is_uncertain=0 & level=L2
+0.19333333333333333,ai_judgment=cannot_pass & has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.19333333333333333,ai_judgment=cannot_pass & has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.19333333333333333,has_formula=1 & level=L2 & uses_coordinate=0
+0.19333333333333333,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0
+0.19333333333333333,has_formula=1 & level=L2
+0.19333333333333333,ai_judgment=cannot_pass & has_formula=1
+0.19333333333333333,has_formula=1 & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.1925,criticality=wide & has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.1925,criticality=wide & has_formula=1 & noise_keyword_present=0
+0.1925,criticality=wide & has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.1925,model=DeepSeek-V3-sim & uses_coordinate=0
+0.1925,is_uncertain=0 & model=DeepSeek-V3-sim & uses_coordinate=0
+0.1925,criticality=wide & has_formula=1 & noise_keyword_hit=none
+0.1925,criticality=wide & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.19,criticality=wide & error_category=none & has_formula=0 & is_uncertain=0
+0.19,ai_judgment=can_pass & criticality=wide & has_formula=0 & noise_keyword_hit=none
+0.19,error_category=none & has_formula=1 & uses_coordinate=0
+0.19,ai_judgment=can_pass & criticality=wide & has_formula=0 & is_correct=1
+0.19,ai_judgment=can_pass & criticality=wide & error_category=none & has_formula=0
+0.19,error_category=none & has_formula=1 & noise_keyword_present=0 & uses_coordinate=0
+0.19,error_category=none & has_formula=1 & is_correct=1 & uses_coordinate=0
+0.19,has_formula=1 & is_correct=1 & uses_coordinate=0
+0.19,ai_judgment=can_pass & criticality=wide & has_formula=0 & is_uncertain=0
+0.19,ai_judgment=can_pass & criticality=wide & has_formula=0 & noise_keyword_present=0
+0.19,error_category=none & has_formula=1 & is_uncertain=0 & uses_coordinate=0
+0.19,has_formula=1 & is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.19,has_formula=1 & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.19,criticality=wide & has_formula=0 & is_correct=1 & noise_keyword_hit=none
+0.19,ai_judgment=can_pass & criticality=wide & has_formula=0
+0.19,criticality=wide & error_category=none & has_formula=0
+0.19,criticality=wide & has_formula=0 & is_correct=1
+0.19,criticality=wide & has_formula=0 & is_correct=1 & noise_keyword_present=0
+0.19,error_category=none & has_formula=1 & noise_keyword_hit=none & uses_coordinate=0
+0.19,ai_judgment=can_pass & criticality=wide & has_formula=0 & uses_coordinate=0
+0.19,has_formula=1 & is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.19,criticality=wide & error_category=none & has_formula=0 & is_correct=1
+0.19,criticality=wide & error_category=none & has_formula=0 & uses_coordinate=0
+0.19,criticality=wide & error_category=none & has_formula=0 & noise_keyword_hit=none
+0.19,criticality=wide & has_formula=0 & is_correct=1 & uses_coordinate=0
+0.19,criticality=wide & error_category=none & has_formula=0 & noise_keyword_present=0
+0.19,criticality=wide & has_formula=0 & is_correct=1 & is_uncertain=0
+0.18833333333333332,criticality=borderline & has_formula=0 & uses_coordinate=0
+0.18833333333333332,criticality=borderline & has_formula=0 & is_uncertain=0 & uses_coordinate=0
+0.1875,model=GPT-4o-sim & noise_keyword_present=0 & uses_coordinate=0
+0.1875,uses_coordinate=1
+0.1875,is_uncertain=0 & model=GPT-4o-sim & noise_keyword_present=0 & uses_coordinate=0
+0.1875,model=GPT-4o-sim & noise_keyword_hit=none & uses_coordinate=0
+0.1875,model=GPT-4o-sim & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.1875,is_uncertain=0 & level=L3 & uses_coordinate=1
+0.1875,level=L3 & uses_coordinate=1
+0.1875,is_uncertain=0 & uses_coordinate=1
+0.1875,is_uncertain=0 & model=GPT-4o-sim & noise_keyword_hit=none & uses_coordinate=0
+0.18666666666666668,criticality=borderline & is_correct=0 & is_uncertain=0
+0.18666666666666668,criticality=borderline & is_correct=0
+0.18583333333333332,ai_judgment=can_pass & has_formula=0 & level=L1 & noise_keyword_hit=none
+0.18583333333333332,ai_judgment=can_pass & level=L1 & noise_keyword_hit=none
+0.18583333333333332,ai_judgment=can_pass & is_uncertain=0 & level=L1 & noise_keyword_hit=none
+0.18583333333333332,ai_judgment=can_pass & level=L1 & noise_keyword_hit=none & uses_coordinate=0
+0.18583333333333332,ai_judgment=can_pass & level=L1 & noise_keyword_present=0
+0.18583333333333332,ai_judgment=can_pass & level=L1 & noise_keyword_present=0 & uses_coordinate=0
+0.18583333333333332,ai_judgment=can_pass & is_uncertain=0 & level=L1 & noise_keyword_present=0
+0.18583333333333332,ai_judgment=can_pass & has_formula=0 & level=L1 & noise_keyword_present=0
+0.18583333333333332,ai_judgment=can_pass & level=L1 & noise_keyword_hit=none & noise_keyword_present=0
+0.185,has_formula=0 & model=Small-LLM-sim
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion & is_uncertain=0 & noise_keyword_hit=none
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion & is_correct=0 & is_uncertain=0
+0.185,ai_judgment=cannot_pass & criticality=borderline & is_uncertain=0
+0.185,has_formula=0 & is_uncertain=0 & model=Small-LLM-sim
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion & is_correct=0 & noise_keyword_present=0
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion & noise_keyword_hit=none & noise_keyword_present=0
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion & is_correct=0 & noise_keyword_hit=none
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion & noise_keyword_hit=none
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion & is_uncertain=0 & noise_keyword_present=0
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion & is_correct=0
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion & noise_keyword_present=0
+0.185,ai_judgment=cannot_pass & error_category=concept_confusion & is_uncertain=0
+0.185,ai_judgment=cannot_pass & criticality=borderline
+0.18333333333333332,error_category=none & level=L3 & noise_keyword_present=0
+0.18333333333333332,error_category=none & level=L3 & noise_keyword_hit=none
+0.18333333333333332,error_category=none & is_correct=1 & level=L3
+0.18333333333333332,is_correct=1 & is_uncertain=0 & level=L3
+0.18333333333333332,is_correct=1 & level=L3 & noise_keyword_hit=none
+0.18333333333333332,error_category=none & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.18333333333333332,error_category=none & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.18333333333333332,is_correct=1 & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.18333333333333332,is_correct=1 & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.18333333333333332,is_correct=1 & level=L3 & noise_keyword_present=0
+0.18333333333333332,error_category=none & level=L3
+0.18333333333333332,is_correct=1 & level=L3
+0.18333333333333332,is_correct=1 & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.18333333333333332,error_category=none & is_correct=1 & is_uncertain=0 & level=L3
+0.18333333333333332,error_category=none & is_uncertain=0 & level=L3
+0.18333333333333332,error_category=none & is_correct=1 & level=L3 & noise_keyword_hit=none
+0.18333333333333332,error_category=none & is_correct=1 & level=L3 & noise_keyword_present=0
+0.18333333333333332,error_category=none & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.1775,ai_judgment=can_pass & level=L2
+0.1775,error_category=none & model=Claude-Sonnet-sim
+0.1775,is_correct=1 & model=Claude-Sonnet-sim
+0.1775,error_category=none & is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.1775,error_category=none & is_uncertain=0 & model=Claude-Sonnet-sim
+0.1775,error_category=none & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.1775,error_category=none & model=Claude-Sonnet-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.1775,is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.1775,error_category=none & is_correct=1 & is_uncertain=0 & model=Claude-Sonnet-sim
+0.1775,error_category=none & is_correct=1 & model=Claude-Sonnet-sim
+0.1775,error_category=none & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.1775,is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.1775,is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.1775,is_correct=1 & is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.1775,is_correct=1 & is_uncertain=0 & model=Claude-Sonnet-sim
+0.1775,error_category=none & is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.1775,ai_judgment=can_pass & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.1775,ai_judgment=can_pass & is_uncertain=0 & level=L2
+0.1775,ai_judgment=can_pass & level=L2 & uses_coordinate=0
+0.1775,error_category=none & is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.1775,error_category=none & is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.1775,is_correct=1 & is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.17666666666666667,has_formula=0 & is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.17666666666666667,ai_judgment=can_pass & level=L3
+0.17666666666666667,ai_judgment=can_pass & is_uncertain=0 & level=L3
+0.17666666666666667,has_formula=0 & is_correct=0 & noise_keyword_hit=none
+0.17666666666666667,ai_judgment=cannot_pass & has_formula=0 & is_correct=0
+0.17666666666666667,has_formula=0 & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.17666666666666667,has_formula=0 & is_correct=0 & noise_keyword_present=0
+0.17666666666666667,has_formula=0 & is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.17666666666666667,ai_judgment=cannot_pass & has_formula=0 & is_correct=0 & is_uncertain=0
+0.17333333333333334,model=DeepSeek-V3-sim & noise_keyword_hit=none & uses_coordinate=0
+0.17333333333333334,model=DeepSeek-V3-sim & noise_keyword_present=0 & uses_coordinate=0
+0.17333333333333334,is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none & uses_coordinate=0
+0.17333333333333334,model=DeepSeek-V3-sim & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.17333333333333334,is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_present=0 & uses_coordinate=0
+0.1725,noise_keyword_hit=none & noise_label=ambient_noise
+0.1725,is_uncertain=0 & noise_keyword_hit=none & noise_label=ambient_noise
+0.1725,noise_keyword_present=0 & noise_label=ambient_noise
+0.1725,is_uncertain=0 & noise_keyword_present=0 & noise_label=ambient_noise
+0.1725,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=ambient_noise
+0.1725,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=ambient_noise
+0.17166666666666666,has_formula=1 & level=L2 & noise_keyword_present=0
+0.17166666666666666,has_formula=1 & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.17166666666666666,has_formula=1 & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.17166666666666666,has_formula=1 & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.17166666666666666,has_formula=1 & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.17166666666666666,has_formula=1 & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.17166666666666666,has_formula=1 & level=L2 & noise_keyword_hit=none
+0.17,is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=1
+0.17,noise_keyword_hit=none & uses_coordinate=1
+0.17,is_uncertain=0 & level=L3 & noise_keyword_present=0 & uses_coordinate=1
+0.17,level=L3 & noise_keyword_present=0 & uses_coordinate=1
+0.17,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.17,level=L3 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.17,is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=1
+0.17,level=L3 & noise_keyword_hit=none & uses_coordinate=1
+0.17,is_uncertain=0 & level=L3 & noise_keyword_hit=none & uses_coordinate=1
+0.17,noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.17,noise_keyword_present=0 & uses_coordinate=1
+0.16916666666666666,ai_judgment=can_pass & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.16916666666666666,ai_judgment=can_pass & level=L2 & noise_keyword_hit=none
+0.16916666666666666,ai_judgment=can_pass & level=L2 & noise_keyword_present=0
+0.16916666666666666,ai_judgment=can_pass & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.16916666666666666,ai_judgment=can_pass & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.16916666666666666,ai_judgment=can_pass & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.16916666666666666,ai_judgment=can_pass & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.16833333333333333,has_formula=1 & is_correct=0
+0.16833333333333333,has_formula=1 & is_correct=0 & is_uncertain=0
+0.16833333333333333,has_formula=0 & is_uncertain=0 & model=Small-LLM-sim & uses_coordinate=0
+0.16833333333333333,has_formula=0 & model=Small-LLM-sim & uses_coordinate=0
+0.1675,ai_judgment=cannot_pass & criticality=wide & is_correct=0 & is_uncertain=0
+0.1675,ai_judgment=cannot_pass & criticality=wide & is_correct=0
+0.1675,criticality=wide & is_correct=0 & is_uncertain=0
+0.1675,model=Small-LLM-sim & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.1675,criticality=wide & is_correct=0
+0.1675,is_uncertain=0 & model=Small-LLM-sim & noise_keyword_hit=none & uses_coordinate=0
+0.1675,criticality=borderline & has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.1675,criticality=borderline & has_formula=0 & is_uncertain=0 & noise_keyword_hit=none
+0.1675,criticality=borderline & has_formula=0 & noise_keyword_present=0
+0.1675,is_uncertain=0 & model=Small-LLM-sim & noise_keyword_present=0 & uses_coordinate=0
+0.1675,criticality=borderline & has_formula=0 & noise_keyword_hit=none
+0.1675,criticality=borderline & has_formula=0 & is_uncertain=0 & noise_keyword_present=0
+0.1675,ai_judgment=cannot_pass & criticality=wide
+0.1675,ai_judgment=cannot_pass & criticality=wide & is_uncertain=0
+0.1675,model=Small-LLM-sim & noise_keyword_hit=none & uses_coordinate=0
+0.1675,model=Small-LLM-sim & noise_keyword_present=0 & uses_coordinate=0
+0.16666666666666666,criticality=wide & has_formula=0 & level=L1
+0.16666666666666666,criticality=wide & is_uncertain=0 & level=L1
+0.16666666666666666,criticality=wide & level=L1 & uses_coordinate=0
+0.16666666666666666,criticality=wide & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.16666666666666666,criticality=wide & is_uncertain=0 & level=L3
+0.16666666666666666,criticality=wide & level=L2
+0.16666666666666666,criticality=wide & level=L1
+0.16666666666666666,criticality=wide & level=L2 & uses_coordinate=0
+0.16666666666666666,criticality=wide & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.16666666666666666,criticality=wide & level=L3
+0.16666666666666666,criticality=wide & has_formula=0 & level=L1 & uses_coordinate=0
+0.16666666666666666,criticality=wide & has_formula=0 & is_uncertain=0 & level=L1
+0.16666666666666666,criticality=wide & is_uncertain=0 & level=L2
+0.165,ai_judgment=can_pass & criticality=borderline
+0.165,ai_judgment=can_pass & level=L3 & noise_keyword_hit=none
+0.165,ai_judgment=can_pass & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.165,ai_judgment=can_pass & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.165,ai_judgment=can_pass & criticality=borderline & is_uncertain=0
+0.165,ai_judgment=can_pass & level=L3 & noise_keyword_present=0
+0.165,ai_judgment=can_pass & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.16416666666666666,is_uncertain=0 & noise_keyword_present=0 & noise_label=lighting & uses_coordinate=0
+0.16416666666666666,is_uncertain=0 & noise_keyword_hit=none & noise_label=lighting & uses_coordinate=0
+0.16416666666666666,noise_label=lighting & uses_coordinate=0
+0.16416666666666666,is_uncertain=0 & noise_label=lighting & uses_coordinate=0
+0.16416666666666666,noise_keyword_hit=none & noise_label=lighting & uses_coordinate=0
+0.16416666666666666,noise_keyword_present=0 & noise_label=lighting & uses_coordinate=0
+0.16416666666666666,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=lighting & uses_coordinate=0
+0.16333333333333333,criticality=borderline & error_category=none & is_uncertain=0
+0.16333333333333333,noise_label=none & uses_coordinate=0
+0.16333333333333333,criticality=borderline & error_category=none & is_correct=1 & is_uncertain=0
+0.16333333333333333,criticality=borderline & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.16333333333333333,criticality=borderline & error_category=none & noise_keyword_hit=none
+0.16333333333333333,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none & uses_coordinate=0
+0.16333333333333333,noise_keyword_hit=none & noise_label=none & uses_coordinate=0
+0.16333333333333333,is_uncertain=0 & noise_keyword_present=0 & noise_label=none & uses_coordinate=0
+0.16333333333333333,noise_keyword_present=0 & noise_label=none & uses_coordinate=0
+0.16333333333333333,criticality=borderline & error_category=none
+0.16333333333333333,criticality=borderline & is_correct=1
+0.16333333333333333,is_uncertain=0 & noise_label=none & uses_coordinate=0
+0.16333333333333333,criticality=borderline & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.16333333333333333,criticality=borderline & error_category=none & noise_keyword_present=0
+0.16333333333333333,criticality=borderline & error_category=none & is_correct=1 & noise_keyword_hit=none
+0.16333333333333333,criticality=borderline & error_category=none & is_correct=1 & noise_keyword_present=0
+0.16333333333333333,criticality=borderline & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.16333333333333333,criticality=borderline & is_correct=1 & is_uncertain=0
+0.16333333333333333,criticality=borderline & error_category=none & is_correct=1
+0.16333333333333333,criticality=borderline & is_correct=1 & noise_keyword_present=0
+0.16333333333333333,criticality=borderline & is_correct=1 & noise_keyword_hit=none
+0.16333333333333333,criticality=borderline & error_category=none & is_uncertain=0 & noise_keyword_present=0
+0.16333333333333333,criticality=borderline & error_category=none & noise_keyword_hit=none & noise_keyword_present=0
+0.16333333333333333,criticality=borderline & error_category=none & is_uncertain=0 & noise_keyword_hit=none
+0.16333333333333333,is_uncertain=0 & noise_keyword_hit=none & noise_label=none & uses_coordinate=0
+0.1625,is_uncertain=0 & noise_keyword_present=0 & noise_label=material_color
+0.1625,ai_judgment=can_pass & has_formula=1 & is_uncertain=0 & uses_coordinate=0
+0.1625,noise_keyword_present=0 & noise_label=material_color
+0.1625,ai_judgment=can_pass & has_formula=1 & uses_coordinate=0
+0.1625,is_uncertain=0 & noise_keyword_hit=none & noise_label=material_color
+0.1625,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=material_color
+0.1625,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=material_color
+0.1625,noise_keyword_hit=none & noise_label=material_color
+0.16166666666666665,is_uncertain=0 & noise_label=ambient_noise & uses_coordinate=0
+0.16166666666666665,ai_judgment=can_pass & error_category=none & level=L1
+0.16166666666666665,noise_label=ambient_noise & uses_coordinate=0
+0.16166666666666665,ai_judgment=can_pass & error_category=none & has_formula=0 & level=L1
+0.16166666666666665,ai_judgment=can_pass & error_category=none & level=L1 & noise_keyword_present=0
+0.16166666666666665,ai_judgment=can_pass & is_correct=1 & level=L1 & uses_coordinate=0
+0.16166666666666665,ai_judgment=can_pass & is_correct=1 & level=L1
+0.16166666666666665,noise_label=material_color & uses_coordinate=0
+0.16166666666666665,noise_label=emotional_pressure & uses_coordinate=0
+0.16166666666666665,ai_judgment=can_pass & is_correct=1 & level=L1 & noise_keyword_hit=none
+0.16166666666666665,is_uncertain=0 & noise_label=material_color & uses_coordinate=0
+0.16166666666666665,is_uncertain=0 & noise_label=emotional_pressure & uses_coordinate=0
+0.16166666666666665,ai_judgment=can_pass & error_category=none & level=L1 & noise_keyword_hit=none
+0.16166666666666665,ai_judgment=can_pass & is_correct=1 & is_uncertain=0 & level=L1
+0.16166666666666665,ai_judgment=can_pass & is_correct=1 & level=L1 & noise_keyword_present=0
+0.16166666666666665,ai_judgment=can_pass & error_category=none & is_uncertain=0 & level=L1
+0.16166666666666665,ai_judgment=can_pass & error_category=none & level=L1 & uses_coordinate=0
+0.16166666666666665,ai_judgment=can_pass & error_category=none & is_correct=1 & level=L1
+0.16166666666666665,ai_judgment=can_pass & has_formula=0 & is_correct=1 & level=L1
+0.16083333333333333,is_correct=1 & model=DeepSeek-V3-sim
+0.16083333333333333,error_category=none & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.16083333333333333,error_category=none & is_correct=1 & is_uncertain=0 & model=DeepSeek-V3-sim
+0.16083333333333333,is_correct=1 & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.16083333333333333,is_correct=1 & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.16083333333333333,is_correct=1 & model=DeepSeek-V3-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.16083333333333333,error_category=none & model=DeepSeek-V3-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.16083333333333333,error_category=none & is_uncertain=0 & model=DeepSeek-V3-sim
+0.16083333333333333,error_category=none & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.16083333333333333,error_category=none & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.16083333333333333,error_category=none & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.16083333333333333,error_category=none & is_correct=1 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.16083333333333333,error_category=none & is_correct=1 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.16083333333333333,is_correct=1 & is_uncertain=0 & model=DeepSeek-V3-sim
+0.16083333333333333,is_correct=1 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.16083333333333333,is_correct=1 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.16083333333333333,error_category=none & is_correct=1 & model=DeepSeek-V3-sim
+0.16083333333333333,error_category=none & model=DeepSeek-V3-sim
+0.16,is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_hit=none & uses_coordinate=0
+0.16,is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_present=0 & uses_coordinate=0
+0.16,error_category=none & is_uncertain=0 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.16,is_correct=1 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.16,error_category=none & model=Claude-Sonnet-sim & noise_keyword_hit=none & uses_coordinate=0
+0.16,error_category=none & model=Claude-Sonnet-sim & noise_keyword_present=0 & uses_coordinate=0
+0.16,is_correct=1 & is_uncertain=0 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.16,error_category=none & is_correct=1 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.16,error_category=none & model=Claude-Sonnet-sim & uses_coordinate=0
+0.15833333333333333,has_formula=1 & level=L3 & uses_coordinate=1
+0.15833333333333333,has_formula=1 & uses_coordinate=1
+0.15833333333333333,has_formula=1 & is_uncertain=0 & level=L3 & uses_coordinate=1
+0.15833333333333333,has_formula=1 & is_uncertain=0 & uses_coordinate=1
+0.15833333333333333,is_correct=1 & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_present=0
+0.15833333333333333,is_correct=1 & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_hit=none
+0.15833333333333333,error_category=none & is_correct=1 & model=GPT-4o-sim & noise_keyword_present=0
+0.15833333333333333,error_category=none & is_correct=1 & model=GPT-4o-sim & noise_keyword_hit=none
+0.15833333333333333,error_category=none & is_correct=1 & is_uncertain=0 & model=GPT-4o-sim
+0.15833333333333333,is_correct=1 & model=GPT-4o-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.15833333333333333,error_category=none & is_uncertain=0 & model=GPT-4o-sim
+0.15833333333333333,error_category=none & model=GPT-4o-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.15833333333333333,is_correct=1 & model=GPT-4o-sim & noise_keyword_hit=none
+0.15833333333333333,is_correct=1 & is_uncertain=0 & model=GPT-4o-sim
+0.15833333333333333,is_correct=1 & model=GPT-4o-sim & noise_keyword_present=0
+0.15833333333333333,error_category=none & is_correct=1 & model=GPT-4o-sim
+0.15833333333333333,error_category=none & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_present=0
+0.15833333333333333,error_category=none & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_hit=none
+0.15833333333333333,error_category=none & model=GPT-4o-sim
+0.15833333333333333,is_correct=1 & model=GPT-4o-sim
+0.15833333333333333,error_category=none & model=GPT-4o-sim & noise_keyword_present=0
+0.15833333333333333,error_category=none & model=GPT-4o-sim & noise_keyword_hit=none
+0.1575,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_present=0
+0.1575,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_hit=none
+0.1575,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.1575,is_uncertain=0 & noise_keyword_hit=none & noise_label=emotional_pressure
+0.1575,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.1575,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.1575,noise_keyword_present=0 & noise_label=emotional_pressure
+0.1575,is_uncertain=0 & noise_keyword_present=0 & noise_label=emotional_pressure
+0.1575,noise_keyword_hit=none & noise_label=emotional_pressure
+0.1575,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=emotional_pressure
+0.1575,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=emotional_pressure
+0.15666666666666668,criticality=wide & is_uncertain=0 & level=L1 & noise_keyword_present=0
+0.15666666666666668,criticality=wide & is_uncertain=0 & level=L1 & noise_keyword_hit=none
+0.15666666666666668,ai_judgment=cannot_pass & level=L3
+0.15666666666666668,ai_judgment=can_pass & has_formula=1 & noise_keyword_present=0 & uses_coordinate=0
+0.15666666666666668,ai_judgment=can_pass & has_formula=1 & noise_keyword_hit=none & uses_coordinate=0
+0.15666666666666668,ai_judgment=cannot_pass & is_uncertain=0 & level=L3
+0.15666666666666668,criticality=wide & level=L1 & noise_keyword_hit=none & noise_keyword_present=0
+0.15666666666666668,criticality=wide & has_formula=0 & level=L1 & noise_keyword_hit=none
+0.15666666666666668,criticality=wide & level=L1 & noise_keyword_hit=none & uses_coordinate=0
+0.15666666666666668,criticality=wide & has_formula=0 & level=L1 & noise_keyword_present=0
+0.15666666666666668,criticality=wide & level=L1 & noise_keyword_present=0 & uses_coordinate=0
+0.15666666666666668,criticality=wide & level=L1 & noise_keyword_hit=none
+0.15666666666666668,criticality=wide & level=L1 & noise_keyword_present=0
+0.15583333333333332,ai_judgment=cannot_pass & is_uncertain=0 & level=L2
+0.15583333333333332,ai_judgment=cannot_pass & level=L2
+0.15583333333333332,ai_judgment=cannot_pass & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.15583333333333332,ai_judgment=cannot_pass & level=L2 & uses_coordinate=0
+0.155,ai_judgment=cannot_pass & has_formula=0 & is_correct=0 & uses_coordinate=0
+0.15416666666666667,criticality=borderline & has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.15416666666666667,criticality=borderline & has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.15333333333333332,criticality=wide & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.15333333333333332,criticality=wide & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.15333333333333332,criticality=wide & level=L2 & noise_keyword_present=0
+0.15333333333333332,criticality=wide & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.15333333333333332,is_correct=0 & is_uncertain=0 & model=Small-LLM-sim
+0.15333333333333332,criticality=wide & level=L2 & noise_keyword_hit=none
+0.15333333333333332,criticality=wide & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.15333333333333332,ai_judgment=cannot_pass & is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.15333333333333332,criticality=wide & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.15333333333333332,is_correct=0 & model=Small-LLM-sim
+0.15333333333333332,ai_judgment=cannot_pass & is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.15166666666666667,has_formula=0 & is_uncertain=0 & model=Small-LLM-sim & noise_keyword_present=0
+0.15166666666666667,has_formula=0 & is_uncertain=0 & model=Small-LLM-sim & noise_keyword_hit=none
+0.15166666666666667,error_category=concept_confusion & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.15166666666666667,ai_judgment=can_pass & model=Claude-Sonnet-sim
+0.15166666666666667,error_category=concept_confusion & noise_keyword_present=0 & uses_coordinate=0
+0.15166666666666667,error_category=concept_confusion & is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.15166666666666667,error_category=concept_confusion & is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.15166666666666667,error_category=concept_confusion & noise_keyword_hit=none & uses_coordinate=0
+0.15166666666666667,error_category=concept_confusion & uses_coordinate=0
+0.15166666666666667,ai_judgment=can_pass & is_uncertain=0 & model=Claude-Sonnet-sim
+0.15166666666666667,has_formula=0 & model=Small-LLM-sim & noise_keyword_present=0
+0.15166666666666667,error_category=concept_confusion & is_uncertain=0 & uses_coordinate=0
+0.15166666666666667,error_category=concept_confusion & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.15166666666666667,error_category=concept_confusion & is_correct=0 & is_uncertain=0 & uses_coordinate=0
+0.15166666666666667,error_category=concept_confusion & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.15166666666666667,error_category=concept_confusion & is_correct=0 & uses_coordinate=0
+0.15166666666666667,has_formula=0 & model=Small-LLM-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.15166666666666667,has_formula=0 & model=Small-LLM-sim & noise_keyword_hit=none
+0.15,criticality=narrow & is_uncertain=0
+0.15,is_correct=0 & level=L3
+0.15,criticality=narrow
+0.15,is_correct=0 & is_uncertain=0 & level=L3
+0.14916666666666667,criticality=wide & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.14916666666666667,criticality=wide & level=L3 & noise_keyword_hit=none
+0.14916666666666667,criticality=wide & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.14916666666666667,criticality=wide & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.14916666666666667,criticality=wide & level=L3 & noise_keyword_present=0
+0.14833333333333334,ai_judgment=cannot_pass & criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0
+0.14833333333333334,criticality=borderline & has_formula=1 & is_uncertain=0
+0.14833333333333334,ai_judgment=cannot_pass & criticality=borderline & is_uncertain=0 & noise_keyword_present=0
+0.14833333333333334,ai_judgment=cannot_pass & criticality=borderline & noise_keyword_hit=none
+0.14833333333333334,ai_judgment=cannot_pass & criticality=borderline & noise_keyword_present=0
+0.14833333333333334,ai_judgment=cannot_pass & criticality=borderline & is_uncertain=0 & noise_keyword_hit=none
+0.14833333333333334,criticality=borderline & has_formula=1
+0.1475,ai_judgment=can_pass & criticality=borderline & noise_keyword_present=0
+0.1475,ai_judgment=can_pass & criticality=borderline & noise_keyword_hit=none
+0.1475,has_formula=0 & is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.1475,has_formula=0 & is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.1475,ai_judgment=can_pass & criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0
+0.1475,ai_judgment=can_pass & criticality=borderline & is_uncertain=0 & noise_keyword_hit=none
+0.1475,ai_judgment=can_pass & criticality=borderline & is_uncertain=0 & noise_keyword_present=0
+0.14666666666666667,ai_judgment=can_pass & is_correct=1 & level=L2
+0.14666666666666667,ai_judgment=can_pass & is_correct=1 & is_uncertain=0 & level=L2
+0.14666666666666667,ai_judgment=can_pass & error_category=none & is_correct=1 & level=L2
+0.14666666666666667,ai_judgment=cannot_pass & is_correct=1
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none
+0.14666666666666667,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.14666666666666667,ai_judgment=can_pass & is_correct=1 & level=L2 & noise_keyword_hit=none
+0.14666666666666667,ai_judgment=can_pass & is_correct=1 & level=L2 & noise_keyword_present=0
+0.14666666666666667,ai_judgment=can_pass & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.14666666666666667,ai_judgment=can_pass & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.14666666666666667,ai_judgment=can_pass & is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.14666666666666667,ai_judgment=can_pass & model=Claude-Sonnet-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.14666666666666667,ai_judgment=can_pass & is_uncertain=0 & model=DeepSeek-V3-sim
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & noise_keyword_present=0
+0.14666666666666667,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none & noise_keyword_hit=none
+0.14666666666666667,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_present=0
+0.14666666666666667,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.14666666666666667,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none & noise_keyword_hit=none & noise_keyword_present=0
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none & is_correct=1
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & noise_keyword_hit=none
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none & noise_keyword_present=0
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none & is_uncertain=0
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none & is_correct=1 & is_uncertain=0
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none & is_correct=1 & noise_keyword_present=0
+0.14666666666666667,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_hit=none
+0.14666666666666667,ai_judgment=cannot_pass & error_category=none & is_correct=1 & noise_keyword_hit=none
+0.14666666666666667,ai_judgment=can_pass & model=DeepSeek-V3-sim
+0.14666666666666667,ai_judgment=can_pass & error_category=none & level=L2 & noise_keyword_hit=none
+0.14666666666666667,ai_judgment=can_pass & is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.14666666666666667,ai_judgment=can_pass & error_category=none & level=L2 & noise_keyword_present=0
+0.14666666666666667,ai_judgment=can_pass & error_category=none & is_uncertain=0 & level=L2
+0.14666666666666667,ai_judgment=can_pass & error_category=none & level=L2
+0.14666666666666667,ai_judgment=can_pass & is_correct=1 & level=L2 & uses_coordinate=0
+0.14666666666666667,ai_judgment=can_pass & error_category=none & level=L2 & uses_coordinate=0
+0.14583333333333334,error_category=concept_confusion & has_formula=0 & is_correct=0
+0.14583333333333334,error_category=concept_confusion & has_formula=0 & is_uncertain=0 & noise_keyword_hit=none
+0.14583333333333334,is_uncertain=0 & level=L3 & uses_coordinate=0
+0.14583333333333334,error_category=concept_confusion & has_formula=0 & is_correct=0 & noise_keyword_hit=none
+0.14583333333333334,error_category=concept_confusion & has_formula=0
+0.14583333333333334,error_category=concept_confusion & has_formula=0 & is_uncertain=0 & noise_keyword_present=0
+0.14583333333333334,error_category=concept_confusion & has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.14583333333333334,error_category=concept_confusion & has_formula=0 & is_uncertain=0
+0.14583333333333334,level=L3 & uses_coordinate=0
+0.14583333333333334,error_category=concept_confusion & has_formula=0 & noise_keyword_hit=none
+0.14583333333333334,error_category=concept_confusion & has_formula=0 & is_correct=0 & is_uncertain=0
+0.14583333333333334,error_category=concept_confusion & has_formula=0 & is_correct=0 & noise_keyword_present=0
+0.14583333333333334,error_category=concept_confusion & has_formula=0 & noise_keyword_present=0
+0.14416666666666667,error_category=noise_distraction & is_correct=0
+0.14416666666666667,error_category=noise_distraction & is_uncertain=0
+0.14416666666666667,error_category=noise_distraction & is_correct=0 & is_uncertain=0
+0.14416666666666667,error_category=noise_distraction
+0.14333333333333334,criticality=borderline & error_category=none & uses_coordinate=0
+0.14333333333333334,criticality=borderline & error_category=none & is_uncertain=0 & uses_coordinate=0
+0.14333333333333334,criticality=borderline & error_category=none & noise_keyword_hit=none & uses_coordinate=0
+0.14333333333333334,criticality=borderline & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.14333333333333334,criticality=borderline & error_category=none & is_correct=1 & uses_coordinate=0
+0.14333333333333334,criticality=borderline & is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.14333333333333334,has_formula=0 & model=Claude-Sonnet-sim
+0.14333333333333334,criticality=borderline & error_category=none & noise_keyword_present=0 & uses_coordinate=0
+0.14333333333333334,has_formula=0 & is_uncertain=0 & model=Claude-Sonnet-sim
+0.14333333333333334,criticality=borderline & is_correct=1 & uses_coordinate=0
+0.14333333333333334,criticality=borderline & is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.1425,error_category=none & has_formula=1 & level=L3 & noise_keyword_present=0
+0.1425,has_formula=1 & is_correct=1 & level=L3 & noise_keyword_present=0
+0.1425,has_formula=1 & is_correct=1 & level=L3 & noise_keyword_hit=none
+0.1425,has_formula=1 & is_correct=1 & is_uncertain=0 & level=L3
+0.1425,error_category=none & has_formula=1 & is_correct=1 & level=L3
+0.1425,error_category=none & has_formula=1 & is_uncertain=0 & level=L3
+0.1425,error_category=none & has_formula=1 & level=L3 & noise_keyword_hit=none
+0.1425,error_category=none & has_formula=1 & level=L3
+0.1425,has_formula=1 & is_correct=1 & level=L3
+0.1425,ai_judgment=can_pass & criticality=wide & has_formula=1 & is_correct=1
+0.1425,criticality=wide & has_formula=1 & is_correct=1 & noise_keyword_hit=none
+0.1425,ai_judgment=can_pass & criticality=wide & has_formula=1 & is_uncertain=0
+0.1425,criticality=wide & has_formula=1 & is_correct=1
+0.1425,ai_judgment=can_pass & criticality=wide & has_formula=1 & noise_keyword_present=0
+0.1425,ai_judgment=can_pass & criticality=wide & has_formula=1 & noise_keyword_hit=none
+0.1425,criticality=wide & error_category=none & has_formula=1
+0.1425,criticality=wide & has_formula=1 & is_correct=1 & is_uncertain=0
+0.1425,criticality=wide & error_category=none & has_formula=1 & is_correct=1
+0.1425,criticality=wide & error_category=none & has_formula=1 & noise_keyword_hit=none
+0.1425,ai_judgment=can_pass & criticality=wide & error_category=none & has_formula=1
+0.1425,criticality=wide & has_formula=1 & is_correct=1 & noise_keyword_present=0
+0.1425,ai_judgment=can_pass & criticality=wide & has_formula=1
+0.1425,criticality=wide & error_category=none & has_formula=1 & noise_keyword_present=0
+0.1425,criticality=wide & error_category=none & has_formula=1 & is_uncertain=0
+0.14166666666666666,ai_judgment=can_pass & has_formula=1 & is_correct=1 & uses_coordinate=0
+0.14166666666666666,ai_judgment=can_pass & error_category=none & has_formula=1 & uses_coordinate=0
+0.14083333333333334,has_formula=0 & is_uncertain=0 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.14083333333333334,has_formula=0 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.14083333333333334,has_formula=1 & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=1
+0.14083333333333334,has_formula=1 & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=1
+0.14083333333333334,has_formula=1 & level=L3 & noise_keyword_hit=none & uses_coordinate=1
+0.14083333333333334,has_formula=1 & level=L3 & noise_keyword_present=0 & uses_coordinate=1
+0.14083333333333334,has_formula=1 & noise_keyword_present=0 & uses_coordinate=1
+0.14083333333333334,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.14083333333333334,has_formula=1 & noise_keyword_hit=none & uses_coordinate=1
+0.14083333333333334,ai_judgment=cannot_pass & criticality=borderline & uses_coordinate=0
+0.14083333333333334,ai_judgment=cannot_pass & criticality=borderline & is_uncertain=0 & uses_coordinate=0
+0.14,has_formula=0 & level=L2
+0.14,has_formula=0 & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.14,has_formula=0 & is_uncertain=0 & level=L2
+0.14,has_formula=0 & level=L2 & uses_coordinate=0
+0.13916666666666666,ai_judgment=can_pass & model=GPT-4o-sim
+0.13916666666666666,error_category=none & model=GPT-4o-sim & noise_keyword_hit=none & uses_coordinate=0
+0.13916666666666666,error_category=none & model=GPT-4o-sim & uses_coordinate=0
+0.13916666666666666,error_category=none & model=GPT-4o-sim & noise_keyword_present=0 & uses_coordinate=0
+0.13916666666666666,is_correct=1 & model=GPT-4o-sim & noise_keyword_present=0 & uses_coordinate=0
+0.13916666666666666,is_correct=1 & model=GPT-4o-sim & noise_keyword_hit=none & uses_coordinate=0
+0.13916666666666666,noise_keyword_hit=none & noise_label=ambient_noise & uses_coordinate=0
+0.13916666666666666,noise_keyword_present=0 & noise_label=ambient_noise & uses_coordinate=0
+0.13916666666666666,is_correct=1 & is_uncertain=0 & model=GPT-4o-sim & uses_coordinate=0
+0.13916666666666666,ai_judgment=can_pass & is_uncertain=0 & model=GPT-4o-sim
+0.13916666666666666,is_uncertain=0 & noise_keyword_present=0 & noise_label=ambient_noise & uses_coordinate=0
+0.13916666666666666,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=ambient_noise & uses_coordinate=0
+0.13916666666666666,is_uncertain=0 & noise_keyword_hit=none & noise_label=ambient_noise & uses_coordinate=0
+0.13916666666666666,error_category=none & is_uncertain=0 & model=GPT-4o-sim & uses_coordinate=0
+0.13916666666666666,is_correct=1 & model=GPT-4o-sim & uses_coordinate=0
+0.13916666666666666,error_category=none & is_correct=1 & model=GPT-4o-sim & uses_coordinate=0
+0.13833333333333334,ai_judgment=can_pass & is_correct=1 & level=L3 & noise_keyword_present=0
+0.13833333333333334,ai_judgment=can_pass & is_correct=1 & is_uncertain=0 & level=L3
+0.13833333333333334,ai_judgment=can_pass & model=DeepSeek-V3-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.13833333333333334,ai_judgment=can_pass & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.13833333333333334,ai_judgment=can_pass & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.13833333333333334,ai_judgment=can_pass & criticality=borderline & is_uncertain=0 & uses_coordinate=0
+0.13833333333333334,ai_judgment=can_pass & is_correct=1 & level=L3
+0.13833333333333334,ai_judgment=can_pass & is_correct=1 & level=L3 & noise_keyword_hit=none
+0.13833333333333334,ai_judgment=can_pass & criticality=borderline & uses_coordinate=0
+0.13833333333333334,ai_judgment=can_pass & error_category=none & level=L3 & noise_keyword_present=0
+0.13833333333333334,ai_judgment=can_pass & error_category=none & is_uncertain=0 & level=L3
+0.13833333333333334,ai_judgment=can_pass & error_category=none & level=L3 & noise_keyword_hit=none
+0.13833333333333334,ai_judgment=can_pass & error_category=none & level=L3
+0.13833333333333334,ai_judgment=can_pass & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.13833333333333334,ai_judgment=can_pass & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.13833333333333334,ai_judgment=can_pass & error_category=none & is_correct=1 & level=L3
+0.1375,has_formula=1 & is_uncertain=0 & model=DeepSeek-V3-sim
+0.1375,ai_judgment=cannot_pass & has_formula=0 & level=L1 & uses_coordinate=0
+0.1375,criticality=narrow & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.1375,ai_judgment=cannot_pass & has_formula=0 & level=L1
+0.1375,has_formula=1 & model=DeepSeek-V3-sim
+0.1375,ai_judgment=cannot_pass & is_uncertain=0 & level=L1
+0.1375,ai_judgment=cannot_pass & has_formula=0 & is_uncertain=0 & level=L1
+0.1375,criticality=narrow & noise_keyword_hit=none
+0.1375,criticality=narrow & noise_keyword_hit=none & noise_keyword_present=0
+0.1375,ai_judgment=cannot_pass & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.1375,ai_judgment=cannot_pass & level=L1 & uses_coordinate=0
+0.1375,criticality=narrow & is_uncertain=0 & noise_keyword_hit=none
+0.1375,criticality=narrow & noise_keyword_present=0
+0.1375,ai_judgment=cannot_pass & model=Small-LLM-sim
+0.1375,ai_judgment=cannot_pass & is_uncertain=0 & model=Small-LLM-sim
+0.1375,criticality=narrow & is_uncertain=0 & noise_keyword_present=0
+0.1375,ai_judgment=cannot_pass & level=L1
+0.13666666666666666,ai_judgment=can_pass & model=GPT-4o-sim & noise_keyword_present=0
+0.13666666666666666,ai_judgment=can_pass & model=GPT-4o-sim & noise_keyword_hit=none
+0.13666666666666666,ai_judgment=can_pass & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_hit=none
+0.13666666666666666,ai_judgment=can_pass & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_present=0
+0.13666666666666666,ai_judgment=can_pass & model=GPT-4o-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.13583333333333333,ai_judgment=cannot_pass & criticality=borderline & is_correct=0
+0.13583333333333333,ai_judgment=cannot_pass & criticality=borderline & is_correct=0 & is_uncertain=0
+0.13583333333333333,criticality=borderline & is_correct=0 & uses_coordinate=0
+0.13583333333333333,criticality=wide & has_formula=1 & uses_coordinate=0
+0.13583333333333333,criticality=borderline & is_correct=0 & is_uncertain=0 & uses_coordinate=0
+0.13583333333333333,criticality=wide & has_formula=1 & is_uncertain=0 & uses_coordinate=0
+0.135,is_correct=1 & noise_keyword_hit=none & noise_label=none
+0.135,is_correct=1 & noise_keyword_present=0 & noise_label=none
+0.135,has_formula=0 & model=Small-LLM-sim & noise_keyword_present=0 & uses_coordinate=0
+0.135,error_category=none & noise_label=none
+0.135,is_correct=1 & noise_label=none
+0.135,is_correct=1 & is_uncertain=0 & noise_label=none
+0.135,ai_judgment=cannot_pass & has_formula=0 & is_correct=0 & noise_keyword_hit=none
+0.135,ai_judgment=cannot_pass & has_formula=0 & is_correct=0 & noise_keyword_present=0
+0.135,error_category=none & is_correct=1 & noise_label=none
+0.135,error_category=none & is_uncertain=0 & noise_keyword_present=0 & noise_label=none
+0.135,has_formula=0 & model=Small-LLM-sim & noise_keyword_hit=none & uses_coordinate=0
+0.135,error_category=none & is_uncertain=0 & noise_keyword_hit=none & noise_label=none
+0.135,error_category=none & is_uncertain=0 & noise_label=none
+0.135,error_category=none & noise_keyword_hit=none & noise_label=none
+0.135,error_category=none & noise_keyword_present=0 & noise_label=none
+0.135,is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.135,is_correct=1 & is_uncertain=0 & noise_keyword_present=0 & noise_label=none
+0.135,error_category=none & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.135,error_category=none & is_correct=1 & noise_keyword_hit=none & noise_label=none
+0.135,error_category=none & is_correct=1 & is_uncertain=0 & noise_label=none
+0.135,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none & noise_label=none
+0.135,error_category=none & is_correct=1 & noise_keyword_present=0 & noise_label=none
+0.13416666666666666,is_correct=0 & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.13416666666666666,is_correct=0 & level=L2 & uses_coordinate=0
+0.13416666666666666,is_correct=0 & is_uncertain=0 & level=L2
+0.13416666666666666,is_correct=0 & level=L2
+0.13333333333333333,ai_judgment=can_pass & is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.13333333333333333,ai_judgment=can_pass & is_correct=1 & model=Claude-Sonnet-sim
+0.13333333333333333,ai_judgment=can_pass & error_category=none & is_uncertain=0 & model=Claude-Sonnet-sim
+0.13333333333333333,has_formula=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.13333333333333333,has_formula=0 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.13333333333333333,has_formula=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.13333333333333333,ai_judgment=can_pass & error_category=none & is_correct=1 & model=Claude-Sonnet-sim
+0.13333333333333333,ai_judgment=can_pass & is_correct=1 & is_uncertain=0 & model=Claude-Sonnet-sim
+0.13333333333333333,ai_judgment=can_pass & error_category=none & model=Claude-Sonnet-sim
+0.13333333333333333,ai_judgment=can_pass & error_category=none & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.13333333333333333,has_formula=0 & is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.13333333333333333,ai_judgment=can_pass & is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.13333333333333333,ai_judgment=can_pass & error_category=none & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.13333333333333333,has_formula=0 & is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.1325,criticality=borderline & is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.1325,criticality=borderline & is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.1325,criticality=borderline & is_correct=0 & noise_keyword_present=0
+0.1325,criticality=borderline & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.1325,criticality=borderline & is_correct=0 & noise_keyword_hit=none
+0.1325,ai_judgment=can_pass & is_uncertain=0 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.1325,ai_judgment=can_pass & model=Claude-Sonnet-sim & uses_coordinate=0
+0.13166666666666665,ai_judgment=cannot_pass & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.13166666666666665,ai_judgment=cannot_pass & level=L2 & noise_keyword_hit=none
+0.13166666666666665,ai_judgment=cannot_pass & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.13166666666666665,ai_judgment=cannot_pass & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.13166666666666665,ai_judgment=cannot_pass & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.13166666666666665,ai_judgment=cannot_pass & level=L2 & noise_keyword_present=0
+0.13166666666666665,ai_judgment=cannot_pass & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.13083333333333333,is_correct=1 & model=DeepSeek-V3-sim & uses_coordinate=0
+0.13083333333333333,error_category=none & model=DeepSeek-V3-sim & uses_coordinate=0
+0.13083333333333333,has_formula=0 & model=Claude-Sonnet-sim & noise_keyword_present=0 & uses_coordinate=0
+0.13083333333333333,has_formula=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none & uses_coordinate=0
+0.13083333333333333,is_correct=1 & model=DeepSeek-V3-sim & noise_keyword_hit=none & uses_coordinate=0
+0.13083333333333333,is_correct=1 & model=DeepSeek-V3-sim & noise_keyword_present=0 & uses_coordinate=0
+0.13083333333333333,error_category=none & is_correct=1 & model=DeepSeek-V3-sim & uses_coordinate=0
+0.13083333333333333,error_category=none & model=DeepSeek-V3-sim & noise_keyword_hit=none & uses_coordinate=0
+0.13083333333333333,error_category=none & is_uncertain=0 & model=DeepSeek-V3-sim & uses_coordinate=0
+0.13083333333333333,error_category=none & model=DeepSeek-V3-sim & noise_keyword_present=0 & uses_coordinate=0
+0.13083333333333333,is_correct=1 & is_uncertain=0 & model=DeepSeek-V3-sim & uses_coordinate=0
+0.13,noise_keyword_hit=none & noise_label=material_color & uses_coordinate=0
+0.13,is_uncertain=0 & noise_keyword_hit=none & noise_label=material_color & uses_coordinate=0
+0.13,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=material_color & uses_coordinate=0
+0.13,is_uncertain=0 & noise_keyword_present=0 & noise_label=material_color & uses_coordinate=0
+0.13,noise_keyword_present=0 & noise_label=material_color & uses_coordinate=0
+0.12916666666666668,has_formula=0 & level=L2 & noise_keyword_hit=none
+0.12916666666666668,has_formula=0 & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.12916666666666668,has_formula=0 & level=L2 & noise_keyword_present=0
+0.12916666666666668,has_formula=0 & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.12916666666666668,has_formula=0 & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.12916666666666668,has_formula=0 & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.12916666666666668,has_formula=0 & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.12833333333333333,criticality=borderline & has_formula=1 & noise_keyword_present=0
+0.12833333333333333,criticality=borderline & has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.12833333333333333,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.12833333333333333,ai_judgment=cannot_pass & error_category=none & is_correct=1 & uses_coordinate=0
+0.12833333333333333,ai_judgment=can_pass & model=Claude-Sonnet-sim & noise_keyword_present=0 & uses_coordinate=0
+0.12833333333333333,ai_judgment=can_pass & model=Claude-Sonnet-sim & noise_keyword_hit=none & uses_coordinate=0
+0.12833333333333333,criticality=borderline & has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.12833333333333333,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.12833333333333333,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.12833333333333333,ai_judgment=cannot_pass & is_correct=1 & uses_coordinate=0
+0.12833333333333333,criticality=borderline & has_formula=1 & noise_keyword_hit=none
+0.12833333333333333,criticality=borderline & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.12833333333333333,ai_judgment=cannot_pass & error_category=none & uses_coordinate=0
+0.12833333333333333,ai_judgment=cannot_pass & error_category=none & noise_keyword_hit=none & uses_coordinate=0
+0.12833333333333333,ai_judgment=cannot_pass & error_category=none & noise_keyword_present=0 & uses_coordinate=0
+0.12833333333333333,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & uses_coordinate=0
+0.1275,ai_judgment=can_pass & has_formula=1 & level=L3
+0.1275,has_formula=0 & is_uncertain=0 & model=GPT-4o-sim
+0.1275,ai_judgment=can_pass & has_formula=1 & is_uncertain=0 & level=L3
+0.1275,has_formula=0 & model=GPT-4o-sim
+0.12666666666666668,ai_judgment=cannot_pass & has_formula=1 & is_correct=0
+0.12666666666666668,ai_judgment=cannot_pass & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.12666666666666668,ai_judgment=cannot_pass & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.12666666666666668,ai_judgment=cannot_pass & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.12666666666666668,ai_judgment=cannot_pass & level=L3 & noise_keyword_present=0
+0.12666666666666668,ai_judgment=cannot_pass & level=L3 & noise_keyword_hit=none
+0.12666666666666668,ai_judgment=cannot_pass & has_formula=1 & is_correct=0 & is_uncertain=0
+0.12666666666666668,criticality=wide & is_correct=0 & noise_keyword_hit=none
+0.12666666666666668,criticality=wide & is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.12666666666666668,ai_judgment=cannot_pass & criticality=wide & is_correct=0 & noise_keyword_hit=none
+0.12666666666666668,criticality=wide & is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.12666666666666668,criticality=wide & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.12666666666666668,ai_judgment=cannot_pass & criticality=wide & noise_keyword_hit=none
+0.12666666666666668,ai_judgment=cannot_pass & criticality=wide & is_uncertain=0 & noise_keyword_hit=none
+0.12666666666666668,ai_judgment=cannot_pass & criticality=wide & is_uncertain=0 & noise_keyword_present=0
+0.12666666666666668,ai_judgment=cannot_pass & criticality=wide & noise_keyword_hit=none & noise_keyword_present=0
+0.12666666666666668,ai_judgment=cannot_pass & criticality=wide & noise_keyword_present=0
+0.12666666666666668,criticality=wide & is_correct=0 & noise_keyword_present=0
+0.12666666666666668,ai_judgment=cannot_pass & criticality=wide & is_correct=0 & noise_keyword_present=0
+0.12583333333333332,is_uncertain=0 & noise_keyword_hit=none & noise_label=emotional_pressure & uses_coordinate=0
+0.12583333333333332,noise_keyword_hit=none & noise_label=emotional_pressure & uses_coordinate=0
+0.12583333333333332,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=emotional_pressure & uses_coordinate=0
+0.12583333333333332,noise_keyword_present=0 & noise_label=emotional_pressure & uses_coordinate=0
+0.12583333333333332,is_uncertain=0 & noise_keyword_present=0 & noise_label=emotional_pressure & uses_coordinate=0
+0.125,criticality=wide & model=Claude-Sonnet-sim
+0.125,criticality=wide & is_uncertain=0 & model=DeepSeek-V3-sim
+0.125,criticality=wide & is_uncertain=0 & model=Small-LLM-sim
+0.125,criticality=wide & is_uncertain=0 & model=Claude-Sonnet-sim
+0.125,criticality=wide & model=Small-LLM-sim
+0.125,criticality=wide & is_uncertain=0 & model=GPT-4o-sim
+0.125,criticality=wide & model=GPT-4o-sim
+0.125,criticality=wide & model=DeepSeek-V3-sim
+0.12416666666666666,ai_judgment=can_pass & criticality=borderline & noise_keyword_present=0 & uses_coordinate=0
+0.12416666666666666,ai_judgment=can_pass & criticality=borderline & noise_keyword_hit=none & uses_coordinate=0
+0.12333333333333334,error_category=noise_distraction & uses_coordinate=0
+0.12333333333333334,criticality=narrow & uses_coordinate=0
+0.12333333333333334,error_category=noise_distraction & is_correct=0 & uses_coordinate=0
+0.12333333333333334,error_category=noise_distraction & is_correct=0 & is_uncertain=0 & uses_coordinate=0
+0.12333333333333334,error_category=noise_distraction & is_uncertain=0 & uses_coordinate=0
+0.12333333333333334,criticality=narrow & is_uncertain=0 & uses_coordinate=0
+0.1225,has_formula=1 & is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.1225,has_formula=1 & is_correct=0 & noise_keyword_hit=none
+0.1225,has_formula=1 & is_correct=0 & noise_keyword_present=0
+0.1225,ai_judgment=can_pass & has_formula=1 & level=L3 & noise_keyword_present=0
+0.1225,has_formula=1 & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.1225,has_formula=1 & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.1225,ai_judgment=can_pass & has_formula=1 & level=L3 & noise_keyword_hit=none
+0.1225,has_formula=1 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.1225,has_formula=1 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.1225,has_formula=1 & is_uncertain=0 & model=GPT-4o-sim
+0.1225,has_formula=0 & is_correct=0 & level=L1 & uses_coordinate=0
+0.1225,has_formula=0 & is_correct=0 & is_uncertain=0 & level=L1
+0.1225,is_correct=0 & level=L1 & uses_coordinate=0
+0.1225,is_correct=0 & is_uncertain=0 & level=L1
+0.1225,is_correct=0 & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.1225,has_formula=0 & is_correct=0 & level=L1
+0.1225,has_formula=1 & model=DeepSeek-V3-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.1225,has_formula=1 & model=GPT-4o-sim
+0.1225,criticality=wide & has_formula=1 & noise_keyword_present=0 & uses_coordinate=0
+0.1225,criticality=wide & has_formula=1 & noise_keyword_hit=none & uses_coordinate=0
+0.1225,has_formula=1 & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.1225,has_formula=1 & is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.1225,ai_judgment=can_pass & is_correct=1 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.1225,ai_judgment=can_pass & is_correct=1 & model=DeepSeek-V3-sim
+0.1225,ai_judgment=can_pass & error_category=none & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.1225,ai_judgment=can_pass & error_category=none & is_correct=1 & model=DeepSeek-V3-sim
+0.1225,ai_judgment=can_pass & is_correct=1 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.1225,ai_judgment=can_pass & is_correct=1 & is_uncertain=0 & model=DeepSeek-V3-sim
+0.1225,ai_judgment=can_pass & error_category=none & model=DeepSeek-V3-sim
+0.1225,ai_judgment=can_pass & error_category=none & is_uncertain=0 & model=DeepSeek-V3-sim
+0.1225,ai_judgment=can_pass & error_category=none & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.1225,is_correct=0 & level=L1
+0.12166666666666667,error_category=none & noise_keyword_present=0 & noise_label=none & uses_coordinate=0
+0.12166666666666667,error_category=none & noise_keyword_hit=none & noise_label=none & uses_coordinate=0
+0.12166666666666667,has_formula=0 & model=GPT-4o-sim & uses_coordinate=0
+0.12166666666666667,has_formula=0 & is_uncertain=0 & model=GPT-4o-sim & uses_coordinate=0
+0.12166666666666667,is_correct=1 & noise_keyword_hit=none & noise_label=none & uses_coordinate=0
+0.12166666666666667,error_category=none & is_correct=1 & noise_label=none & uses_coordinate=0
+0.12166666666666667,is_uncertain=0 & level=L3 & noise_keyword_hit=none & uses_coordinate=0
+0.12166666666666667,level=L3 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.12166666666666667,is_uncertain=0 & level=L3 & noise_keyword_present=0 & uses_coordinate=0
+0.12166666666666667,level=L3 & noise_keyword_hit=none & uses_coordinate=0
+0.12166666666666667,level=L3 & noise_keyword_present=0 & uses_coordinate=0
+0.12166666666666667,is_correct=1 & noise_keyword_present=0 & noise_label=none & uses_coordinate=0
+0.12166666666666667,error_category=none & is_uncertain=0 & noise_label=none & uses_coordinate=0
+0.12166666666666667,error_category=none & noise_label=none & uses_coordinate=0
+0.12166666666666667,is_correct=1 & is_uncertain=0 & noise_label=none & uses_coordinate=0
+0.12166666666666667,is_correct=1 & noise_label=none & uses_coordinate=0
+0.12083333333333333,error_category=none & has_formula=1 & is_uncertain=0 & level=L2
+0.12083333333333333,error_category=none & has_formula=1 & level=L2 & uses_coordinate=0
+0.12083333333333333,has_formula=1 & is_correct=1 & level=L2
+0.12083333333333333,has_formula=1 & is_correct=1 & level=L2 & uses_coordinate=0
+0.12083333333333333,error_category=none & has_formula=1 & is_correct=1 & level=L2
+0.12083333333333333,error_category=none & has_formula=1 & level=L2 & noise_keyword_present=0
+0.12083333333333333,error_category=none & has_formula=1 & level=L2 & noise_keyword_hit=none
+0.12083333333333333,ai_judgment=can_pass & is_correct=1 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.12083333333333333,has_formula=1 & is_correct=1 & is_uncertain=0 & level=L2
+0.12083333333333333,error_category=none & has_formula=1 & level=L2
+0.12083333333333333,ai_judgment=can_pass & error_category=none & model=Claude-Sonnet-sim & uses_coordinate=0
+0.12083333333333333,has_formula=1 & is_correct=1 & level=L2 & noise_keyword_hit=none
+0.12083333333333333,has_formula=1 & is_correct=1 & level=L2 & noise_keyword_present=0
+0.12,has_formula=0 & model=GPT-4o-sim & noise_keyword_hit=none
+0.12,ai_judgment=can_pass & criticality=wide & error_category=none & level=L1
+0.12,ai_judgment=can_pass & criticality=wide & is_correct=1 & level=L1
+0.12,has_formula=0 & model=GPT-4o-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.12,criticality=wide & is_correct=1 & level=L1
+0.12,has_formula=0 & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_hit=none
+0.12,has_formula=0 & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_present=0
+0.12,has_formula=0 & model=GPT-4o-sim & noise_keyword_present=0
+0.12,criticality=wide & error_category=none & is_uncertain=0 & level=L1
+0.12,criticality=wide & error_category=none & is_correct=1 & level=L1
+0.12,ai_judgment=can_pass & criticality=wide & is_uncertain=0 & level=L1
+0.12,criticality=wide & is_correct=1 & is_uncertain=0 & level=L1
+0.12,ai_judgment=can_pass & criticality=wide & level=L1
+0.12,criticality=wide & error_category=none & level=L1
+0.12,criticality=wide & error_category=none & level=L1 & uses_coordinate=0
+0.12,criticality=wide & is_correct=1 & level=L1 & uses_coordinate=0
+0.12,criticality=wide & is_correct=1 & level=L1 & noise_keyword_hit=none
+0.12,ai_judgment=can_pass & criticality=wide & level=L1 & uses_coordinate=0
+0.12,criticality=wide & error_category=none & level=L1 & noise_keyword_hit=none
+0.12,ai_judgment=can_pass & criticality=wide & level=L1 & noise_keyword_hit=none
+0.12,criticality=wide & is_correct=1 & level=L1 & noise_keyword_present=0
+0.12,criticality=wide & error_category=none & level=L1 & noise_keyword_present=0
+0.12,criticality=wide & has_formula=0 & is_correct=1 & level=L1
+0.12,criticality=wide & error_category=none & has_formula=0 & level=L1
+0.12,ai_judgment=can_pass & criticality=wide & has_formula=0 & level=L1
+0.12,ai_judgment=can_pass & criticality=wide & level=L1 & noise_keyword_present=0
+0.11916666666666667,is_correct=1 & is_uncertain=0 & noise_label=ambient_noise
+0.11916666666666667,is_correct=1 & noise_keyword_present=0 & noise_label=ambient_noise
+0.11916666666666667,ai_judgment=cannot_pass & criticality=wide & is_correct=0 & uses_coordinate=0
+0.11916666666666667,is_correct=1 & noise_keyword_hit=none & noise_label=ambient_noise
+0.11916666666666667,ai_judgment=cannot_pass & criticality=wide & uses_coordinate=0
+0.11916666666666667,ai_judgment=cannot_pass & criticality=wide & is_uncertain=0 & uses_coordinate=0
+0.11916666666666667,error_category=none & noise_label=material_color
+0.11916666666666667,error_category=none & noise_keyword_present=0 & noise_label=ambient_noise
+0.11916666666666667,error_category=none & noise_keyword_hit=none & noise_label=ambient_noise
+0.11916666666666667,is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=ambient_noise
+0.11916666666666667,is_correct=1 & is_uncertain=0 & noise_keyword_present=0 & noise_label=ambient_noise
+0.11916666666666667,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none & noise_label=ambient_noise
+0.11916666666666667,error_category=none & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=ambient_noise
+0.11916666666666667,is_correct=1 & noise_label=material_color
+0.11916666666666667,error_category=none & is_correct=1 & noise_label=ambient_noise
+0.11916666666666667,error_category=none & is_uncertain=0 & noise_keyword_hit=none & noise_label=ambient_noise
+0.11916666666666667,error_category=none & is_correct=1 & noise_keyword_present=0 & noise_label=material_color
+0.11916666666666667,error_category=none & is_uncertain=0 & noise_keyword_hit=none & noise_label=material_color
+0.11916666666666667,error_category=none & is_uncertain=0 & noise_label=material_color
+0.11916666666666667,error_category=none & noise_keyword_hit=none & noise_label=material_color
+0.11916666666666667,error_category=none & is_correct=1 & is_uncertain=0 & noise_label=ambient_noise
+0.11916666666666667,error_category=none & is_correct=1 & noise_keyword_present=0 & noise_label=ambient_noise
+0.11916666666666667,error_category=none & is_correct=1 & noise_keyword_hit=none & noise_label=ambient_noise
+0.11916666666666667,is_correct=1 & noise_keyword_present=0 & noise_label=material_color
+0.11916666666666667,error_category=none & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=material_color
+0.11916666666666667,is_correct=1 & is_uncertain=0 & noise_label=material_color
+0.11916666666666667,error_category=none & is_correct=1 & noise_label=material_color
+0.11916666666666667,error_category=none & noise_label=ambient_noise
+0.11916666666666667,error_category=none & is_correct=1 & noise_keyword_hit=none & noise_label=material_color
+0.11916666666666667,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none & noise_label=material_color
+0.11916666666666667,is_correct=1 & noise_label=ambient_noise
+0.11916666666666667,criticality=wide & is_correct=0 & is_uncertain=0 & uses_coordinate=0
+0.11916666666666667,error_category=none & is_correct=1 & is_uncertain=0 & noise_label=material_color
+0.11916666666666667,is_correct=1 & is_uncertain=0 & noise_keyword_present=0 & noise_label=material_color
+0.11916666666666667,error_category=none & is_uncertain=0 & noise_keyword_present=0 & noise_label=ambient_noise
+0.11916666666666667,error_category=none & is_uncertain=0 & noise_label=ambient_noise
+0.11916666666666667,is_correct=1 & noise_keyword_hit=none & noise_label=material_color
+0.11916666666666667,error_category=none & noise_keyword_present=0 & noise_label=material_color
+0.11916666666666667,error_category=none & is_uncertain=0 & noise_keyword_present=0 & noise_label=material_color
+0.11916666666666667,is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=material_color
+0.11916666666666667,criticality=wide & is_correct=0 & uses_coordinate=0
+0.11833333333333333,ai_judgment=can_pass & is_uncertain=0 & model=DeepSeek-V3-sim & uses_coordinate=0
+0.11833333333333333,ai_judgment=can_pass & model=DeepSeek-V3-sim & uses_coordinate=0
+0.1175,ai_judgment=can_pass & noise_label=material_color
+0.1175,ai_judgment=can_pass & error_category=none & model=GPT-4o-sim & noise_keyword_present=0
+0.1175,is_correct=0 & model=Small-LLM-sim & uses_coordinate=0
+0.1175,ai_judgment=can_pass & is_correct=1 & is_uncertain=0 & model=GPT-4o-sim
+0.1175,ai_judgment=can_pass & is_correct=1 & model=GPT-4o-sim & noise_keyword_hit=none
+0.1175,ai_judgment=can_pass & error_category=none & is_uncertain=0 & model=GPT-4o-sim
+0.1175,ai_judgment=can_pass & is_uncertain=0 & noise_label=material_color
+0.1175,is_correct=0 & is_uncertain=0 & model=Small-LLM-sim & uses_coordinate=0
+0.1175,ai_judgment=can_pass & error_category=none & is_correct=1 & model=GPT-4o-sim
+0.1175,ai_judgment=can_pass & is_correct=1 & model=GPT-4o-sim
+0.1175,ai_judgment=can_pass & error_category=none & model=GPT-4o-sim
+0.1175,ai_judgment=can_pass & error_category=none & model=GPT-4o-sim & noise_keyword_hit=none
+0.1175,ai_judgment=can_pass & is_correct=1 & model=GPT-4o-sim & noise_keyword_present=0
+0.11666666666666667,criticality=borderline & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.11666666666666667,ai_judgment=can_pass & model=GPT-4o-sim & uses_coordinate=0
+0.11666666666666667,criticality=borderline & level=L1
+0.11666666666666667,criticality=wide & is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.11666666666666667,criticality=borderline & is_uncertain=0 & level=L3
+0.11666666666666667,criticality=wide & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.11666666666666667,criticality=borderline & has_formula=0 & is_uncertain=0 & level=L1
+0.11666666666666667,error_category=concept_confusion & has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.11666666666666667,criticality=wide & has_formula=1 & is_uncertain=0 & level=L3
+0.11666666666666667,criticality=wide & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.11666666666666667,criticality=wide & model=Claude-Sonnet-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.11666666666666667,criticality=wide & is_uncertain=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.11666666666666667,criticality=borderline & level=L2
+0.11666666666666667,criticality=borderline & has_formula=0 & level=L1
+0.11666666666666667,criticality=borderline & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.11666666666666667,ai_judgment=can_pass & is_uncertain=0 & model=GPT-4o-sim & uses_coordinate=0
+0.11666666666666667,criticality=wide & has_formula=1 & level=L3
+0.11666666666666667,error_category=concept_confusion & has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.11666666666666667,criticality=borderline & level=L1 & uses_coordinate=0
+0.11666666666666667,error_category=concept_confusion & has_formula=0 & is_uncertain=0 & uses_coordinate=0
+0.11666666666666667,criticality=borderline & is_uncertain=0 & level=L2
+0.11666666666666667,criticality=wide & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.11666666666666667,criticality=wide & model=DeepSeek-V3-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.11666666666666667,criticality=wide & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.11666666666666667,criticality=borderline & level=L3
+0.11666666666666667,criticality=wide & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.11666666666666667,criticality=wide & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.11666666666666667,criticality=borderline & level=L2 & uses_coordinate=0
+0.11666666666666667,error_category=concept_confusion & has_formula=0 & is_correct=0 & uses_coordinate=0
+0.11666666666666667,error_category=concept_confusion & has_formula=0 & uses_coordinate=0
+0.11666666666666667,criticality=borderline & has_formula=0 & level=L1 & uses_coordinate=0
+0.11666666666666667,criticality=borderline & is_uncertain=0 & level=L1
+0.115,criticality=wide & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_present=0
+0.115,has_formula=0 & is_correct=0 & is_uncertain=0 & model=Small-LLM-sim
+0.115,has_formula=0 & noise_label=emotional_pressure
+0.115,has_formula=0 & is_uncertain=0 & noise_label=emotional_pressure
+0.115,has_formula=0 & noise_label=material_color
+0.115,criticality=wide & model=GPT-4o-sim & noise_keyword_present=0
+0.115,criticality=wide & model=GPT-4o-sim & noise_keyword_hit=none
+0.115,criticality=wide & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_hit=none
+0.115,ai_judgment=can_pass & model=GPT-4o-sim & noise_keyword_hit=none & uses_coordinate=0
+0.115,ai_judgment=can_pass & model=GPT-4o-sim & noise_keyword_present=0 & uses_coordinate=0
+0.115,has_formula=0 & is_uncertain=0 & noise_label=material_color
+0.115,criticality=wide & model=GPT-4o-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.115,has_formula=0 & is_correct=0 & model=Small-LLM-sim
+0.11416666666666667,ai_judgment=can_pass & criticality=borderline & is_correct=1 & is_uncertain=0
+0.11416666666666667,ai_judgment=cannot_pass & is_correct=0 & model=Small-LLM-sim
+0.11416666666666667,ai_judgment=cannot_pass & level=L1 & noise_keyword_hit=none
+0.11416666666666667,ai_judgment=can_pass & criticality=borderline & is_correct=1 & noise_keyword_hit=none
+0.11416666666666667,has_formula=0 & model=GPT-4o-sim & noise_keyword_present=0 & uses_coordinate=0
+0.11416666666666667,has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=lighting
+0.11416666666666667,has_formula=0 & is_uncertain=0 & noise_label=lighting
+0.11416666666666667,ai_judgment=can_pass & criticality=borderline & error_category=none & is_correct=1
+0.11416666666666667,ai_judgment=can_pass & criticality=borderline & is_correct=1 & noise_keyword_present=0
+0.11416666666666667,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0 & model=Small-LLM-sim
+0.11416666666666667,ai_judgment=can_pass & criticality=borderline & is_correct=1
+0.11416666666666667,has_formula=0 & model=GPT-4o-sim & noise_keyword_hit=none & uses_coordinate=0
+0.11416666666666667,ai_judgment=can_pass & criticality=borderline & error_category=none & noise_keyword_present=0
+0.11416666666666667,ai_judgment=cannot_pass & is_uncertain=0 & level=L1 & noise_keyword_present=0
+0.11416666666666667,has_formula=0 & is_uncertain=0 & noise_keyword_hit=none & noise_label=lighting
+0.11416666666666667,is_correct=0 & level=L3 & uses_coordinate=1
+0.11416666666666667,is_correct=0 & is_uncertain=0 & level=L3 & uses_coordinate=1
+0.11416666666666667,has_formula=0 & noise_keyword_present=0 & noise_label=lighting
+0.11416666666666667,has_formula=0 & noise_keyword_hit=none & noise_label=lighting
+0.11416666666666667,has_formula=0 & is_uncertain=0 & noise_keyword_present=0 & noise_label=lighting
+0.11416666666666667,ai_judgment=cannot_pass & level=L1 & noise_keyword_hit=none & noise_keyword_present=0
+0.11416666666666667,ai_judgment=cannot_pass & error_category=concept_confusion & is_uncertain=0 & uses_coordinate=0
+0.11416666666666667,ai_judgment=cannot_pass & error_category=concept_confusion & uses_coordinate=0
+0.11416666666666667,ai_judgment=can_pass & criticality=borderline & error_category=none
+0.11416666666666667,ai_judgment=cannot_pass & error_category=concept_confusion & noise_keyword_hit=none & uses_coordinate=0
+0.11416666666666667,has_formula=0 & noise_label=lighting
+0.11416666666666667,ai_judgment=cannot_pass & level=L1 & noise_keyword_present=0
+0.11416666666666667,ai_judgment=can_pass & criticality=borderline & error_category=none & noise_keyword_hit=none
+0.11416666666666667,ai_judgment=can_pass & criticality=borderline & error_category=none & is_uncertain=0
+0.11416666666666667,ai_judgment=cannot_pass & error_category=concept_confusion & noise_keyword_present=0 & uses_coordinate=0
+0.11416666666666667,ai_judgment=cannot_pass & error_category=concept_confusion & is_correct=0 & uses_coordinate=0
+0.11416666666666667,is_correct=0 & is_uncertain=0 & uses_coordinate=1
+0.11416666666666667,ai_judgment=cannot_pass & level=L1 & noise_keyword_present=0 & uses_coordinate=0
+0.11416666666666667,ai_judgment=cannot_pass & is_uncertain=0 & level=L1 & noise_keyword_hit=none
+0.11416666666666667,is_correct=0 & uses_coordinate=1
+0.11416666666666667,ai_judgment=cannot_pass & has_formula=0 & level=L1 & noise_keyword_hit=none
+0.11416666666666667,ai_judgment=cannot_pass & has_formula=0 & level=L1 & noise_keyword_present=0
+0.11416666666666667,ai_judgment=cannot_pass & level=L1 & noise_keyword_hit=none & uses_coordinate=0
+0.11333333333333333,has_formula=0 & noise_label=none
+0.11333333333333333,has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.11333333333333333,has_formula=0 & is_uncertain=0 & noise_keyword_hit=none & noise_label=none
+0.11333333333333333,criticality=borderline & has_formula=0 & is_correct=0 & is_uncertain=0
+0.11333333333333333,has_formula=0 & noise_keyword_present=0 & noise_label=none
+0.11333333333333333,has_formula=0 & is_uncertain=0 & noise_label=none
+0.11333333333333333,criticality=borderline & has_formula=0 & is_correct=0
+0.11333333333333333,has_formula=0 & is_uncertain=0 & noise_keyword_present=0 & noise_label=none
+0.11333333333333333,has_formula=0 & noise_keyword_hit=none & noise_label=none
+0.1125,ai_judgment=can_pass & model=Small-LLM-sim
+0.1125,has_formula=0 & is_uncertain=0 & model=DeepSeek-V3-sim
+0.1125,has_formula=0 & model=DeepSeek-V3-sim
+0.1125,ai_judgment=can_pass & is_uncertain=0 & model=Small-LLM-sim
+0.11166666666666666,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0 & level=L3
+0.11166666666666666,error_category=none & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=lighting
+0.11166666666666666,error_category=none & is_uncertain=0 & noise_keyword_present=0 & noise_label=lighting
+0.11166666666666666,ai_judgment=cannot_pass & is_correct=0 & level=L3
+0.11166666666666666,error_category=none & is_correct=1 & noise_label=lighting
+0.11166666666666666,is_correct=1 & noise_keyword_hit=none & noise_label=lighting
+0.11166666666666666,is_correct=1 & noise_label=lighting
+0.11166666666666666,ai_judgment=can_pass & model=DeepSeek-V3-sim & noise_keyword_present=0 & uses_coordinate=0
+0.11166666666666666,ai_judgment=can_pass & model=DeepSeek-V3-sim & noise_keyword_hit=none & uses_coordinate=0
+0.11166666666666666,error_category=none & is_correct=1 & noise_keyword_hit=none & noise_label=lighting
+0.11166666666666666,error_category=none & is_correct=1 & is_uncertain=0 & noise_label=lighting
+0.11166666666666666,error_category=none & is_uncertain=0 & noise_keyword_hit=none & noise_label=lighting
+0.11166666666666666,error_category=none & noise_keyword_hit=none & noise_label=lighting
+0.11166666666666666,criticality=narrow & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.11166666666666666,error_category=none & noise_label=lighting
+0.11166666666666666,is_correct=1 & is_uncertain=0 & noise_label=lighting
+0.11166666666666666,is_correct=1 & is_uncertain=0 & noise_keyword_present=0 & noise_label=lighting
+0.11166666666666666,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none & noise_label=lighting
+0.11166666666666666,is_correct=1 & noise_keyword_present=0 & noise_label=lighting
+0.11166666666666666,criticality=narrow & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.11166666666666666,criticality=narrow & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.11166666666666666,criticality=narrow & noise_keyword_hit=none & uses_coordinate=0
+0.11166666666666666,error_category=none & is_correct=1 & noise_keyword_present=0 & noise_label=lighting
+0.11166666666666666,criticality=narrow & noise_keyword_present=0 & uses_coordinate=0
+0.11166666666666666,error_category=none & noise_keyword_present=0 & noise_label=lighting
+0.11166666666666666,error_category=none & is_uncertain=0 & noise_label=lighting
+0.11166666666666666,is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=lighting
+0.11083333333333334,ai_judgment=can_pass & has_formula=1 & is_uncertain=0 & level=L2
+0.11083333333333334,ai_judgment=cannot_pass & error_category=concept_confusion & has_formula=0 & noise_keyword_present=0
+0.11083333333333334,ai_judgment=can_pass & has_formula=1 & level=L2 & uses_coordinate=0
+0.11083333333333334,ai_judgment=can_pass & has_formula=1 & level=L2
+0.11083333333333334,criticality=wide & is_uncertain=0 & model=Small-LLM-sim & noise_keyword_present=0
+0.11083333333333334,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & level=L3
+0.11083333333333334,has_formula=1 & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_hit=none
+0.11083333333333334,has_formula=1 & model=GPT-4o-sim & noise_keyword_present=0
+0.11083333333333334,has_formula=0 & noise_label=ambient_noise
+0.11083333333333334,has_formula=1 & model=GPT-4o-sim & noise_keyword_hit=none
+0.11083333333333334,ai_judgment=cannot_pass & has_formula=1 & level=L3
+0.11083333333333334,has_formula=1 & model=GPT-4o-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.11083333333333334,ai_judgment=cannot_pass & is_uncertain=0 & model=GPT-4o-sim
+0.11083333333333334,has_formula=1 & is_uncertain=0 & model=GPT-4o-sim & noise_keyword_present=0
+0.11083333333333334,ai_judgment=cannot_pass & error_category=concept_confusion & has_formula=0 & noise_keyword_hit=none
+0.11083333333333334,ai_judgment=cannot_pass & has_formula=1 & uses_coordinate=0
+0.11083333333333334,ai_judgment=cannot_pass & error_category=concept_confusion & has_formula=0 & is_uncertain=0
+0.11083333333333334,ai_judgment=cannot_pass & model=GPT-4o-sim
+0.11083333333333334,ai_judgment=cannot_pass & error_category=concept_confusion & has_formula=0 & is_correct=0
+0.11083333333333334,criticality=wide & model=Small-LLM-sim & noise_keyword_hit=none
+0.11083333333333334,criticality=wide & model=Small-LLM-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.11083333333333334,criticality=wide & is_uncertain=0 & model=Small-LLM-sim & noise_keyword_hit=none
+0.11083333333333334,criticality=wide & model=Small-LLM-sim & noise_keyword_present=0
+0.11083333333333334,has_formula=0 & is_uncertain=0 & noise_label=ambient_noise
+0.11083333333333334,ai_judgment=cannot_pass & error_category=concept_confusion & has_formula=0
+0.11083333333333334,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & uses_coordinate=0
+0.11,is_correct=0 & is_uncertain=0 & model=Small-LLM-sim & noise_keyword_present=0
+0.11,error_category=none & level=L3 & uses_coordinate=0
+0.11,is_correct=1 & level=L3 & uses_coordinate=0
+0.11,is_correct=0 & model=Small-LLM-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.11,is_correct=0 & is_uncertain=0 & model=Small-LLM-sim & noise_keyword_hit=none
+0.11,is_correct=0 & model=Small-LLM-sim & noise_keyword_present=0
+0.11,is_correct=0 & model=Small-LLM-sim & noise_keyword_hit=none
+0.11,is_correct=1 & level=L3 & noise_keyword_hit=none & uses_coordinate=0
+0.11,has_formula=0 & noise_keyword_hit=none & noise_label=lighting & uses_coordinate=0
+0.11,ai_judgment=can_pass & is_uncertain=0 & noise_label=emotional_pressure
+0.11,has_formula=0 & is_uncertain=0 & noise_label=emotional_pressure & uses_coordinate=0
+0.11,ai_judgment=can_pass & noise_keyword_present=0 & noise_label=none
+0.11,ai_judgment=can_pass & noise_keyword_hit=none & noise_label=none
+0.11,has_formula=0 & noise_label=emotional_pressure & uses_coordinate=0
+0.11,ai_judgment=can_pass & is_uncertain=0 & noise_label=none
+0.11,has_formula=0 & noise_label=lighting & uses_coordinate=0
+0.11,error_category=none & level=L3 & noise_keyword_present=0 & uses_coordinate=0
+0.11,ai_judgment=can_pass & noise_label=none
+0.11,error_category=none & is_uncertain=0 & level=L3 & uses_coordinate=0
+0.11,is_correct=1 & is_uncertain=0 & level=L3 & uses_coordinate=0
+0.11,is_correct=1 & level=L3 & noise_keyword_present=0 & uses_coordinate=0
+0.11,ai_judgment=cannot_pass & criticality=borderline & noise_keyword_hit=none & uses_coordinate=0
+0.11,error_category=none & is_correct=1 & level=L3 & uses_coordinate=0
+0.11,ai_judgment=cannot_pass & criticality=borderline & noise_keyword_present=0 & uses_coordinate=0
+0.11,error_category=none & level=L3 & noise_keyword_hit=none & uses_coordinate=0
+0.11,ai_judgment=can_pass & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.11,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_hit=none & noise_label=none
+0.11,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_present=0 & noise_label=none
+0.11,ai_judgment=can_pass & noise_label=emotional_pressure
+0.11,has_formula=0 & noise_keyword_present=0 & noise_label=lighting & uses_coordinate=0
+0.11,has_formula=0 & is_uncertain=0 & noise_label=lighting & uses_coordinate=0
+0.10916666666666666,ai_judgment=can_pass & is_uncertain=0 & noise_label=ambient_noise
+0.10916666666666666,ai_judgment=can_pass & noise_label=ambient_noise
+0.10916666666666666,has_formula=0 & noise_label=material_color & uses_coordinate=0
+0.10916666666666666,has_formula=0 & is_uncertain=0 & noise_label=material_color & uses_coordinate=0
+0.10833333333333334,error_category=none & is_uncertain=0 & noise_label=emotional_pressure
+0.10833333333333334,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none & noise_label=emotional_pressure
+0.10833333333333334,error_category=none & is_correct=1 & noise_label=emotional_pressure
+0.10833333333333334,error_category=none & is_uncertain=0 & noise_keyword_hit=none & noise_label=emotional_pressure
+0.10833333333333334,error_category=none & noise_keyword_hit=none & noise_label=emotional_pressure
+0.10833333333333334,error_category=none & is_uncertain=0 & noise_keyword_present=0 & noise_label=emotional_pressure
+0.10833333333333334,ai_judgment=cannot_pass & model=Small-LLM-sim & uses_coordinate=0
+0.10833333333333334,ai_judgment=cannot_pass & is_uncertain=0 & model=Small-LLM-sim & noise_keyword_hit=none
+0.10833333333333334,ai_judgment=cannot_pass & model=Small-LLM-sim & noise_keyword_present=0
+0.10833333333333334,ai_judgment=cannot_pass & model=Small-LLM-sim & noise_keyword_hit=none
+0.10833333333333334,is_correct=0 & level=L3 & noise_keyword_present=0
+0.10833333333333334,is_correct=0 & level=L3 & noise_keyword_hit=none
+0.10833333333333334,ai_judgment=cannot_pass & is_uncertain=0 & model=Small-LLM-sim & uses_coordinate=0
+0.10833333333333334,criticality=wide & is_uncertain=0 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.10833333333333334,is_correct=1 & is_uncertain=0 & noise_label=emotional_pressure
+0.10833333333333334,is_correct=0 & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.10833333333333334,has_formula=0 & is_uncertain=0 & model=DeepSeek-V3-sim & uses_coordinate=0
+0.10833333333333334,has_formula=0 & model=DeepSeek-V3-sim & uses_coordinate=0
+0.10833333333333334,is_correct=0 & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.10833333333333334,is_correct=0 & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.10833333333333334,ai_judgment=cannot_pass & criticality=borderline & has_formula=0
+0.10833333333333334,ai_judgment=cannot_pass & criticality=borderline & has_formula=0 & is_uncertain=0
+0.10833333333333334,error_category=none & noise_label=emotional_pressure
+0.10833333333333334,is_correct=1 & noise_label=emotional_pressure
+0.10833333333333334,error_category=none & is_correct=1 & noise_keyword_hit=none & noise_label=emotional_pressure
+0.10833333333333334,criticality=wide & model=Claude-Sonnet-sim & uses_coordinate=0
+0.10833333333333334,ai_judgment=cannot_pass & is_uncertain=0 & model=Small-LLM-sim & noise_keyword_present=0
+0.10833333333333334,ai_judgment=cannot_pass & model=Small-LLM-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.10833333333333334,error_category=none & noise_keyword_present=0 & noise_label=emotional_pressure
+0.10833333333333334,is_correct=1 & noise_keyword_hit=none & noise_label=emotional_pressure
+0.10833333333333334,is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=emotional_pressure
+0.10833333333333334,error_category=none & is_correct=1 & noise_keyword_present=0 & noise_label=emotional_pressure
+0.10833333333333334,error_category=none & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=emotional_pressure
+0.10833333333333334,error_category=none & is_correct=1 & is_uncertain=0 & noise_label=emotional_pressure
+0.10833333333333334,is_correct=1 & noise_keyword_present=0 & noise_label=emotional_pressure
+0.10833333333333334,is_correct=1 & is_uncertain=0 & noise_keyword_present=0 & noise_label=emotional_pressure
+0.1075,error_category=noise_distraction & is_uncertain=0 & noise_keyword_present=1
+0.1075,is_correct=0 & is_uncertain=0 & noise_keyword_present=1
+0.1075,criticality=wide & error_category=none & is_uncertain=0 & level=L2
+0.1075,criticality=wide & error_category=none & level=L2
+0.1075,is_uncertain=0 & noise_keyword_present=1
+0.1075,error_category=noise_distraction & is_correct=0 & noise_keyword_present=1
+0.1075,error_category=noise_distraction & noise_keyword_present=1
+0.1075,is_correct=0 & noise_keyword_present=1
+0.1075,error_category=noise_distraction & is_correct=0 & is_uncertain=0 & noise_keyword_present=1
+0.1075,ai_judgment=can_pass & criticality=wide & level=L2 & uses_coordinate=0
+0.1075,ai_judgment=can_pass & criticality=wide & error_category=none & level=L2
+0.1075,criticality=wide & error_category=none & is_correct=1 & level=L2
+0.1075,criticality=wide & is_correct=1 & level=L2 & noise_keyword_hit=none
+0.1075,ai_judgment=can_pass & criticality=wide & level=L2
+0.1075,criticality=wide & is_correct=1 & level=L2
+0.1075,criticality=wide & is_correct=1 & level=L2 & uses_coordinate=0
+0.1075,criticality=wide & error_category=none & level=L2 & noise_keyword_hit=none
+0.1075,ai_judgment=can_pass & criticality=wide & level=L2 & noise_keyword_hit=none
+0.1075,ai_judgment=can_pass & criticality=wide & level=L2 & noise_keyword_present=0
+0.1075,criticality=wide & is_correct=1 & is_uncertain=0 & level=L2
+0.1075,ai_judgment=can_pass & criticality=wide & is_uncertain=0 & level=L2
+0.1075,criticality=wide & error_category=none & level=L2 & uses_coordinate=0
+0.1075,ai_judgment=can_pass & criticality=wide & is_correct=1 & level=L2
+0.1075,noise_keyword_present=1
+0.1075,criticality=wide & is_correct=1 & level=L2 & noise_keyword_present=0
+0.1075,criticality=wide & error_category=none & level=L2 & noise_keyword_present=0
+0.10666666666666667,has_formula=1 & is_uncertain=0 & model=Claude-Sonnet-sim
+0.10666666666666667,has_formula=1 & model=Claude-Sonnet-sim
+0.10583333333333333,criticality=wide & has_formula=1 & level=L3 & noise_keyword_hit=none
+0.10583333333333333,criticality=wide & has_formula=1 & level=L3 & noise_keyword_present=0
+0.10583333333333333,ai_judgment=can_pass & has_formula=1 & level=L2 & noise_keyword_hit=none
+0.10583333333333333,ai_judgment=can_pass & has_formula=1 & level=L2 & noise_keyword_present=0
+0.10583333333333333,criticality=wide & error_category=concept_confusion & noise_keyword_present=0
+0.10583333333333333,criticality=wide & error_category=concept_confusion
+0.10583333333333333,criticality=wide & error_category=concept_confusion & is_correct=0 & is_uncertain=0
+0.10583333333333333,criticality=wide & error_category=concept_confusion & noise_keyword_hit=none & noise_keyword_present=0
+0.10583333333333333,criticality=wide & error_category=concept_confusion & is_correct=0 & noise_keyword_present=0
+0.10583333333333333,criticality=wide & error_category=concept_confusion & is_correct=0 & noise_keyword_hit=none
+0.10583333333333333,ai_judgment=cannot_pass & criticality=wide & error_category=concept_confusion
+0.10583333333333333,criticality=wide & error_category=concept_confusion & is_uncertain=0
+0.10583333333333333,criticality=wide & error_category=concept_confusion & is_uncertain=0 & noise_keyword_present=0
+0.10583333333333333,ai_judgment=cannot_pass & criticality=wide & error_category=concept_confusion & is_correct=0
+0.10583333333333333,criticality=wide & error_category=concept_confusion & noise_keyword_hit=none
+0.10583333333333333,ai_judgment=cannot_pass & criticality=wide & error_category=concept_confusion & noise_keyword_present=0
+0.10583333333333333,ai_judgment=cannot_pass & criticality=wide & error_category=concept_confusion & is_uncertain=0
+0.10583333333333333,criticality=wide & error_category=concept_confusion & is_correct=0
+0.10583333333333333,ai_judgment=cannot_pass & criticality=wide & error_category=concept_confusion & noise_keyword_hit=none
+0.10583333333333333,criticality=wide & error_category=concept_confusion & is_uncertain=0 & noise_keyword_hit=none
+0.10583333333333333,has_formula=0 & is_uncertain=0 & noise_label=ambient_noise & uses_coordinate=0
+0.10583333333333333,has_formula=0 & noise_label=ambient_noise & uses_coordinate=0
+0.105,is_correct=1 & is_uncertain=0 & noise_label=ambient_noise & uses_coordinate=0
+0.105,is_correct=1 & noise_keyword_hit=none & noise_label=ambient_noise & uses_coordinate=0
+0.105,has_formula=0 & is_correct=1 & model=Claude-Sonnet-sim
+0.105,error_category=none & has_formula=0 & model=Claude-Sonnet-sim
+0.105,error_category=none & is_uncertain=0 & noise_label=ambient_noise & uses_coordinate=0
+0.105,error_category=none & noise_keyword_hit=none & noise_label=ambient_noise & uses_coordinate=0
+0.105,error_category=none & noise_keyword_present=0 & noise_label=ambient_noise & uses_coordinate=0
+0.105,error_category=none & noise_label=ambient_noise & uses_coordinate=0
+0.105,criticality=borderline & error_category=concept_confusion & is_uncertain=0 & noise_keyword_hit=none
+0.105,criticality=borderline & error_category=concept_confusion & is_correct=0 & is_uncertain=0
+0.105,criticality=borderline & error_category=concept_confusion & is_correct=0
+0.105,criticality=borderline & error_category=concept_confusion & is_uncertain=0 & noise_keyword_present=0
+0.105,criticality=borderline & error_category=concept_confusion & noise_keyword_hit=none & noise_keyword_present=0
+0.105,has_formula=0 & is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.105,criticality=borderline & error_category=concept_confusion & noise_keyword_hit=none
+0.105,criticality=borderline & error_category=concept_confusion & noise_keyword_present=0
+0.105,error_category=none & has_formula=0 & is_uncertain=0 & model=Claude-Sonnet-sim
+0.105,error_category=none & has_formula=0 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.105,error_category=none & has_formula=0 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.105,error_category=none & has_formula=0 & model=Claude-Sonnet-sim & noise_keyword_hit=none
+0.105,error_category=none & has_formula=0 & is_correct=1 & model=Claude-Sonnet-sim
+0.105,has_formula=0 & is_correct=1 & is_uncertain=0 & model=Claude-Sonnet-sim
+0.105,has_formula=0 & is_correct=1 & model=Claude-Sonnet-sim & uses_coordinate=0
+0.105,has_formula=0 & is_correct=1 & model=Claude-Sonnet-sim & noise_keyword_present=0
+0.105,ai_judgment=can_pass & criticality=wide & level=L3
+0.105,is_correct=1 & noise_label=ambient_noise & uses_coordinate=0
+0.105,is_correct=1 & noise_keyword_present=0 & noise_label=ambient_noise & uses_coordinate=0
+0.105,error_category=none & is_correct=1 & noise_label=ambient_noise & uses_coordinate=0
+0.105,criticality=wide & error_category=none & is_uncertain=0 & level=L3
+0.105,ai_judgment=can_pass & criticality=wide & is_correct=1 & level=L3
+0.105,ai_judgment=can_pass & criticality=wide & level=L3 & noise_keyword_hit=none
+0.105,ai_judgment=can_pass & criticality=wide & level=L3 & noise_keyword_present=0
+0.105,criticality=borderline & error_category=concept_confusion & is_correct=0 & noise_keyword_present=0
+0.105,criticality=borderline & error_category=concept_confusion & is_correct=0 & noise_keyword_hit=none
+0.105,criticality=borderline & error_category=concept_confusion & is_uncertain=0
+0.105,criticality=borderline & error_category=concept_confusion
+0.105,ai_judgment=can_pass & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=material_color
+0.105,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_present=0 & noise_label=material_color
+0.105,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_hit=none & noise_label=material_color
+0.105,ai_judgment=can_pass & noise_keyword_present=0 & noise_label=material_color
+0.105,ai_judgment=can_pass & noise_keyword_hit=none & noise_label=material_color
+0.105,criticality=wide & is_correct=1 & level=L3
+0.105,criticality=wide & error_category=none & level=L3
+0.105,criticality=wide & is_correct=1 & level=L3 & noise_keyword_hit=none
+0.105,ai_judgment=can_pass & criticality=wide & is_uncertain=0 & level=L3
+0.105,criticality=wide & error_category=none & level=L3 & noise_keyword_present=0
+0.105,ai_judgment=can_pass & has_formula=1 & is_correct=1 & level=L3
+0.105,criticality=wide & error_category=none & level=L3 & noise_keyword_hit=none
+0.105,criticality=wide & is_correct=1 & level=L3 & noise_keyword_present=0
+0.105,criticality=wide & is_correct=1 & is_uncertain=0 & level=L3
+0.105,ai_judgment=can_pass & criticality=wide & error_category=none & level=L3
+0.105,criticality=wide & error_category=none & is_correct=1 & level=L3
+0.105,ai_judgment=can_pass & error_category=none & has_formula=1 & level=L3
+0.10416666666666667,has_formula=0 & is_uncertain=0 & noise_label=none & uses_coordinate=0
+0.10416666666666667,has_formula=0 & noise_keyword_hit=none & noise_label=none & uses_coordinate=0
+0.10416666666666667,has_formula=0 & noise_keyword_present=0 & noise_label=none & uses_coordinate=0
+0.10416666666666667,has_formula=0 & noise_label=none & uses_coordinate=0
+0.10416666666666667,ai_judgment=cannot_pass & is_uncertain=0 & uses_coordinate=1
+0.10416666666666667,ai_judgment=cannot_pass & level=L3 & uses_coordinate=1
+0.10416666666666667,ai_judgment=cannot_pass & is_uncertain=0 & level=L3 & uses_coordinate=1
+0.10416666666666667,ai_judgment=cannot_pass & uses_coordinate=1
+0.10333333333333333,ai_judgment=can_pass & is_correct=0
+0.10333333333333333,ai_judgment=can_pass & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=lighting
+0.10333333333333333,ai_judgment=can_pass & noise_keyword_present=0 & noise_label=lighting
+0.10333333333333333,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_present=0 & noise_label=lighting
+0.10333333333333333,ai_judgment=cannot_pass & is_correct=0 & level=L2 & uses_coordinate=0
+0.10333333333333333,ai_judgment=cannot_pass & is_correct=0 & level=L2
+0.10333333333333333,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_hit=none & noise_label=lighting
+0.10333333333333333,ai_judgment=can_pass & noise_keyword_hit=none & noise_label=lighting
+0.10333333333333333,ai_judgment=can_pass & is_correct=0 & is_uncertain=0
+0.10333333333333333,ai_judgment=can_pass & noise_label=lighting
+0.10333333333333333,ai_judgment=cannot_pass & is_uncertain=0 & model=DeepSeek-V3-sim
+0.10333333333333333,ai_judgment=can_pass & is_uncertain=0 & noise_label=lighting
+0.10333333333333333,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0 & level=L2
+0.10333333333333333,ai_judgment=cannot_pass & model=DeepSeek-V3-sim
+0.1025,ai_judgment=cannot_pass & error_category=noise_distraction
+0.1025,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_present=0 & noise_label=ambient_noise
+0.1025,ai_judgment=can_pass & is_uncertain=0 & noise_keyword_hit=none & noise_label=ambient_noise
+0.1025,ai_judgment=can_pass & noise_keyword_hit=none & noise_label=ambient_noise
+0.1025,ai_judgment=can_pass & noise_keyword_present=0 & noise_label=ambient_noise
+0.1025,ai_judgment=cannot_pass & error_category=noise_distraction & is_uncertain=0
+0.1025,ai_judgment=cannot_pass & error_category=noise_distraction & is_correct=0
+0.1025,ai_judgment=cannot_pass & error_category=noise_distraction & is_correct=0 & is_uncertain=0
+0.1025,is_correct=1 & is_uncertain=0 & noise_label=material_color & uses_coordinate=0
+0.1025,error_category=none & noise_keyword_present=0 & noise_label=material_color & uses_coordinate=0
+0.1025,error_category=none & is_uncertain=0 & noise_label=material_color & uses_coordinate=0
+0.1025,is_correct=1 & noise_label=material_color & uses_coordinate=0
+0.1025,error_category=none & noise_label=material_color & uses_coordinate=0
+0.1025,is_correct=1 & noise_keyword_present=0 & noise_label=material_color & uses_coordinate=0
+0.1025,is_correct=1 & noise_keyword_hit=none & noise_label=material_color & uses_coordinate=0
+0.1025,error_category=none & is_correct=1 & noise_label=material_color & uses_coordinate=0
+0.1025,ai_judgment=can_pass & error_category=none & model=GPT-4o-sim & uses_coordinate=0
+0.1025,criticality=wide & is_uncertain=0 & model=GPT-4o-sim & uses_coordinate=0
+0.1025,criticality=wide & model=GPT-4o-sim & uses_coordinate=0
+0.1025,ai_judgment=can_pass & is_correct=1 & model=GPT-4o-sim & uses_coordinate=0
+0.1025,error_category=none & noise_keyword_hit=none & noise_label=material_color & uses_coordinate=0
+0.1025,ai_judgment=can_pass & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=ambient_noise
+0.10166666666666667,criticality=wide & model=Claude-Sonnet-sim & noise_keyword_hit=none & uses_coordinate=0
+0.10166666666666667,is_correct=0 & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.10166666666666667,is_correct=0 & level=L2 & noise_keyword_hit=none
+0.10166666666666667,criticality=wide & model=Claude-Sonnet-sim & noise_keyword_present=0 & uses_coordinate=0
+0.10166666666666667,has_formula=0 & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.10166666666666667,has_formula=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none
+0.10166666666666667,has_formula=0 & is_uncertain=0 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.10166666666666667,has_formula=0 & model=DeepSeek-V3-sim & noise_keyword_hit=none & noise_keyword_present=0
+0.10166666666666667,is_correct=0 & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.10166666666666667,is_correct=0 & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.10166666666666667,has_formula=0 & model=DeepSeek-V3-sim & noise_keyword_present=0
+0.10166666666666667,is_correct=0 & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.10166666666666667,is_correct=0 & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.10166666666666667,is_correct=0 & level=L2 & noise_keyword_present=0
+0.10083333333333333,criticality=wide & is_uncertain=0 & model=Small-LLM-sim & uses_coordinate=0
+0.10083333333333333,ai_judgment=can_pass & is_uncertain=0 & noise_label=material_color & uses_coordinate=0
+0.10083333333333333,criticality=borderline & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.10083333333333333,criticality=wide & model=Small-LLM-sim & uses_coordinate=0
+0.10083333333333333,ai_judgment=can_pass & noise_label=material_color & uses_coordinate=0
+0.10083333333333333,criticality=borderline & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.10083333333333333,criticality=borderline & level=L2 & noise_keyword_present=0
+0.10083333333333333,criticality=wide & error_category=none & has_formula=1 & uses_coordinate=0
+0.10083333333333333,criticality=wide & has_formula=1 & is_correct=1 & uses_coordinate=0
+0.10083333333333333,ai_judgment=can_pass & criticality=wide & has_formula=1 & uses_coordinate=0
+0.10083333333333333,ai_judgment=can_pass & error_category=none & model=DeepSeek-V3-sim & uses_coordinate=0
+0.10083333333333333,criticality=borderline & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.10083333333333333,criticality=borderline & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.10083333333333333,ai_judgment=can_pass & criticality=borderline & error_category=none & uses_coordinate=0
+0.10083333333333333,criticality=borderline & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.10083333333333333,ai_judgment=can_pass & criticality=borderline & is_correct=1 & uses_coordinate=0
+0.10083333333333333,criticality=borderline & level=L2 & noise_keyword_hit=none
+0.10083333333333333,ai_judgment=can_pass & is_correct=1 & model=DeepSeek-V3-sim & uses_coordinate=0
+0.1,criticality=wide & is_uncertain=0 & noise_label=material_color
+0.1,criticality=wide & is_uncertain=0 & noise_label=ambient_noise
+0.1,criticality=wide & noise_keyword_hit=none & noise_label=none
+0.1,criticality=wide & noise_label=material_color
+0.1,criticality=wide & is_uncertain=0 & noise_label=emotional_pressure
+0.1,criticality=wide & is_uncertain=0 & noise_keyword_present=0 & noise_label=none
+0.1,criticality=wide & is_uncertain=0 & noise_keyword_hit=none & noise_label=none
+0.1,criticality=wide & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.1,criticality=wide & noise_keyword_present=0 & noise_label=none
+0.1,criticality=wide & is_uncertain=0 & noise_label=none
+0.1,criticality=wide & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=lighting
+0.1,criticality=wide & is_uncertain=0 & noise_keyword_hit=none & noise_label=lighting
+0.1,criticality=wide & is_uncertain=0 & noise_keyword_present=0 & noise_label=lighting
+0.1,criticality=wide & noise_label=emotional_pressure
+0.1,criticality=wide & noise_keyword_hit=none & noise_label=lighting
+0.1,criticality=wide & noise_keyword_present=0 & noise_label=lighting
+0.1,criticality=wide & is_uncertain=0 & noise_label=lighting
+0.1,criticality=borderline & has_formula=0 & is_correct=0 & uses_coordinate=0
+0.1,criticality=wide & noise_label=none
+0.1,criticality=wide & noise_label=lighting
+0.1,criticality=wide & noise_label=ambient_noise
+0.1,ai_judgment=cannot_pass & has_formula=0 & model=Small-LLM-sim
+0.1,ai_judgment=cannot_pass & has_formula=0 & is_uncertain=0 & model=Small-LLM-sim

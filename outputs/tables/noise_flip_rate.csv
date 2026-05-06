@@ -1,0 +1,17 @@
+﻿model,noise_label,flip_rate,noisy_accuracy,samples
+Claude-Sonnet-sim,ambient_noise,0.43333333333333335,0.6666666666666666,60
+Claude-Sonnet-sim,emotional_pressure,0.36666666666666664,0.6333333333333333,60
+Claude-Sonnet-sim,lighting,0.36666666666666664,0.7,60
+Claude-Sonnet-sim,material_color,0.31666666666666665,0.75,60
+DeepSeek-V3-sim,lighting,0.5166666666666667,0.55,60
+DeepSeek-V3-sim,emotional_pressure,0.5,0.6666666666666666,60
+DeepSeek-V3-sim,material_color,0.48333333333333334,0.6833333333333333,60
+DeepSeek-V3-sim,ambient_noise,0.38333333333333336,0.6833333333333333,60
+GPT-4o-sim,lighting,0.48333333333333334,0.5333333333333333,60
+GPT-4o-sim,ambient_noise,0.4,0.6833333333333333,60
+GPT-4o-sim,emotional_pressure,0.38333333333333336,0.6,60
+GPT-4o-sim,material_color,0.35,0.6333333333333333,60
+Small-LLM-sim,lighting,0.6333333333333333,0.45,60
+Small-LLM-sim,ambient_noise,0.5666666666666667,0.35,60
+Small-LLM-sim,emotional_pressure,0.55,0.26666666666666666,60
+Small-LLM-sim,material_color,0.5333333333333333,0.31666666666666665,60

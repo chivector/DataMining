@@ -1,0 +1,37 @@
+seed: 20260505
+num_cases: 20
+levels:
+  - L1
+  - L2
+  - L3
+noise_conditions:
+  none: ""
+  material_color: "楼梯扶手是红色金属，墙面是浅灰瓷砖。"
+  ambient_noise: "现场有人说话，旁边还有持续的环境噪声。"
+  lighting: "灯光偏暗，但地面干燥，没有积水。"
+  emotional_pressure: "使用者很着急，旁观者不断催促尽快通过。"
+mock_models:
+  - GPT-4o-sim
+  - Claude-Sonnet-sim
+  - DeepSeek-V3-sim
+  - Small-LLM-sim
+df_models:
+  - gpt-4o
+  - gpt-4o-mini
+  - claude-3-5-sonnet-latest
+  - deepseek-chat
+default_repeats: 1
+api:
+  # Do not commit real API keys. Set DF_API_KEY/API_KEY in your shell instead.
+  base_url: "http://123.129.219.111:3000/v1"
+  api_key: ""
+  temperature: 0.2
+  max_tokens: 900
+  timeout_seconds: 300
+  seed: 42
+  max_retries: 3
+  retry_backoff_seconds: 4
+fpgrowth:
+  min_support: 0.10
+  min_confidence: 0.60
+  max_len: 4

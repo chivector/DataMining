@@ -1,0 +1,13 @@
+﻿model,error_category,count,share
+Claude-Sonnet-sim,concept_confusion,53,0.6091954022988506
+Claude-Sonnet-sim,noise_distraction,29,0.3333333333333333
+Claude-Sonnet-sim,unit_confusion,5,0.05747126436781609
+DeepSeek-V3-sim,concept_confusion,63,0.5887850467289719
+DeepSeek-V3-sim,noise_distraction,43,0.40186915887850466
+DeepSeek-V3-sim,unit_confusion,1,0.009345794392523364
+GPT-4o-sim,concept_confusion,73,0.6636363636363637
+GPT-4o-sim,noise_distraction,34,0.3090909090909091
+GPT-4o-sim,unit_confusion,3,0.02727272727272727
+Small-LLM-sim,concept_confusion,105,0.5706521739130435
+Small-LLM-sim,noise_distraction,67,0.3641304347826087
+Small-LLM-sim,unit_confusion,12,0.06521739130434782

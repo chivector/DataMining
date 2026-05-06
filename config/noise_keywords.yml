@@ -1,0 +1,27 @@
+# 关键词级噪声敏感度词表
+# 每个 noise_label 拆成多个候选短语；feature 抽取时会对模型回复做包含匹配，
+# 命中即在 behavior_features.csv 中标记 noise_keyword_hit=<phrase>，供 FP-Growth
+# 在更细粒度上挖掘 "触发词 -> 失效模式" 关联规则。
+material_color:
+  - "红色"
+  - "扶手"
+  - "金属"
+  - "瓷砖"
+  - "墙面"
+ambient_noise:
+  - "噪声"
+  - "说话"
+  - "嘈杂"
+  - "声音"
+lighting:
+  - "灯光"
+  - "光线"
+  - "偏暗"
+  - "积水"
+  - "干燥"
+emotional_pressure:
+  - "着急"
+  - "催促"
+  - "紧张"
+  - "旁观者"
+  - "尽快"
