@@ -6,9 +6,14 @@
 *.yml text eol=lf
 *.yaml text eol=lf
 *.json text eol=lf
+*.tex text eol=lf
+*.cls text eol=lf
+*.bib text eol=lf
 *.csv text eol=lf
 *.gitignore text eol=lf
 *.gitattributes text eol=lf
 
 *.png binary
 *.xlsx binary
+
+License text eol=lf
