@@ -1,11 +1,12 @@
-% 使用 XeLaTeX 或 LuaLaTeX 编译。
-\documentclass[UTF8,AutoFakeBold=1,AutoFakeSlant,zihao=-4]{BJUTReport}
+% !TeX program = xelatex
+% 使用 XeLaTeX 或 LuaLaTeX 编译。Overleaf 请在 Menu -> Compiler 选择 XeLaTeX。
+\documentclass{BJUTReport}
 
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{float}
 \usepackage{amsmath}
-\graphicspath{{../outputs/figures/}{Fig/}}
+\graphicspath{{Fig/}{../outputs/figures/}}
 
 %%%%%%%%%%%%%%% 报告题目
 \newcommand{\thesisTitle}{大语言模型空间建模能力的认知边界与逻辑一致性挖掘分析}

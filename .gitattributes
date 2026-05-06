@@ -17,3 +17,4 @@
 *.xlsx binary
 
 License text eol=lf
+latexmkrc text eol=lf

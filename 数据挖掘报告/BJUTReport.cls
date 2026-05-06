@@ -35,9 +35,58 @@
 
 %%%%%%%%%%%%%%%%%%%%%% 字体与段落 %%%%%%%%%%%%%%%%%%%%%%
 
+\RequirePackage{iftex}
+\ifPDFTeX
+  \ClassError{BJUTReport}
+    {This template must be compiled with XeLaTeX or LuaLaTeX}
+    {In Overleaf, open Menu -> Compiler and choose XeLaTeX. The included latexmkrc also forces XeLaTeX.}
+\fi
+
 \PassOptionsToPackage{no-math}{fontspec}
-\RequirePackage[UTF8,scheme=plain]{ctex}
-\setmainfont{Times New Roman}       %西文字体默认
+\RequirePackage[UTF8,scheme=plain,fontset=none]{ctex}
+
+\ifPDFTeX\else
+  \setmainfont{TeX Gyre Termes}
+  \setsansfont{TeX Gyre Heros}
+  \setmonofont{TeX Gyre Cursor}
+
+  \newcommand{\BJUTSetCJKFamilies}[3]{%
+    \setCJKmainfont{#1}%
+    \setCJKsansfont{#2}%
+    \setCJKfamilyfont{zhsong}{#1}%
+    \setCJKfamilyfont{zhhei}{#2}%
+    \setCJKfamilyfont{zhkai}{#3}%
+    \providecommand{\songti}{}%
+    \providecommand{\heiti}{}%
+    \providecommand{\kaishu}{}%
+    \renewcommand{\songti}{\CJKfamily{zhsong}}%
+    \renewcommand{\heiti}{\CJKfamily{zhhei}}%
+    \renewcommand{\kaishu}{\CJKfamily{zhkai}}%
+  }
+
+  \IfFontExistsTF{Noto Serif CJK SC}{%
+    \BJUTSetCJKFamilies{Noto Serif CJK SC}{Noto Sans CJK SC}{Noto Serif CJK SC}%
+    \IfFontExistsTF{Noto Sans Mono CJK SC}{%
+      \setCJKmonofont{Noto Sans Mono CJK SC}%
+    }{%
+      \setCJKmonofont{Noto Sans CJK SC}%
+    }%
+  }{%
+    \IfFontExistsTF{FandolSong-Regular}{%
+    \BJUTSetCJKFamilies{FandolSong-Regular}{FandolHei-Regular}{FandolKai-Regular}%
+    \setCJKmonofont{FandolFang-Regular}%
+    }{%
+      \IfFontExistsTF{AR PL UMing CN}{%
+        \BJUTSetCJKFamilies{AR PL UMing CN}{AR PL UMing CN}{AR PL UMing CN}%
+        \setCJKmonofont{AR PL UMing CN}%
+      }{%
+        \ClassError{BJUTReport}
+          {No supported CJK font was found}
+          {Install Noto CJK fonts or compile on Overleaf with XeLaTeX.}%
+      }%
+    }%
+  }
+\fi
 
 
 % 1.5倍行距
@@ -571,7 +620,7 @@
   \vspace{12pt} % 标题与内容之间的间距
   \justify % 两端对齐
   \songti\zihao{-4} % 中文字体宋体，小四号
-  \setmainfont{Times New Roman} % 西文字体Times New Roman
+  \ifPDFTeX\else\setmainfont{TeX Gyre Termes}\fi % 西文字体
   \setlength{\parindent}{2\ccwd} % 首行缩进2字距
   \setstretch{1.5} % 1.5倍行距
   \setlength{\parskip}{0pt} % 段落间距为0
