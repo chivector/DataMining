@@ -1,0 +1,41 @@
+% !Mode:: "TeX:UTF-8"
+% 扉页：北京工业大学数据挖掘课程报告
+
+\begin{titlepage}
+    \thispagestyle{empty}
+
+    % 顶部信息栏
+    \noindent
+    \song\xiaosi
+    分类号：\makebox[3cm][l]{\myClassification} \hfill 学校代码：10005 \\[10pt]
+    密级：\makebox[3cm][l]{\mySecurityLevel} \hfill 学号：\myStudentId
+
+    % 报告题目
+    \vspace{4.5cm}
+    \begin{center}
+        \renewcommand{\baselinestretch}{1.5}\selectfont
+        {\xiaoer\song\bfseries \myTitle \par}
+        %\vspace{0.8cm}
+        {\xiaosan\bfseries\rmfamily \myETitle \par}
+    \end{center}
+
+    % 3. 详细信息栏
+    \vspace{4.5cm}
+    \begin{center}
+        \xiaosi\song
+        \renewcommand\arraystretch{1.6}
+
+        \begin{tabular}{r @{\hspace{4pt}} c @{\hspace{4pt}} l}
+            \makebox[7em][s]{课程名称} & ： & \myCourseName \\
+            \makebox[7em][s]{研究方向} & ： & \myTopicDirection \\
+            \makebox[7em][s]{指导教师姓名} & ： & \myInstructor \quad \myInstructorTitle \\
+            \makebox[7em][s]{学生姓名} & ： & \myAuthor \\
+            \makebox[7em][s]{报告类型} & ： & \myReportType \\
+            \makebox[7em][s]{提交日期} & ： & \mySubmitDate \\
+            \makebox[7em][s]{课题来源} & ： & \mySource \\
+            \makebox[7em][s]{所在学校} & ： & \myConferringUnit \\
+        \end{tabular}
+    \end{center}
+
+    \clearpage
+\end{titlepage}
