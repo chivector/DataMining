@@ -1,0 +1,12 @@
+﻿strategy,description,rows,file
+latin_hypercube_coverage,拉丁超立方覆盖五个几何变量，使每个变量区间都被均匀访问。,300,data\prompts_latin_hypercube_coverage.csv
+halton_space_filling,使用 Halton 低差异序列做准蒙特卡洛空间填充采样。,300,data\prompts_halton_space_filling.csv
+orthogonal_array_interactions,用正交表覆盖几何因素主效应和二阶交互。,300,data\prompts_orthogonal_array_interactions.csv
+fractional_factorial_effects,用分数因子实验设计分析尺寸因素高低水平效应。,300,data\prompts_fractional_factorial_effects.csv
+d_optimal_balanced_subset,从候选池中贪心选择最大距离且标签平衡的近似 D-optimal 子集。,300,data\prompts_d_optimal_balanced_subset.csv
+dimensionless_ratio_design,用 W/w、D/R、R/L 等无量纲比例构造相对尺度样本。,300,data\prompts_dimensionless_ratio_design.csv
+metamorphic_counterfactual_pairs,每两条组成反事实对，只微调一个关键参数 1-3cm。,300,data\prompts_metamorphic_counterfactual_pairs.csv
+constraint_boundary_solver,反向求解目标余量，让样本精确落在关键判定阈值附近。,300,data\prompts_constraint_boundary_solver.csv
+conflicting_cue_adversarial,构造宽度线索和转弯半径线索相互冲突的对抗样本。,300,data\prompts_conflicting_cue_adversarial.csv
+real_world_archetype_matrix,按旧住宅楼、教学楼、医院、办公楼、电梯厅等现实原型组织尺寸矩阵。,300,data\prompts_real_world_archetype_matrix.csv
+rounding_threshold_ladder,围绕 80/90/100/110cm 常见整数和阈值边界构造阶梯样本。,300,data\prompts_rounding_threshold_ladder.csv

@@ -150,6 +150,28 @@ python scripts/02_collect_responses.py --provider deepseek --models deepseek-cha
 - `ANTHROPIC_API_KEY`
 - `DEEPSEEK_API_KEY`
 
+生成 11 组额外实验设计型 Prompt 构造策略数据：
+
+```powershell
+python scripts/generate_prompt_strategies.py
+```
+
+每组策略会单独写入 `data/prompts_<strategy>.csv`，策略说明汇总在 `data/prompt_strategy_manifest.csv`。这些策略不是原始哈希构造法的简单扩展，而是覆盖空间填充、正交实验、分数因子、反事实扰动、约束边界求解和对抗线索等实验设计思路。
+
+当前额外策略包括：
+
+- `latin_hypercube_coverage`
+- `halton_space_filling`
+- `orthogonal_array_interactions`
+- `fractional_factorial_effects`
+- `d_optimal_balanced_subset`
+- `dimensionless_ratio_design`
+- `metamorphic_counterfactual_pairs`
+- `constraint_boundary_solver`
+- `conflicting_cue_adversarial`
+- `real_world_archetype_matrix`
+- `rounding_threshold_ladder`
+
 ## 数据说明
 
 主要数据文件：
