@@ -1,0 +1,20 @@
+\begin{figure*}[t]
+\centering
+\begin{tikzpicture}[node distance=0.48cm, every node/.style={font=\scriptsize}]
+  \node[dmblock, text width=2.25cm] (src) {Prompt CSVs\\baseline + strategies};
+  \node[dmblockgreen, text width=2.25cm, right=of src] (merge) {experiment\\Prompt table\\\code{prompt_uid}};
+  \node[dmblockorange, text width=2.05cm, right=of merge] (api) {DF gateway\\12 models};
+  \node[dmblock, text width=2.15cm, right=of api] (raw) {raw response\\long table};
+  \node[dmblockgreen, text width=2.15cm, right=of raw] (feat) {behavior\\feature table};
+  \node[dmblockorange, text width=2.05cm, right=of feat] (mine) {analysis\\tables};
+  \draw[dmarrow] (src) -- (merge);
+  \draw[dmarrow] (merge) -- (api);
+  \draw[dmarrow] (api) -- (raw);
+  \draw[dmarrow] (raw) -- (feat);
+  \draw[dmarrow] (feat) -- (mine);
+  \node[dmnote, below=0.42cm of api, text width=6.0cm] {断点续跑键：$(\mcode{provider},\mcode{model},\mcode{repeat},\mcode{prompt_uid})$};
+  \node[dmnote, below=0.42cm of feat, text width=5.0cm] {失败样本保留 \code{status} 与 \code{error_message}，不静默丢弃。};
+\end{tikzpicture}
+\caption{多模型 API 实验采集与特征构建管线。该流程把上游 Prompt 文件转化为可复现的长表行为数据，并保留完整原始回复以支持后续失效模式复查。}
+\label{fig:collection-pipeline}
+\end{figure*}

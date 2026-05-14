@@ -1,0 +1,22 @@
+\section{研究任务与数据来源}
+
+本项目关注的问题是：当大语言模型面对一个关于“电动轮椅能否在楼梯转角处完成 $90^\circ$ 转弯”的空间推理问题时，它的最终判断是否稳定、是否受表达层级和无关扰动影响，以及不同模型之间是否呈现可挖掘的失效模式。这里的核心对象不是单个几何题答案，而是模型在受控 Prompt 条件下产生的行为记录。
+
+上游 Prompt 生成部分已经把一个空间场景表示为五元组
+\begin{equation}
+\mathbf{x}=(W,D,w,L,R),
+\end{equation}
+其中 $W$ 是楼梯通道净宽，$D$ 是平台有效进深，$w$ 和 $L$ 分别表示轮椅宽度与长度，$R$ 是厂家或题干给出的保守最小转弯半径，单位均为厘米。为了给后续评价提供一致参照，数据集中定义几何余量
+\begin{equation}
+\kappa(\mathbf{x})=\min(W-w,\ D-R).
+\label{eq:clearance-margin}
+\end{equation}
+若 $\kappa\geq 3$，参考标签记为 \code{can_pass}；否则记为 \code{cannot_pass}。这些标签不会暴露给模型，只在后续特征构建和准确性分析时使用。
+
+\input{figures/task_geometry}
+
+每条 Prompt 可以抽象为
+\begin{equation}
+p=f(\mathbf{x},\ell,n,g),
+\end{equation}
+其中 $\ell\in\{\mathrm{L1},\mathrm{L2},\mathrm{L3}\}$ 表示描述层级，$n$ 表示扰动条件，$g$ 表示场景生成策略。模型 $m$ 在第 $r$ 次重复采样中的回复记为 $a_{m,r}(p)$。这一记号使后续分析能够直接按策略、层级、扰动、模型和重复编号进行分组。

@@ -21,7 +21,14 @@ $env:DF_API_URL="http://123.129.219.111:3000/v1"
 $env:DF_API_KEY="你的密钥"
 ```
 
-`bash` 同名变量也兼容；以及 `ResearchAgent` 风格的 `API_BASE` / `API_KEY`。优先级：构造参数 → 环境变量 → `config/experiment.yml`。请不要把 API key 写入仓库文件。
+也可以在项目根目录创建不会被 git 提交的 `.env` 文件：
+
+```bash
+export DF_API_URL=http://123.129.219.111:3000/v1
+export DF_API_KEY=你的密钥
+```
+
+`bash` 同名变量也兼容；以及 `ResearchAgent` 风格的 `API_BASE` / `API_KEY`。优先级：构造参数 → 环境变量 → 本地 `.env` → `config/experiment.yml`。请不要把 API key 写入仓库代码或已跟踪配置文件。
 
 ## 2. 生成 Prompt 实验矩阵
 
@@ -60,6 +67,17 @@ python scripts/02_collect_responses.py --provider df --models gpt-4o,gpt-4o-mini
 ```
 
 输出 `data/raw/model_responses.csv`。脚本每 25 次调用增量写盘，中途断网/中断不会丢已采集到的样本，再次以 `--resume` 即可续跑。
+
+多策略正式实验的 `collect_experiment_responses.py` 会打印更详细的运行状态：启动时输出实验规模、模型列表、断点续跑跳过数量和输出路径；运行中输出当前 `model/repeat/strategy/level/noise/prompt_uid`、成功失败数、平均耗时和预计剩余时间。
+
+```powershell
+python scripts/collect_experiment_responses.py --provider df --workers 4 --log-every 5 --flush-every 5
+```
+
+- `--workers N`：并发 API 调用数量。建议先用 `2` 或 `4`；如果接口限流或失败变多，就降回 `1`。
+- `--schedule interleaved|sequential`：默认 `interleaved`，让早期结果尽快覆盖多个模型、重复轮次和策略；`sequential` 保持旧的模型优先顺序。
+- `--log-every N`：每 N 次调用打印一条详细进度，`0` 表示关闭详细日志。
+- `--flush-every N`：每 N 次调用写盘一次；数值越小，中断时未写入的尾部进度越少。
 
 ## 5. 抽取行为特征
 
@@ -114,3 +132,51 @@ mock 模型走完整套流程，所有 csv/png 都会有可复现内容，便于
 ## 8. 实验记录规范
 
 每次真实实验建议记录：日期时间、模型名、API 地址、`temperature`、`max_tokens`、`repeats`、是否改动 `config/experiment.yml`、采集失败和重试情况。**不要**把 API Key 与数据一起提交到仓库。
+
+## 9. 多策略正式实验流程
+
+如果要跑本轮“分层主样本”实验，先把 baseline 和 4 个重点策略合并为统一长表：
+
+```powershell
+python scripts/build_experiment_prompts.py
+```
+
+输出 `data/experiment_prompts.csv`，会新增：
+
+- `strategy`：prompt 来源策略。
+- `experiment_id`：本轮实验编号。
+- `prompt_uid`：`strategy + "__" + prompt_id`，用于避免不同策略中的 `prompt_id` 冲突。
+
+先做 mock 冒烟：
+
+```powershell
+python scripts/collect_experiment_responses.py --provider mock --models GPT-4o-sim --repeats 1 --limit 20 --output data/raw/model_responses_experiment_smoke.csv
+python scripts/build_experiment_features.py --input data/raw/model_responses_experiment_smoke.csv --output data/processed/behavior_features_experiment_smoke.csv
+python scripts/analyze_experiment.py --provider mock --models GPT-4o-sim --repeats 1 --responses data/raw/model_responses_experiment_smoke.csv --input data/processed/behavior_features_experiment_smoke.csv --output-dir outputs_experiment_smoke
+```
+
+正式采集使用 DF 统一网关，默认读取 `config/experiment.yml` 里的 12 个 `df_models`，默认 `repeats=3` 且开启断点续跑：
+
+```powershell
+python scripts/collect_experiment_responses.py --provider df
+python scripts/build_experiment_features.py
+python scripts/analyze_experiment.py
+```
+
+如果希望终端输出更密集一些，可以调小详细日志和写盘间隔：
+
+```powershell
+python scripts/collect_experiment_responses.py --provider df --workers 4 --log-every 5 --flush-every 5
+```
+
+主要输出：
+
+```text
+data/raw/model_responses_experiment.csv
+data/processed/behavior_features_experiment.csv
+outputs_experiment/tables/accuracy_by_strategy_level.csv
+outputs_experiment/tables/noise_flip_rate_by_strategy.csv
+outputs_experiment/tables/level_consistency_by_strategy.csv
+outputs_experiment/tables/failure_modes_by_strategy.csv
+outputs_experiment/tables/collection_coverage.csv
+```

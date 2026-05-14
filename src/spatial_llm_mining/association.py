@@ -17,6 +17,7 @@ import pandas as pd
 
 
 _DEFAULT_FEATURE_COLS: tuple[str, ...] = (
+    "strategy",
     "model",
     "level",
     "noise_label",

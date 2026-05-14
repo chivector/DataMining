@@ -20,6 +20,14 @@ df_models:
   - gpt-4o-mini
   - claude-3-5-sonnet-latest
   - deepseek-chat
+  - gpt-5.5
+  - claude-opus-4-6
+  - claude-sonnet-4-6-thinking
+  - gemini-3-flash-preview
+  - grok-4
+  - deepseek-v4-pro
+  - qwen3-max
+  - Kimi-K2-Thinking
 default_repeats: 1
 api:
   # Do not commit real API keys. Set DF_API_KEY/API_KEY in your shell instead.

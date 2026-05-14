@@ -53,6 +53,8 @@ def _accuracy_by_level(df: pd.DataFrame) -> pd.DataFrame:
 
 def _noise_flip_rate(df: pd.DataFrame) -> pd.DataFrame:
     key = ["model", "case_id", "level", "repeat"]
+    if "strategy" in df.columns:
+        key = ["strategy", *key]
     baseline = (
         df[df["noise_label"] == "none"][key + ["ai_judgment"]]
         .rename(columns={"ai_judgment": "baseline_judgment"})
@@ -72,9 +74,14 @@ def _noise_flip_rate(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def _level_consistency(df: pd.DataFrame) -> pd.DataFrame:
-    grouped = df.groupby(["model", "case_id", "noise_label", "repeat"])
+    group_cols = ["model", "case_id", "noise_label", "repeat"]
+    if "strategy" in df.columns:
+        group_cols = ["strategy", *group_cols]
+    grouped = df.groupby(group_cols)
     rows = []
     for keys, part in grouped:
+        key_values = keys if isinstance(keys, tuple) else (keys,)
+        key_map = dict(zip(group_cols, key_values))
         judgments = part.set_index("level")["ai_judgment"].to_dict()
         if not {"L1", "L2", "L3"}.issubset(judgments):
             continue
@@ -86,10 +93,11 @@ def _level_consistency(df: pd.DataFrame) -> pd.DataFrame:
         ) / 3
         rows.append(
             {
-                "model": keys[0],
-                "case_id": keys[1],
-                "noise_label": keys[2],
-                "repeat": keys[3],
+                **({"strategy": key_map["strategy"]} if "strategy" in key_map else {}),
+                "model": key_map["model"],
+                "case_id": key_map["case_id"],
+                "noise_label": key_map["noise_label"],
+                "repeat": key_map["repeat"],
                 "level_consistency": pair_agree,
                 "all_levels_same": len(set(values)) == 1,
                 "l1_judgment": values[0],

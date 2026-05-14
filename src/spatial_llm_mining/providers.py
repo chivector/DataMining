@@ -45,6 +45,32 @@ def _load_api_config() -> dict[str, Any]:
     return dict(full.get("api") or {})
 
 
+def _load_local_env() -> None:
+    """Load project-root .env values without overriding real environment vars.
+
+    Supports both ``KEY=value`` and shell-style ``export KEY=value`` lines so the
+    same local file can be pasted from bash examples. The file is intentionally
+    optional and is ignored by git.
+    """
+    env_path = project_path(".env")
+    if not env_path.exists():
+        return
+    with env_path.open("r", encoding="utf-8") as f:
+        for raw_line in f:
+            line = raw_line.strip()
+            if not line or line.startswith("#"):
+                continue
+            if line.startswith("export "):
+                line = line[len("export ") :].strip()
+            if "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            key = key.strip()
+            value = value.strip().strip('"').strip("'")
+            if key and key not in os.environ:
+                os.environ[key] = value
+
+
 class MockProvider:
     """Deterministic offline provider for reproducible end-to-end analysis."""
 
@@ -214,6 +240,7 @@ class DFCompatibleProvider:
         max_retries: int | None = None,
         retry_backoff_seconds: float | None = None,
     ) -> None:
+        _load_local_env()
         cfg = _load_api_config()
 
         self.api_base = (
@@ -226,6 +253,7 @@ class DFCompatibleProvider:
         self.api_key = (
             api_key
             or os.environ.get("DF_API_KEY")
+            or os.environ.get("DF_API_UEY")
             or os.environ.get("API_KEY")
             or cfg.get("api_key")
             or ""

@@ -114,6 +114,13 @@ $env:DF_API_URL="http://123.129.219.111:3000/v1"
 $env:DF_API_KEY="你的密钥"
 ```
 
+或者在项目根目录创建本地 `.env` 文件，脚本会自动读取且 `.gitignore` 已忽略它：
+
+```bash
+export DF_API_URL=http://123.129.219.111:3000/v1
+export DF_API_KEY=你的密钥
+```
+
 先做一次连通性测试：
 
 ```powershell
@@ -172,6 +179,36 @@ python scripts/generate_prompt_strategies.py
 - `real_world_archetype_matrix`
 - `rounding_threshold_ladder`
 
+## 多策略正式实验
+
+本轮正式实验可以把 baseline 与 4 个重点策略合并成统一长表，避免不同策略文件中的 `prompt_id` 冲突：
+
+```powershell
+python scripts/build_experiment_prompts.py
+```
+
+输出 `data/experiment_prompts.csv`，新增 `strategy`、`experiment_id`、`prompt_uid`。正式采集默认使用 DF 网关、`config/experiment.yml` 中的 12 个 `df_models`、`repeats=3` 和断点续跑：
+
+```powershell
+python scripts/collect_experiment_responses.py --provider df
+python scripts/build_experiment_features.py
+python scripts/analyze_experiment.py
+```
+
+长时间采集时可以增加终端日志密度：
+
+```powershell
+python scripts/collect_experiment_responses.py --provider df --workers 4 --log-every 5 --flush-every 5
+```
+
+采集默认使用 `--schedule interleaved`，便于中途也能得到覆盖多个模型和策略的部分数据；如需旧的模型优先顺序，可加 `--schedule sequential`。
+
+新流程不会覆盖旧的 `data/raw/model_responses.csv` 和 `outputs_real/`，产物写入：
+
+- `data/raw/model_responses_experiment.csv`
+- `data/processed/behavior_features_experiment.csv`
+- `outputs_experiment/`
+
 ## 数据说明
 
 主要数据文件：
@@ -217,7 +254,7 @@ reports/analysis_report.pdf
 ## 安全与复现注意事项
 
 - 不要把 API key 写入 `config/experiment.yml`、README、CSV 或任何提交文件。
-- `.env.example` 只作为变量名参考；项目不会自动读取 `.env`，需要在 shell 中显式设置环境变量。
+- `.env.example` 只作为变量名参考；项目会自动读取本地 `.env`，但不要提交真实密钥。
 - 如果真实模型采集正在运行，`data/raw/model_responses.csv` 会持续追加。提交前请确认采集进程已经结束，或明确只提交当前快照。
 - mock 数据用于验证流程和展示分析方法，不代表真实模型能力。
 - 使用真实 API 结果写报告时，请记录模型版本、采集日期、temperature、max_tokens、repeats 和失败重试情况。

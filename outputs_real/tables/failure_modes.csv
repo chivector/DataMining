@@ -1,0 +1,8 @@
+﻿model,error_category,count,share
+gpt-4o,concept_confusion,339,0.5548281505728314
+gpt-4o,under_specification,237,0.3878887070376432
+gpt-4o,noise_distraction,35,0.057283142389525366
+gpt-4o-mini,concept_confusion,404,0.7637051039697542
+gpt-4o-mini,noise_distraction,59,0.11153119092627599
+gpt-4o-mini,under_specification,56,0.10586011342155009
+gpt-4o-mini,unknown_error,10,0.01890359168241966

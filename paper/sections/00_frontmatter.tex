@@ -1,0 +1,17 @@
+\twocolumn[
+\begin{@twocolumnfalse}
+\begin{center}
+{\Large\bfseries 大语言模型在轮椅转弯空间推理中的行为挖掘研究\par}
+\vspace{0.25em}
+{\normalsize Behavior Mining of Large Language Models in Wheelchair Turning Spatial Reasoning\par}
+\vspace{0.45em}
+{\small 单屹 \quad 张驰 \quad 徐敬研 \quad 傅玉 \quad 董梓苏 \quad 黄鸣辉\par}
+\end{center}
+\vspace{0.25em}
+\noindent\textbf{摘要}\quad
+本文围绕“电动轮椅能否在楼梯转角处完成 $90^\circ$ 转弯”这一具体空间推理任务，研究大语言模型在几何判断中的稳定性、噪声敏感性和失效模式。与只考察单次回答正确与否不同，我们把模型回复视为可挖掘的行为数据：通过控制空间参数、描述层级、无关扰动和场景生成策略，观察模型何时依赖常识直觉，何时尝试数值比较或形式化建模，以及哪些条件会诱发判断翻转。为支撑后续数据挖掘分析，实验选取 5 组代表性 Prompt 来源，每组 300 条，共 1500 条样本，并通过 DF/OpenAI-compatible 网关调用 12 个模型、每个样本重复采样 3 次，目标形成 $1500\times 12\times 3=54{,}000$ 条原始模型行为记录。本文当前版本重点给出任务定义、Prompt 实验矩阵、多模型采集协议和特征构建接口；后续将在此基础上补充准确率、层级一致性、噪声翻转率和失败模式挖掘结果。
+\par\vspace{0.3em}
+\noindent\textbf{关键词}\quad 大语言模型；空间推理；行为挖掘；轮椅转弯；扰动敏感性；失效模式
+\vspace{0.85em}
+\end{@twocolumnfalse}
+]

@@ -44,6 +44,12 @@ def cluster_error_responses(
     if errors.empty or "response" not in errors.columns:
         return pd.DataFrame(columns=["cluster_id", "size", "top_terms", "sample_text", "dominant_model", "dominant_failure"])
 
+    # 防御性处理 NaN / 空回复
+    errors["response"] = errors["response"].fillna("").astype(str)
+    errors = errors[errors["response"].str.len() > 0]
+    if errors.empty:
+        return pd.DataFrame(columns=["cluster_id", "size", "top_terms", "sample_text", "dominant_model", "dominant_failure"])
+
     vectorizer = TfidfVectorizer(
         tokenizer=_tokenize,
         token_pattern=None,
@@ -51,7 +57,7 @@ def cluster_error_responses(
         min_df=2,
     )
     try:
-        matrix = vectorizer.fit_transform(errors["response"].astype(str))
+        matrix = vectorizer.fit_transform(errors["response"].tolist())
     except ValueError:
         return pd.DataFrame(columns=["cluster_id", "size", "top_terms", "sample_text", "dominant_model", "dominant_failure"])
     n_clusters = max(2, min(n_clusters, matrix.shape[0]))

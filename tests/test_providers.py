@@ -42,6 +42,14 @@ def test_df_provider_falls_back_to_env(monkeypatch) -> None:
     assert provider.api_key == "env-key"
 
 
+def test_df_provider_accepts_common_key_typo(monkeypatch) -> None:
+    monkeypatch.setattr(providers_mod, "_load_api_config", lambda: {})
+    monkeypatch.setenv("DF_API_URL", "http://env-base/v1/")
+    monkeypatch.setenv("DF_API_UEY", "typo-key")
+    provider = DFCompatibleProvider()
+    assert provider.api_key == "typo-key"
+
+
 def test_df_provider_falls_back_to_config(monkeypatch) -> None:
     monkeypatch.setattr(
         providers_mod,
@@ -52,6 +60,38 @@ def test_df_provider_falls_back_to_config(monkeypatch) -> None:
     assert provider.api_base == "http://cfg/v1"
     assert provider.api_key == "cfg-key"
     assert provider.max_retries == 1
+
+
+def test_df_provider_loads_project_dotenv(monkeypatch, tmp_path) -> None:
+    monkeypatch.setattr(providers_mod, "_load_api_config", lambda: {})
+    monkeypatch.setattr(providers_mod, "project_path", lambda *parts: tmp_path.joinpath(*parts))
+    (tmp_path / ".env").write_text(
+        "export DF_API_URL=http://dotenv-base/v1\n"
+        "export DF_API_KEY=dotenv-key\n",
+        encoding="utf-8",
+    )
+
+    provider = DFCompatibleProvider()
+
+    assert provider.api_base == "http://dotenv-base/v1"
+    assert provider.api_key == "dotenv-key"
+
+
+def test_df_provider_env_overrides_dotenv(monkeypatch, tmp_path) -> None:
+    monkeypatch.setattr(providers_mod, "_load_api_config", lambda: {})
+    monkeypatch.setattr(providers_mod, "project_path", lambda *parts: tmp_path.joinpath(*parts))
+    monkeypatch.setenv("DF_API_URL", "http://env-base/v1")
+    monkeypatch.setenv("DF_API_KEY", "env-key")
+    (tmp_path / ".env").write_text(
+        "DF_API_URL=http://dotenv-base/v1\n"
+        "DF_API_KEY=dotenv-key\n",
+        encoding="utf-8",
+    )
+
+    provider = DFCompatibleProvider()
+
+    assert provider.api_base == "http://env-base/v1"
+    assert provider.api_key == "env-key"
 
 
 def test_df_provider_errors_when_no_credentials(monkeypatch) -> None:

@@ -1,0 +1,86 @@
+% !TeX program = xelatex
+\documentclass[UTF8,fontset=none,10pt,a4paper,twocolumn]{ctexart}
+
+\usepackage[margin=1.65cm,top=1.55cm,bottom=1.45cm,columnsep=0.68cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xurl}
+\usepackage{hyperref}
+\usepackage{iftex}
+\usetikzlibrary{arrows.meta,positioning,calc,fit}
+
+\ifPDFTeX
+  \PackageError{paper}{This document requires XeLaTeX}{Set the Overleaf compiler to XeLaTeX.}
+\fi
+\ifXeTeX
+  \IfFontExistsTF{FandolSong-Regular}{
+    \setCJKmainfont{FandolSong-Regular}
+    \setCJKsansfont{FandolHei-Regular}
+    \setCJKmonofont{FandolFang-Regular}
+  }{
+    \IfFontExistsTF{Noto Serif CJK SC}{
+      \setCJKmainfont{Noto Serif CJK SC}
+      \setCJKsansfont{Noto Sans CJK SC}
+      \setCJKmonofont{Noto Sans Mono CJK SC}
+    }{
+      \setCJKmainfont{SimSun}
+    }
+  }
+\fi
+
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0pt}
+\linespread{1.04}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{数据挖掘课程项目}
+\fancyhead[R]{LLM 空间推理行为挖掘}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{0.55em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.45em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{0.45em}{}
+\titlespacing*{\section}{0pt}{0.8em}{0.35em}
+\titlespacing*{\subsection}{0pt}{0.55em}{0.25em}
+\setlist[itemize]{leftmargin=1.35em,itemsep=0pt,topsep=2pt}
+\setlist[enumerate]{leftmargin=1.55em,itemsep=0pt,topsep=2pt}
+\hypersetup{hidelinks}
+\urlstyle{tt}
+\sloppy
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\code}[1]{\texttt{\detokenize{#1}}}
+\newcommand{\mcode}[1]{\text{\ttfamily\detokenize{#1}}}
+\definecolor{dmblue}{HTML}{2F5E8E}
+\definecolor{dmgreen}{HTML}{3F7F5F}
+\definecolor{dmorange}{HTML}{C47A2C}
+\definecolor{dmgray}{HTML}{F2F4F7}
+\tikzset{
+  dmblock/.style={draw=dmblue!75, fill=dmblue!7, rounded corners=2pt,
+    align=center, font=\scriptsize, inner sep=4pt, minimum height=1.9em},
+  dmblockgreen/.style={draw=dmgreen!80, fill=dmgreen!8, rounded corners=2pt,
+    align=center, font=\scriptsize, inner sep=4pt, minimum height=1.9em},
+  dmblockorange/.style={draw=dmorange!80, fill=dmorange!10, rounded corners=2pt,
+    align=center, font=\scriptsize, inner sep=4pt, minimum height=1.9em},
+  dmarrow/.style={-{Latex[length=2mm]}, line width=0.45pt, draw=black!65},
+  dmnote/.style={font=\scriptsize, align=center, text=black!78}
+}
+
+\begin{document}
+
+\input{sections/00_frontmatter}
+\input{sections/01_research_task}
+\input{sections/02_prompt_matrix}
+\input{sections/03_api_collection}
+\input{sections/04_features_and_analysis}
+
+\end{document}

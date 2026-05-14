@@ -122,12 +122,15 @@ def perturbation_flip_table(features: pd.DataFrame) -> pd.DataFrame:
     the same ``case_id`` across a ``stair_width_cm``/``turn_radius_cm`` shift of 1.
     """
     base_mask = (features["level"] == "L2") & (features["noise_label"] == "none")
-    base = features[base_mask][["model", "case_id", "repeat", "ai_judgment", "stair_width_cm", "turn_radius_cm"]].copy()
+    id_cols = ["strategy"] if "strategy" in features.columns else []
+    base_cols = id_cols + ["model", "case_id", "repeat", "ai_judgment", "stair_width_cm", "turn_radius_cm"]
+    base = features[base_mask][base_cols].copy()
     if base.empty:
-        return pd.DataFrame(columns=["model", "case_id", "param", "delta", "flipped", "samples"])
+        return pd.DataFrame(columns=[*id_cols, "model", "case_id", "param", "delta", "flipped", "samples"])
     base = base.rename(columns={"ai_judgment": "base_judgment"})
 
-    base = base.groupby(["model", "case_id", "stair_width_cm", "turn_radius_cm"], as_index=False).agg(
+    group_cols = id_cols + ["model", "case_id", "stair_width_cm", "turn_radius_cm"]
+    base = base.groupby(group_cols, as_index=False).agg(
         base_judgment=("base_judgment", lambda s: s.value_counts().idxmax()),
         repeats=("repeat", "count"),
     )
@@ -137,19 +140,23 @@ def perturbation_flip_table(features: pd.DataFrame) -> pd.DataFrame:
         for param, field, delta in _PERTURBATIONS:
             target_value = b[field] + delta
             other_field = "turn_radius_cm" if field == "stair_width_cm" else "stair_width_cm"
-            sub = features[
+            mask = (
                 (features["model"] == b["model"])
                 & (features["case_id"] == b["case_id"])
                 & (features["level"] == "L2")
                 & (features["noise_label"] == "none")
                 & (features[field] == target_value)
                 & (features[other_field] == b[other_field])
-            ]
+            )
+            for col in id_cols:
+                mask &= features[col] == b[col]
+            sub = features[mask]
             if sub.empty:
                 continue
             mode_judgment = sub["ai_judgment"].value_counts().idxmax()
             rows.append(
                 {
+                    **({col: b[col] for col in id_cols}),
                     "model": b["model"],
                     "case_id": b["case_id"],
                     "param": param,
