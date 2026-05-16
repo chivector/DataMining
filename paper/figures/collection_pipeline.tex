@@ -15,6 +15,6 @@
   \node[dmnote, below=0.42cm of api, text width=6.0cm] {断点续跑键：$(\mcode{provider},\mcode{model},\mcode{repeat},\mcode{prompt_uid})$};
   \node[dmnote, below=0.42cm of feat, text width=5.0cm] {失败样本保留 \code{status} 与 \code{error_message}，不静默丢弃。};
 \end{tikzpicture}
-\caption{多模型 API 实验采集与特征构建管线。该流程把上游 Prompt 文件转化为可复现的长表行为数据，并保留完整原始回复以支持后续失效模式复查。}
+\caption{多模型行为数据采集管线。上游 Prompt 文件首先合并为带有全局唯一键的实验主表，随后经 DF/OpenAI-compatible 网关调用多个模型，最终形成同时保留原始回复、结构化特征和失败记录的长表数据。}
 \label{fig:collection-pipeline}
 \end{figure*}

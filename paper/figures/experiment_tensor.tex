@@ -1,37 +1,6 @@
 \begin{figure*}[t]
 \centering
-\begin{tikzpicture}[x=0.48cm,y=0.36cm, every node/.style={font=\scriptsize}]
-  \foreach \y/\lab in {0/S1,1/S2,2/S3,3/S4,4/S5} {
-    \foreach \x in {0,...,14} {
-      \pgfmathtruncatemacro{\grp}{int(\x/5)}
-      \ifnum\grp=0
-        \fill[dmblue!12] (\x,\y) rectangle ++(1,1);
-      \else\ifnum\grp=1
-        \fill[dmgreen!12] (\x,\y) rectangle ++(1,1);
-      \else
-        \fill[dmorange!13] (\x,\y) rectangle ++(1,1);
-      \fi\fi
-      \draw[white, line width=0.35pt] (\x,\y) rectangle ++(1,1);
-    }
-    \node[anchor=east, text=black!70] at (-0.15,\y+0.5) {\lab};
-  }
-  \draw[black!45] (0,0) rectangle (15,5);
-  \foreach \x/\lab in {2.5/L1,7.5/L2,12.5/L3} {
-    \node[anchor=south, text=black!75] at (\x,5.12) {\lab};
-  }
-  \foreach \x in {5,10} {
-    \draw[black!35, line width=0.6pt] (\x,0) -- (\x,5);
-  }
-  \node[anchor=east, rotate=90, text=black!70] at (-1.15,2.5) {5 selected strategies};
-  \node[anchor=south, text=black!70] at (7.5,5.75) {3 levels $\times$ 5 noise conditions};
-  \coordinate (gridright) at (15,2.5);
-  \node[dmblock, right=0.7cm of gridright, minimum width=3.0cm] (p) {1500\\Prompt};
-  \node[dmblockgreen, below=0.32cm of p, minimum width=3.0cm] (r) {12 models\\$\times$ 3 repeats};
-  \node[dmblockorange, below=0.32cm of r, minimum width=3.0cm] (o) {54,000\\raw records};
-  \draw[dmarrow] (15,2.5) -- (p.west);
-  \draw[dmarrow] (p) -- (r);
-  \draw[dmarrow] (r) -- (o);
-\end{tikzpicture}
-\caption{实验矩阵从 Prompt 控制变量扩展到模型行为记录。左侧每个小格表示一个策略、层级和扰动组合下的场景集合；右侧展示正式采集时的模型与重复采样扩展关系。}
+\includegraphics[width=0.72\textwidth,height=0.25\textheight,keepaspectratio]{figures/ExperimentTensor.png}
+\caption{实验矩阵的张量化组织方式。Prompt 侧由策略、描述层级和扰动条件共同定义，采集侧再乘以模型集合与重复采样次数，从而把静态题目集合扩展为可按多维条件切分的模型行为记录。}
 \label{fig:experiment-tensor}
 \end{figure*}

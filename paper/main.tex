@@ -13,8 +13,11 @@
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{xurl}
+\usepackage[numbers,sort&compress]{natbib}
 \usepackage{hyperref}
 \usepackage{iftex}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{placeins}
 \usetikzlibrary{arrows.meta,positioning,calc,fit}
 
 \ifPDFTeX
@@ -53,6 +56,8 @@
 \titlespacing*{\subsection}{0pt}{0.55em}{0.25em}
 \setlist[itemize]{leftmargin=1.35em,itemsep=0pt,topsep=2pt}
 \setlist[enumerate]{leftmargin=1.55em,itemsep=0pt,topsep=2pt}
+\captionsetup{labelsep=period}
+\renewcommand{\bibfont}{\footnotesize}
 \hypersetup{hidelinks}
 \urlstyle{tt}
 \sloppy
@@ -78,9 +83,20 @@
 \begin{document}
 
 \input{sections/00_frontmatter}
+\input{sections/01_introduction}
+\input{sections/02_related_work}
 \input{sections/01_research_task}
 \input{sections/02_prompt_matrix}
 \input{sections/03_api_collection}
 \input{sections/04_features_and_analysis}
+\input{sections/05_analysis_framework}
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\clearpage
+\appendix
+\input{sections/appendix_supplementary_materials}
 
 \end{document}

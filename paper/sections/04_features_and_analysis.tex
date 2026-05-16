@@ -1,18 +1,5 @@
 \section{行为特征构建}
 
-原始回复表保留模型完整文本，但直接用于数据挖掘并不方便。因此，特征构建脚本会从每条回复中抽取结构化行为变量，包括 \code{ai_judgment}、\code{is_correct}、\code{reasoning_steps}、\code{has_formula}、\code{uses_coordinate}、\code{noise_keyword_hit} 和 \code{error_category}。这些字段与原始的 \code{strategy}、\code{prompt_uid}、\code{level}、\code{noise_label}、\code{reference_judgment}、\code{model} 和 \code{repeat} 一起保存，使后续分析可以直接按策略、模型、层级、扰动和临界性切分。
+原始回复表保留模型完整文本，但直接用于数据挖掘并不方便。因此，特征构建脚本会从每条回复中抽取结构化行为变量，包括 \code{ai_judgment}、\code{is_correct}、\code{reasoning_steps}、\code{has_formula}、\code{uses_coordinate}、\code{noise_keyword_hit} 和 \code{error_category}。这些字段与原始的 \code{strategy}、\code{prompt_uid}、\code{level}、\code{noise_label}、\code{reference_judgment}、\code{model} 和 \code{repeat} 一起保存，使分析可以直接按策略、模型、层级、扰动和临界性切分。
 
 特征表的定位不是替代原始回复，而是作为挖掘入口。若某个模型在边界样本上准确率较低，分析者仍可回到原始 \code{response} 查看它到底是计算错误、概念混淆、忽视半径，还是被无关环境信息带偏。
-
-\section{后续数据挖掘与结果分析}
-
-本节预留给正式实验完成后的统计与挖掘结果。计划分析包括按策略和层级统计准确率、按扰动条件计算判断翻转率、比较同一场景在 L1/L2/L3 间的一致性、归纳失败模式，并输出 \code{collection_coverage.csv} 检查每个 \code{strategy}、\code{model}、\code{repeat} 组合是否采集完整。
-
-% TODO: 正式采集完成后，在此补充 accuracy_by_strategy_level、noise_flip_rate_by_strategy、
-% level_consistency_by_strategy、failure_modes_by_strategy 和 collection_coverage 的结果解读。
-
-\section{结论与讨论}
-
-本节预留给完整实验结果出来之后的总结。当前版本仅确定数据来源、API 采集协议、模型集合、断点续跑机制和后续分析接口，不提前报告尚未完成的中间实验结果。
-
-% TODO: 数据挖掘分析完成后，补充模型行为差异、空间推理边界、噪声敏感性和方法局限。

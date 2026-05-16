@@ -1,0 +1,37 @@
+\section{补充材料}
+\label{app:supplementary}
+
+\subsection{完整实验文件组织}
+
+完整实验以长表形式保存，核心文件包括合并后的 Prompt 主表、原始模型回复表、行为特征表和统计输出目录。表 \ref{tab:appendix-files} 汇总了复现实验与复查结果时最重要的文件。
+
+\begin{table}[h]
+\centering
+\caption{完整实验的主要文件}
+\label{tab:appendix-files}
+\footnotesize
+\begin{tabularx}{\columnwidth}{p{0.48\columnwidth}Y}
+\toprule
+文件或目录 & 说明 \\
+\midrule
+\path{data/experiment_prompts.csv} & 1500 条 Prompt 的统一主表，包含 \code{strategy} 和 \code{prompt_uid}。\\
+\path{data/raw/model_responses_experiment.csv} & 54{,}000 条模型调用记录，保留完整原始回复和失败信息。\\
+\path{data/processed/behavior_features_experiment.csv} & 从原始回复抽取的结构化行为特征表。\\
+\path{outputs_experiment/} & 按策略、层级、扰动、模型和重复编号生成的统计表。\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{覆盖率与一致性检查}
+
+在解释任何模型差异前，首先检查 \code{collection_coverage.csv}。对每个 \code{strategy}\,$\times$\,\code{model}\,$\times$\,\code{repeat} 组合，期望样本数为 300；对每个模型，期望总样本数为 $1500\times3=4500$。若某个模型存在权限错误、限流或长时间超时，应先在覆盖率表中标记，再决定是否进入跨模型比较。
+
+第二个必要检查是重复键唯一性。原始回复表中不应出现重复的
+\[
+(\mcode{provider},\mcode{model},\mcode{repeat},\mcode{prompt_uid})
+\]
+组合。该约束保证断点续跑不会把不同策略下相同 \code{prompt_id} 的样本混在一起。
+
+\subsection{结果解读原则}
+
+正式结果解释遵循三个原则。第一，准确率必须和层级、策略、扰动条件一起报告，避免单一总分掩盖临界样本或噪声样本上的系统性失败。第二，失败模式需要回到原始回复验证，不能只依赖关键词规则。第三，涉及无障碍安全的表述只用于模型行为分析，不能被解释为真实建筑设计或通行安全建议。

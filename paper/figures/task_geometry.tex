@@ -1,26 +1,6 @@
 \begin{figure}[t]
 \centering
-\begin{tikzpicture}[scale=0.78, every node/.style={font=\scriptsize}]
-  \fill[dmgray] (-0.25,-0.25) rectangle (5.15,3.65);
-  \fill[white] (0,0) rectangle (4.8,1.15);
-  \fill[white] (3.65,0) rectangle (4.8,3.4);
-  \draw[black!55, line width=0.45pt] (0,1.15) -- (3.65,1.15) -- (3.65,3.4);
-  \draw[black!55, line width=0.45pt] (0,0) -- (4.8,0) -- (4.8,3.4);
-  \draw[dmorange, dashed, line width=0.7pt] (2.72,1.15) arc[start angle=180,end angle=90,radius=0.93];
-  \node[dmnote, dmorange] at (3.15,1.78) {$R$};
-  \draw[fill=dmgreen!18, draw=dmgreen!80, rounded corners=1.5pt, rotate around={8:(2.65,0.55)}]
-    (2.22,0.26) rectangle (3.08,0.84);
-  \draw[<->, black!65] (2.22,0.08) -- (3.08,0.08)
-    node[midway,below] {$L$};
-  \draw[<->, black!65] (3.25,0.26) -- (3.25,0.84)
-    node[midway,right] {$w$};
-  \draw[<->, black!65] (-0.1,0) -- (-0.1,1.15)
-    node[midway,left] {$W$};
-  \draw[<->, black!65] (3.65,3.55) -- (4.8,3.55)
-    node[midway,above] {$D$};
-  \node[dmnote] at (2.0,1.42) {楼梯转角平台};
-  \node[dmnote] at (4.25,2.55) {转向通道};
-\end{tikzpicture}
+\includegraphics[width=\columnwidth,height=0.24\textheight,keepaspectratio]{figures/TaskGeometry.png}
 \caption{轮椅转弯空间推理任务的抽象几何示意。实验并不追求真实工程仿真，而是固定 $W,D,w,L,R$ 等关键变量，用受控 Prompt 观察模型如何利用或误用这些空间信息。}
 \label{fig:task-geometry}
 \end{figure}
