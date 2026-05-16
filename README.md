@@ -11,6 +11,7 @@
 - 自动抽取模型回复中的最终判断、推理步骤数、公式使用、坐标系使用、错误类型等行为特征。
 - 内置准确率热力图、噪声翻转率、层级一致性、决策树、K-Means 聚类和 FP-Growth 关联规则分析。
 - 输出可直接用于报告写作的图表、统计表和 `outputs/findings.md` 摘要。
+- 已包含一轮多策略 DF 正式实验快照，以及配套论文源码、PDF 和 Overleaf 打包文件。
 
 ## 研究设计
 
@@ -46,7 +47,9 @@
 │   └── noise_keywords.yml          # 噪声关键词词表
 ├── data/
 │   ├── prompts.csv                 # Prompt 实验矩阵
+│   ├── experiment_prompts.csv      # 多策略正式实验 Prompt 长表
 │   ├── raw/model_responses.csv     # 模型原始回复
+│   ├── raw/model_responses_experiment.csv
 │   └── processed/behavior_features.csv
 ├── docs/
 │   ├── experiment_design.md
@@ -55,6 +58,13 @@
 │   ├── figures/                    # 热力图、雷达图、聚类图等
 │   ├── tables/                     # 准确率、翻转率、关联规则等结果表
 │   └── findings.md                 # 自动生成的关键发现摘要
+├── paper/
+│   ├── main.tex                    # 论文主文件
+│   ├── main.pdf                    # 当前论文 PDF
+│   ├── references.bib
+│   ├── figures/
+│   └── sections/
+├── paper_overleaf.zip              # 可上传 Overleaf 的论文包
 ├── scripts/
 │   ├── run_pipeline.py             # 一键运行 mock 离线流程
 │   ├── 01_generate_prompts.py
@@ -209,6 +219,15 @@ python scripts/collect_experiment_responses.py --provider df --workers 4 --log-e
 - `data/processed/behavior_features_experiment.csv`
 - `outputs_experiment/`
 
+当前仓库已同步的正式实验快照（2026-05-16）：
+
+- `data/experiment_prompts.csv`：1,500 条 Prompt，覆盖 `baseline`、`constraint_boundary_solver`、`dimensionless_ratio_design`、`halton_space_filling`、`real_world_archetype_matrix` 5 个策略。
+- `data/raw/model_responses_experiment.csv`：24,876 条 DF 网关调用记录，涉及 12 个模型、3 个 repeat；其中 `success` 10,585 条、`failed` 14,291 条。
+- `paper/main.pdf`：基于当前实验设计和分析框架整理的论文版本。
+- `paper_overleaf.zip`：与 `paper/` 同步的 Overleaf 上传包。
+
+注意：`model_responses_experiment.csv` 是原始采集日志，保留了成功与失败调用、错误信息和模型多行回复。后续分析前应先运行 `scripts/build_experiment_features.py`，再用 `scripts/analyze_experiment.py` 生成处理后特征和统计输出。
+
 ## 数据说明
 
 主要数据文件：
@@ -216,6 +235,8 @@ python scripts/collect_experiment_responses.py --provider df --workers 4 --log-e
 - `data/prompts.csv`：Prompt 矩阵。包含 `prompt_id`、`case_id`、`level`、`noise_label`、尺寸参数、参考判断和完整 Prompt。
 - `data/raw/model_responses.csv`：模型回复原始记录。包含 Prompt 字段、`provider`、`model`、`repeat`、`collected_at` 和 `response`。
 - `data/processed/behavior_features.csv`：从回复中抽取的行为特征。包含 `ai_judgment`、`is_correct`、`reasoning_steps`、`has_formula`、`uses_coordinate`、`error_category` 等。
+- `data/experiment_prompts.csv`：正式实验使用的多策略 Prompt 长表，新增 `strategy`、`experiment_id` 和 `prompt_uid`，用于避免跨策略 `prompt_id` 冲突。
+- `data/raw/model_responses_experiment.csv`：正式实验的原始 API 调用日志，包含 `strategy`、`provider`、`model`、`repeat`、`status`、`error_message`、`latency_seconds` 和 `response`。
 
 CSV 中的 `prompt` 和 `response` 字段包含多行文本，用文本编辑器直接查看会比较拥挤。建议使用 Excel、LibreOffice、VS Code CSV 插件或 Pandas 读取。
 
@@ -249,6 +270,12 @@ python scripts/04_analyze.py --build-report
 
 ```text
 reports/analysis_report.pdf
+```
+
+论文草稿位于 `paper/`，可用仓库根目录或 `paper/latexmkrc` 中的 `xelatex` 配置构建。当前已提交的 PDF 是：
+
+```text
+paper/main.pdf
 ```
 
 ## 安全与复现注意事项
