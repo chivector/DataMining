@@ -197,6 +197,12 @@ python scripts/generate_prompt_strategies.py
 python scripts/build_experiment_prompts.py
 ```
 
+可选：在主流程跑完后再执行 repeat 自一致性分析，输出会落到 `outputs_experiment/tables/self_consistency_*.csv` 和 `outputs_experiment/figures/self_consistency_*.png`，同时把新章节追加到 `outputs_experiment/findings.md`：
+
+```powershell
+python scripts/analyze_self_consistency.py
+```
+
 输出 `data/experiment_prompts.csv`，新增 `strategy`、`experiment_id`、`prompt_uid`。正式采集默认使用 DF 网关、`config/experiment.yml` 中的 12 个 `df_models`、`repeats=3`、断点续跑和 `--repeat-mode copy`：
 
 ```powershell
