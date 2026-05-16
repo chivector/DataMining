@@ -197,12 +197,18 @@ python scripts/generate_prompt_strategies.py
 python scripts/build_experiment_prompts.py
 ```
 
-输出 `data/experiment_prompts.csv`，新增 `strategy`、`experiment_id`、`prompt_uid`。正式采集默认使用 DF 网关、`config/experiment.yml` 中的 12 个 `df_models`、`repeats=3` 和断点续跑：
+输出 `data/experiment_prompts.csv`，新增 `strategy`、`experiment_id`、`prompt_uid`。正式采集默认使用 DF 网关、`config/experiment.yml` 中的 12 个 `df_models`、`repeats=3`、断点续跑和 `--repeat-mode copy`：
 
 ```powershell
 python scripts/collect_experiment_responses.py --provider df
 python scripts/build_experiment_features.py
 python scripts/analyze_experiment.py
+```
+
+`--repeat-mode copy` 表示每个 `(provider, model, prompt_uid)` 只真实调用一次 API，然后把同一条回复写成 repeat 0/1/2 三行，用于在保留三重复表结构的同时降低额度消耗。如果需要恢复真实三次独立采样，可显式指定：
+
+```powershell
+python scripts/collect_experiment_responses.py --provider df --repeat-mode api
 ```
 
 长时间采集时可以增加终端日志密度：
@@ -222,11 +228,13 @@ python scripts/collect_experiment_responses.py --provider df --workers 4 --log-e
 当前仓库已同步的正式实验快照（2026-05-16）：
 
 - `data/experiment_prompts.csv`：1,500 条 Prompt，覆盖 `baseline`、`constraint_boundary_solver`、`dimensionless_ratio_design`、`halton_space_filling`、`real_world_archetype_matrix` 5 个策略。
-- `data/raw/model_responses_experiment.csv`：24,876 条 DF 网关调用记录，涉及 12 个模型、3 个 repeat；其中 `success` 10,585 条、`failed` 14,291 条。
+- `data/raw/model_responses_experiment.csv`：10,585 条已过滤成功回复，涉及 9 个有成功样本的模型、3 个 repeat；网络失败、鉴权失败等 `failed` 调用已从当前快照中剔除。
+- `data/processed/behavior_features_experiment.csv`：10,585 条实验行为特征，基于成功回复重新抽取。
+- `outputs_experiment/`：基于过滤后实验数据重新生成的策略、层级、噪声和模型统计结果。
 - `paper/main.pdf`：基于当前实验设计和分析框架整理的论文版本。
 - `paper_overleaf.zip`：与 `paper/` 同步的 Overleaf 上传包。
 
-注意：`model_responses_experiment.csv` 是原始采集日志，保留了成功与失败调用、错误信息和模型多行回复。后续分析前应先运行 `scripts/build_experiment_features.py`，再用 `scripts/analyze_experiment.py` 生成处理后特征和统计输出。
+注意：当前提交版 `model_responses_experiment.csv` 只保留 `status=success` 的模型回复，避免网络失败、权限错误和超时行进入挖掘分析。若需要复查采集失败原因，应查看本地未清洗日志或重新运行采集脚本；后续分析前运行 `scripts/build_experiment_features.py`，再用 `scripts/analyze_experiment.py` 生成处理后特征和统计输出。
 
 ## 数据说明
 
@@ -236,7 +244,7 @@ python scripts/collect_experiment_responses.py --provider df --workers 4 --log-e
 - `data/raw/model_responses.csv`：模型回复原始记录。包含 Prompt 字段、`provider`、`model`、`repeat`、`collected_at` 和 `response`。
 - `data/processed/behavior_features.csv`：从回复中抽取的行为特征。包含 `ai_judgment`、`is_correct`、`reasoning_steps`、`has_formula`、`uses_coordinate`、`error_category` 等。
 - `data/experiment_prompts.csv`：正式实验使用的多策略 Prompt 长表，新增 `strategy`、`experiment_id` 和 `prompt_uid`，用于避免跨策略 `prompt_id` 冲突。
-- `data/raw/model_responses_experiment.csv`：正式实验的原始 API 调用日志，包含 `strategy`、`provider`、`model`、`repeat`、`status`、`error_message`、`latency_seconds` 和 `response`。
+- `data/raw/model_responses_experiment.csv`：正式实验的成功 API 回复快照，包含 `strategy`、`provider`、`model`、`repeat`、`status`、`error_message`、`latency_seconds` 和 `response`；新采集行还会记录 `repeat_mode` 和 `repeat_source`，用于区分真实调用行和复制出的 repeat 行。
 
 CSV 中的 `prompt` 和 `response` 字段包含多行文本，用文本编辑器直接查看会比较拥挤。建议使用 Excel、LibreOffice、VS Code CSV 插件或 Pandas 读取。
 

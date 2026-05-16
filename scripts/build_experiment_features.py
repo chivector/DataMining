@@ -23,16 +23,31 @@ def parse_args() -> argparse.Namespace:
         "--output",
         default=str(project_path("data", "processed", "behavior_features_experiment.csv")),
     )
+    parser.add_argument(
+        "--keep-failed",
+        action="store_true",
+        help="Keep failed API rows and mark them as api_failure instead of dropping them.",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
     responses = pd.read_csv(args.input)
-    features = mark_api_failures(extract_features(responses))
+    dropped = 0
+    if "status" in responses.columns and not args.keep_failed:
+        success = responses["status"].astype(str) == "success"
+        dropped = int((~success).sum())
+        responses = responses[success].copy()
+
+    features = extract_features(responses)
+    if args.keep_failed:
+        features = mark_api_failures(features)
     out = Path(args.output)
     ensure_parent(out)
     features.to_csv(out, index=False, encoding="utf-8-sig")
+    if dropped:
+        print(f"dropped {dropped} failed experiment rows from {args.input}")
     print(f"wrote {len(features)} experiment behavior rows -> {out}")
 
 

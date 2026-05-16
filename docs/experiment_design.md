@@ -76,6 +76,8 @@ clearance_margin = min(stair_width - wheelchair_width, landing_depth - turn_radi
 - 至少比较 3 个模型。
 - 推荐总样本量：`300 x 3 模型 x 3 重复 = 2700` 条回复。
 
+当 API 额度受限时，正式采集脚本默认使用 `--repeat-mode copy`：每个 `(provider, model, prompt_uid)` 只真实调用一次，再复制成 3 个 repeat 行。这样保留分析表结构和矩阵覆盖，但不能用于估计同一模型在重复采样下的随机波动；需要真实重复方差时，应改用 `--repeat-mode api`。
+
 ## 6. 分析方法
 
 - 准确率热力图：比较模型在 L1/L2/L3 的表现。

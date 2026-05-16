@@ -1,0 +1,1468 @@
+﻿support,itemsets
+0.7749645725082664,uses_coordinate=0
+0.750968351440718,has_formula=1
+0.7123287671232876,noise_keyword_hit=none
+0.7123287671232876,noise_keyword_present=0
+0.7123287671232876,noise_keyword_hit=none & noise_keyword_present=0
+0.6698157770429853,is_uncertain=0
+0.5895134624468588,has_formula=1 & is_uncertain=0
+0.556353330184223,ai_judgment=cannot_pass & is_uncertain=0
+0.556353330184223,ai_judgment=cannot_pass
+0.5446386395843175,is_correct=0
+0.5344355219650448,criticality=borderline
+0.5326405290505433,has_formula=1 & uses_coordinate=0
+0.5215871516296646,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.5215871516296646,has_formula=1 & noise_keyword_hit=none
+0.5215871516296646,has_formula=1 & noise_keyword_present=0
+0.5190363722248464,noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.5190363722248464,noise_keyword_hit=none & uses_coordinate=0
+0.5190363722248464,noise_keyword_present=0 & uses_coordinate=0
+0.5005196032120925,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0
+0.5005196032120925,ai_judgment=cannot_pass & has_formula=1
+0.4705715635333018,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.4705715635333018,is_uncertain=0 & noise_keyword_hit=none
+0.4705715635333018,is_uncertain=0 & noise_keyword_present=0
+0.4600850259801606,is_uncertain=0 & uses_coordinate=0
+0.4553613604156826,error_category=none & is_correct=1 & is_uncertain=0
+0.4553613604156826,error_category=none & is_uncertain=0
+0.4553613604156826,error_category=none & is_correct=1
+0.4553613604156826,is_correct=1 & is_uncertain=0
+0.4553613604156826,is_correct=1
+0.4553613604156826,error_category=none
+0.4457250826641474,is_correct=0 & uses_coordinate=0
+0.43693906471421823,has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.43693906471421823,has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.43693906471421823,has_formula=1 & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.42890883325460555,is_correct=0 & noise_keyword_hit=none
+0.42890883325460555,is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.42890883325460555,is_correct=0 & noise_keyword_present=0
+0.42031176192725556,criticality=borderline & uses_coordinate=0
+0.41700519603212094,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.41700519603212094,ai_judgment=cannot_pass & noise_keyword_hit=none
+0.41700519603212094,ai_judgment=cannot_pass & noise_keyword_present=0
+0.41700519603212094,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_present=0
+0.41700519603212094,ai_judgment=cannot_pass & noise_keyword_hit=none & noise_keyword_present=0
+0.41700519603212094,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_hit=none
+0.39555975436939067,criticality=borderline & has_formula=1
+0.3931979215871516,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.3931979215871516,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.3931979215871516,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.3931979215871516,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_hit=none
+0.3931979215871516,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_present=0
+0.3925366084081247,criticality=borderline & noise_keyword_hit=none
+0.3925366084081247,criticality=borderline & noise_keyword_present=0
+0.3925366084081247,criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0
+0.3891355692017005,level=L1
+0.38497874350495986,error_category=none & has_formula=1 & is_uncertain=0
+0.38497874350495986,has_formula=1 & is_correct=1 & is_uncertain=0
+0.38497874350495986,has_formula=1 & is_correct=1
+0.38497874350495986,error_category=none & has_formula=1 & is_correct=1
+0.38497874350495986,error_category=none & has_formula=1 & is_correct=1 & is_uncertain=0
+0.38497874350495986,error_category=none & has_formula=1
+0.3811998110533774,has_formula=1 & is_uncertain=0 & uses_coordinate=0
+0.3732640529050543,level=L1 & uses_coordinate=0
+0.3697685403873406,ai_judgment=cannot_pass & is_uncertain=0 & uses_coordinate=0
+0.3697685403873406,ai_judgment=cannot_pass & uses_coordinate=0
+0.36598960793575813,has_formula=1 & is_correct=0
+0.34671705243268774,ai_judgment=cannot_pass & error_category=none
+0.34671705243268774,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0
+0.34671705243268774,ai_judgment=cannot_pass & is_correct=1
+0.34671705243268774,ai_judgment=cannot_pass & error_category=none & is_correct=1
+0.34671705243268774,ai_judgment=cannot_pass & error_category=none & is_correct=1 & is_uncertain=0
+0.34671705243268774,ai_judgment=cannot_pass & error_category=none & is_uncertain=0
+0.3392536608408125,is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.3392536608408125,is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.3392536608408125,is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.33500236183278226,has_formula=1 & noise_keyword_present=0 & uses_coordinate=0
+0.33500236183278226,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.33500236183278226,has_formula=1 & noise_keyword_hit=none & uses_coordinate=0
+0.33018422295701466,error_category=under_specification & is_correct=0 & is_uncertain=1
+0.33018422295701466,ai_judgment=uncertain & is_correct=0 & is_uncertain=1
+0.33018422295701466,ai_judgment=uncertain & error_category=under_specification & is_correct=0
+0.33018422295701466,error_category=under_specification & is_correct=0
+0.33018422295701466,ai_judgment=uncertain & is_correct=0
+0.33018422295701466,ai_judgment=uncertain & error_category=under_specification
+0.33018422295701466,ai_judgment=uncertain & is_uncertain=1
+0.33018422295701466,error_category=under_specification & is_uncertain=1
+0.33018422295701466,error_category=under_specification
+0.33018422295701466,is_correct=0 & is_uncertain=1
+0.33018422295701466,ai_judgment=uncertain & error_category=under_specification & is_correct=0 & is_uncertain=1
+0.33018422295701466,ai_judgment=uncertain & error_category=under_specification & is_uncertain=1
+0.33018422295701466,ai_judgment=uncertain
+0.33018422295701466,is_uncertain=1
+0.32923948984411905,is_correct=1 & uses_coordinate=0
+0.32923948984411905,error_category=none & uses_coordinate=0
+0.32923948984411905,error_category=none & is_correct=1 & uses_coordinate=0
+0.32923948984411905,error_category=none & is_uncertain=0 & uses_coordinate=0
+0.32923948984411905,is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.32923948984411905,error_category=none & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.32772791686348607,criticality=borderline & is_uncertain=0
+0.3218705715635333,level=L2
+0.32035899858290035,criticality=borderline & is_correct=0
+0.3153519130845536,ai_judgment=cannot_pass & has_formula=1 & uses_coordinate=0
+0.3153519130845536,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & uses_coordinate=0
+0.3148795465281058,error_category=under_specification & is_correct=0 & is_uncertain=1 & uses_coordinate=0
+0.3148795465281058,ai_judgment=uncertain & is_correct=0 & is_uncertain=1 & uses_coordinate=0
+0.3148795465281058,ai_judgment=uncertain & error_category=under_specification & is_uncertain=1 & uses_coordinate=0
+0.3148795465281058,is_uncertain=1 & uses_coordinate=0
+0.3148795465281058,is_correct=0 & is_uncertain=1 & uses_coordinate=0
+0.3148795465281058,ai_judgment=uncertain & is_uncertain=1 & uses_coordinate=0
+0.3148795465281058,error_category=under_specification & uses_coordinate=0
+0.3148795465281058,ai_judgment=uncertain & is_correct=0 & uses_coordinate=0
+0.3148795465281058,ai_judgment=uncertain & error_category=under_specification & is_correct=0 & uses_coordinate=0
+0.3148795465281058,ai_judgment=uncertain & error_category=under_specification & uses_coordinate=0
+0.3148795465281058,error_category=under_specification & is_correct=0 & uses_coordinate=0
+0.3148795465281058,ai_judgment=uncertain & uses_coordinate=0
+0.3148795465281058,error_category=under_specification & is_uncertain=1 & uses_coordinate=0
+0.30741615493623053,level=L2 & uses_coordinate=0
+0.3052432687765706,ai_judgment=cannot_pass & criticality=borderline
+0.3052432687765706,ai_judgment=cannot_pass & criticality=borderline & is_uncertain=0
+0.3007085498346717,ai_judgment=cannot_pass & error_category=none & has_formula=1
+0.3007085498346717,ai_judgment=cannot_pass & has_formula=1 & is_correct=1
+0.3007085498346717,ai_judgment=cannot_pass & has_formula=1 & is_correct=1 & is_uncertain=0
+0.3007085498346717,ai_judgment=cannot_pass & error_category=none & has_formula=1 & is_correct=1
+0.3007085498346717,ai_judgment=cannot_pass & error_category=none & has_formula=1 & is_uncertain=0
+0.29050543221539915,criticality=borderline & noise_keyword_hit=none & uses_coordinate=0
+0.29050543221539915,criticality=borderline & noise_keyword_present=0 & uses_coordinate=0
+0.29050543221539915,criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.289466225791214,is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.289466225791214,is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.289466225791214,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.2891828058573453,criticality=borderline & has_formula=1 & is_uncertain=0
+0.28899385923476617,level=L3
+0.2876712328767123,noise_keyword_present=1
+0.285592820028342,criticality=borderline & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.285592820028342,criticality=borderline & has_formula=1 & noise_keyword_present=0
+0.285592820028342,criticality=borderline & has_formula=1 & noise_keyword_hit=none
+0.2854038734057629,criticality=borderline & has_formula=1 & uses_coordinate=0
+0.2834199338686821,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.2834199338686821,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.2834199338686821,error_category=none & noise_keyword_hit=none
+0.2834199338686821,is_correct=1 & noise_keyword_present=0
+0.2834199338686821,error_category=none & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.2834199338686821,error_category=none & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.2834199338686821,error_category=none & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.2834199338686821,error_category=none & is_correct=1 & noise_keyword_hit=none
+0.2834199338686821,error_category=none & is_uncertain=0 & noise_keyword_hit=none
+0.2834199338686821,error_category=none & is_correct=1 & noise_keyword_present=0
+0.2834199338686821,error_category=none & noise_keyword_hit=none & noise_keyword_present=0
+0.2834199338686821,error_category=none & is_uncertain=0 & noise_keyword_present=0
+0.2834199338686821,is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.2834199338686821,error_category=none & noise_keyword_present=0
+0.2834199338686821,is_correct=1 & noise_keyword_hit=none
+0.2834199338686821,is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.2834199338686821,error_category=none & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.2795465281058101,level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.2795465281058101,level=L2 & noise_keyword_hit=none
+0.2795465281058101,level=L2 & noise_keyword_present=0
+0.2749173358526216,has_formula=1 & level=L1
+0.27246102975909303,has_formula=1 & is_correct=0 & uses_coordinate=0
+0.2706660368445914,level=L3 & noise_keyword_hit=none
+0.2706660368445914,level=L3 & noise_keyword_present=0
+0.2706660368445914,level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.2701936702881436,criticality=borderline & is_correct=0 & uses_coordinate=0
+0.26934341048653754,ai_judgment=cannot_pass & criticality=borderline & has_formula=1 & is_uncertain=0
+0.26934341048653754,ai_judgment=cannot_pass & criticality=borderline & has_formula=1
+0.26858762399622105,level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.26858762399622105,level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.26858762399622105,level=L2 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.26717052432687766,has_formula=1 & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.26717052432687766,has_formula=1 & is_correct=0 & noise_keyword_hit=none
+0.26717052432687766,has_formula=1 & is_correct=0 & noise_keyword_present=0
+0.2612187057156353,criticality=wide
+0.2601794992914502,error_category=none & has_formula=1 & uses_coordinate=0
+0.2601794992914502,error_category=none & has_formula=1 & is_correct=1 & uses_coordinate=0
+0.2601794992914502,has_formula=1 & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.2601794992914502,has_formula=1 & is_correct=1 & uses_coordinate=0
+0.2601794992914502,error_category=none & has_formula=1 & is_uncertain=0 & uses_coordinate=0
+0.25904581955597544,has_formula=1 & level=L1 & uses_coordinate=0
+0.2572508266414738,has_formula=1 & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.2572508266414738,has_formula=1 & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.25592820028341995,noise_keyword_present=1 & uses_coordinate=0
+0.25441662730278697,error_category=none & has_formula=1 & noise_keyword_hit=none
+0.25441662730278697,has_formula=1 & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.25441662730278697,has_formula=1 & is_correct=1 & noise_keyword_hit=none
+0.25441662730278697,has_formula=1 & is_correct=1 & noise_keyword_present=0
+0.25441662730278697,has_formula=1 & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.25441662730278697,has_formula=1 & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.25441662730278697,error_category=none & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.25441662730278697,error_category=none & has_formula=1 & is_correct=1 & noise_keyword_hit=none
+0.25441662730278697,error_category=none & has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.25441662730278697,error_category=none & has_formula=1 & noise_keyword_present=0
+0.25441662730278697,error_category=none & has_formula=1 & is_correct=1 & noise_keyword_present=0
+0.25441662730278697,error_category=none & has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.2529995276334436,has_formula=1 & level=L2
+0.252905054322154,is_uncertain=0 & level=L2
+0.2519603212092584,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.2519603212092584,ai_judgment=cannot_pass & noise_keyword_hit=none & uses_coordinate=0
+0.2519603212092584,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.2519603212092584,ai_judgment=cannot_pass & noise_keyword_present=0 & uses_coordinate=0
+0.2519603212092584,ai_judgment=cannot_pass & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.25082664147378364,ai_judgment=cannot_pass & is_uncertain=0 & level=L2
+0.25082664147378364,ai_judgment=cannot_pass & level=L2
+0.249031648559282,has_formula=0
+0.24818138875767595,criticality=borderline & is_correct=0 & noise_keyword_hit=none
+0.24818138875767595,criticality=borderline & is_correct=0 & noise_keyword_present=0
+0.24818138875767595,criticality=borderline & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.2480869154463864,has_formula=1 & is_uncertain=0 & level=L2
+0.24600850259801607,ai_judgment=cannot_pass & has_formula=1 & level=L2
+0.24600850259801607,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & level=L2
+0.242796410014171,criticality=borderline & is_uncertain=0 & noise_keyword_hit=none
+0.242796410014171,criticality=borderline & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.242796410014171,criticality=borderline & is_uncertain=0 & noise_keyword_present=0
+0.24232404345772318,has_formula=0 & uses_coordinate=0
+0.24194615021256494,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & uses_coordinate=0
+0.24194615021256494,ai_judgment=cannot_pass & error_category=none & is_correct=1 & uses_coordinate=0
+0.24194615021256494,ai_judgment=cannot_pass & error_category=none & uses_coordinate=0
+0.24194615021256494,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.24194615021256494,ai_judgment=cannot_pass & is_correct=1 & uses_coordinate=0
+0.24175720358998584,error_category=under_specification & noise_keyword_hit=none
+0.24175720358998584,error_category=under_specification & noise_keyword_present=0
+0.24175720358998584,error_category=under_specification & is_correct=0 & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & error_category=under_specification & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & is_correct=0 & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & error_category=under_specification & is_correct=0 & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & noise_keyword_hit=none
+0.24175720358998584,ai_judgment=uncertain & is_correct=0 & is_uncertain=1 & noise_keyword_hit=none
+0.24175720358998584,ai_judgment=uncertain & error_category=under_specification & is_uncertain=1 & noise_keyword_hit=none
+0.24175720358998584,error_category=under_specification & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.24175720358998584,error_category=under_specification & noise_keyword_hit=none & noise_keyword_present=0
+0.24175720358998584,is_correct=0 & is_uncertain=1 & noise_keyword_hit=none
+0.24175720358998584,error_category=under_specification & is_uncertain=1 & noise_keyword_hit=none
+0.24175720358998584,ai_judgment=uncertain & is_uncertain=1 & noise_keyword_hit=none
+0.24175720358998584,is_correct=0 & is_uncertain=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.24175720358998584,error_category=under_specification & is_uncertain=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & is_uncertain=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.24175720358998584,error_category=under_specification & is_correct=0 & is_uncertain=1 & noise_keyword_hit=none
+0.24175720358998584,error_category=under_specification & is_correct=0 & noise_keyword_hit=none
+0.24175720358998584,ai_judgment=uncertain & is_correct=0 & is_uncertain=1 & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & error_category=under_specification & is_uncertain=1 & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & error_category=under_specification & noise_keyword_hit=none
+0.24175720358998584,is_correct=0 & is_uncertain=1 & noise_keyword_present=0
+0.24175720358998584,is_uncertain=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & noise_keyword_hit=none & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & is_correct=0 & noise_keyword_hit=none
+0.24175720358998584,ai_judgment=uncertain & error_category=under_specification & is_correct=0 & noise_keyword_hit=none
+0.24175720358998584,ai_judgment=uncertain & error_category=under_specification & noise_keyword_hit=none & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.24175720358998584,error_category=under_specification & is_correct=0 & is_uncertain=1 & noise_keyword_present=0
+0.24175720358998584,ai_judgment=uncertain & is_uncertain=1 & noise_keyword_present=0
+0.24175720358998584,error_category=under_specification & is_uncertain=1 & noise_keyword_present=0
+0.24175720358998584,is_uncertain=1 & noise_keyword_hit=none
+0.24175720358998584,is_uncertain=1 & noise_keyword_present=0
+0.23882853094000944,is_uncertain=0 & level=L2 & uses_coordinate=0
+0.23873405762871988,has_formula=1 & level=L2 & uses_coordinate=0
+0.23675011809163912,ai_judgment=cannot_pass & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.23675011809163912,ai_judgment=cannot_pass & level=L2 & uses_coordinate=0
+0.2343882853094001,ai_judgment=cannot_pass & error_category=none & noise_keyword_hit=none & noise_keyword_present=0
+0.2343882853094001,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & noise_keyword_hit=none
+0.2343882853094001,ai_judgment=cannot_pass & error_category=none & is_correct=1 & noise_keyword_hit=none
+0.2343882853094001,ai_judgment=cannot_pass & error_category=none & noise_keyword_hit=none
+0.2343882853094001,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & noise_keyword_present=0
+0.2343882853094001,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.2343882853094001,ai_judgment=cannot_pass & error_category=none & noise_keyword_present=0
+0.2343882853094001,ai_judgment=cannot_pass & error_category=none & is_correct=1 & noise_keyword_present=0
+0.2343882853094001,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.2343882853094001,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_present=0
+0.2343882853094001,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.2343882853094001,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_hit=none
+0.23401039206424185,has_formula=1 & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.23193197921587153,ai_judgment=cannot_pass & has_formula=1 & level=L2 & uses_coordinate=0
+0.2295701464336325,is_uncertain=1 & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,ai_judgment=uncertain & is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,is_correct=0 & is_uncertain=1 & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,error_category=under_specification & is_uncertain=1 & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,ai_judgment=uncertain & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,error_category=under_specification & is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,error_category=under_specification & is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.2295701464336325,error_category=under_specification & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,error_category=under_specification & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_hit=none & uses_coordinate=0
+0.2295701464336325,is_uncertain=1 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,error_category=under_specification & is_uncertain=1 & noise_keyword_hit=none & uses_coordinate=0
+0.2295701464336325,is_correct=0 & is_uncertain=1 & noise_keyword_hit=none & uses_coordinate=0
+0.2295701464336325,is_uncertain=1 & noise_keyword_hit=none & uses_coordinate=0
+0.2295701464336325,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,error_category=under_specification & noise_keyword_hit=none & uses_coordinate=0
+0.2295701464336325,ai_judgment=uncertain & error_category=under_specification & noise_keyword_hit=none & uses_coordinate=0
+0.2295701464336325,ai_judgment=uncertain & is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.2295701464336325,ai_judgment=uncertain & is_uncertain=1 & noise_keyword_hit=none & uses_coordinate=0
+0.2295701464336325,ai_judgment=uncertain & noise_keyword_hit=none & uses_coordinate=0
+0.2295701464336325,ai_judgment=uncertain & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,ai_judgment=uncertain & is_uncertain=1 & noise_keyword_present=0 & uses_coordinate=0
+0.2295701464336325,ai_judgment=uncertain & error_category=under_specification & noise_keyword_present=0 & uses_coordinate=0
+0.22938119981105337,has_formula=1 & noise_keyword_present=1
+0.22824752007557864,criticality=borderline & has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.22824752007557864,criticality=borderline & has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.22701936702881437,level=L1 & noise_keyword_present=1
+0.226452527161077,ai_judgment=cannot_pass & criticality=borderline & is_uncertain=0 & noise_keyword_present=0
+0.226452527161077,ai_judgment=cannot_pass & criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0
+0.226452527161077,ai_judgment=cannot_pass & criticality=borderline & noise_keyword_hit=none
+0.226452527161077,ai_judgment=cannot_pass & criticality=borderline & noise_keyword_present=0
+0.226452527161077,ai_judgment=cannot_pass & criticality=borderline & is_uncertain=0 & noise_keyword_hit=none
+0.22503542749173358,uses_coordinate=1
+0.22305148795465282,has_formula=1 & level=L3
+0.22201228153046765,criticality=borderline & is_uncertain=0 & uses_coordinate=0
+0.21832782239017479,has_formula=1 & uses_coordinate=1
+0.2170996693434105,level=L1 & noise_keyword_present=1 & uses_coordinate=0
+0.2151157298063297,ai_judgment=cannot_pass & error_category=none & has_formula=1 & noise_keyword_hit=none
+0.2151157298063297,ai_judgment=cannot_pass & error_category=none & has_formula=1 & noise_keyword_present=0
+0.2151157298063297,ai_judgment=cannot_pass & has_formula=1 & is_correct=1 & noise_keyword_hit=none
+0.2151157298063297,ai_judgment=cannot_pass & has_formula=1 & is_correct=1 & noise_keyword_present=0
+0.21445441662730277,is_correct=0 & is_uncertain=0
+0.21407652338214456,criticality=borderline & is_correct=1 & is_uncertain=0
+0.21407652338214456,criticality=borderline & error_category=none & is_correct=1 & is_uncertain=0
+0.21407652338214456,criticality=borderline & error_category=none
+0.21407652338214456,criticality=borderline & error_category=none & is_correct=1
+0.21407652338214456,criticality=borderline & error_category=none & is_uncertain=0
+0.21407652338214456,criticality=borderline & is_correct=1
+0.21256495040151158,ai_judgment=cannot_pass & criticality=borderline & has_formula=1 & noise_keyword_hit=none
+0.21256495040151158,ai_judgment=cannot_pass & criticality=borderline & has_formula=1 & noise_keyword_present=0
+0.2119981105337742,strategy=baseline
+0.21124232404345772,criticality=borderline & has_formula=1 & is_correct=0
+0.21095890410958903,is_uncertain=0 & level=L1
+0.21086443079829947,is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.21086443079829947,has_formula=1 & level=L2 & noise_keyword_present=0
+0.21086443079829947,has_formula=1 & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.21086443079829947,is_uncertain=0 & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.21086443079829947,has_formula=1 & level=L2 & noise_keyword_hit=none
+0.21086443079829947,is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.20973075106282474,is_uncertain=0 & uses_coordinate=1
+0.2096362777515352,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0
+0.2096362777515352,ai_judgment=cannot_pass & is_correct=0
+0.20935285781766652,criticality=borderline & level=L1
+0.20888049126121871,ai_judgment=cannot_pass & level=L2 & noise_keyword_present=0
+0.20888049126121871,ai_judgment=cannot_pass & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.20888049126121871,ai_judgment=cannot_pass & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.20888049126121871,ai_judgment=cannot_pass & level=L2 & noise_keyword_hit=none
+0.20888049126121871,ai_judgment=cannot_pass & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.20831365139348135,has_formula=1 & is_uncertain=0 & uses_coordinate=1
+0.2074633915918753,noise_label=material_color
+0.2067076051015588,criticality=borderline & is_uncertain=1
+0.2067076051015588,criticality=borderline & error_category=under_specification & is_uncertain=1
+0.2067076051015588,criticality=borderline & is_correct=0 & is_uncertain=1
+0.2067076051015588,ai_judgment=uncertain & criticality=borderline & is_correct=0 & is_uncertain=1
+0.2067076051015588,criticality=borderline & error_category=under_specification
+0.2067076051015588,ai_judgment=uncertain & criticality=borderline & error_category=under_specification & is_correct=0
+0.2067076051015588,ai_judgment=uncertain & criticality=borderline & is_correct=0
+0.2067076051015588,ai_judgment=uncertain & criticality=borderline & error_category=under_specification
+0.2067076051015588,ai_judgment=uncertain & criticality=borderline & error_category=under_specification & is_uncertain=1
+0.2067076051015588,ai_judgment=uncertain & criticality=borderline
+0.2067076051015588,criticality=borderline & error_category=under_specification & is_correct=0
+0.2067076051015588,ai_judgment=uncertain & criticality=borderline & is_uncertain=1
+0.2067076051015588,criticality=borderline & error_category=under_specification & is_correct=0 & is_uncertain=1
+0.20661313179026924,ai_judgment=cannot_pass & criticality=borderline & is_uncertain=0 & uses_coordinate=0
+0.20661313179026924,ai_judgment=cannot_pass & criticality=borderline & uses_coordinate=0
+0.206235238545111,has_formula=1 & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.206235238545111,has_formula=1 & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.20595181861124232,is_uncertain=0 & level=L3
+0.20472366556447805,has_formula=1 & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.20472366556447805,has_formula=1 & level=L3 & noise_keyword_hit=none
+0.20472366556447805,has_formula=1 & level=L3 & noise_keyword_present=0
+0.20453471894189892,has_formula=1 & is_correct=0 & is_uncertain=0
+0.2043457723193198,criticality=narrow
+0.20425129900803024,ai_judgment=cannot_pass & has_formula=1 & level=L2 & noise_keyword_hit=none
+0.20425129900803024,ai_judgment=cannot_pass & has_formula=1 & level=L2 & noise_keyword_present=0
+0.20396787907416156,has_formula=1 & is_uncertain=0 & level=L3
+0.20283419933868682,criticality=borderline & level=L1 & uses_coordinate=0
+0.20160604629192252,criticality=borderline & is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.20160604629192252,criticality=borderline & is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.20113367973547472,noise_keyword_present=0 & noise_label=none
+0.20113367973547472,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.20113367973547472,noise_keyword_hit=none & noise_label=none
+0.20113367973547472,noise_label=none
+0.2002834199338687,is_uncertain=0 & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.2002834199338687,is_uncertain=0 & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.20009447331128957,has_formula=1 & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.20009447331128957,has_formula=1 & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.1998110533774209,ai_judgment=cannot_pass & has_formula=1 & is_correct=0 & is_uncertain=0
+0.1998110533774209,ai_judgment=cannot_pass & has_formula=1 & is_correct=0
+0.19971658006613133,is_uncertain=0 & level=L1 & uses_coordinate=0
+0.19924421350968352,is_uncertain=0 & noise_keyword_present=1
+0.19914974019839396,noise_label=ambient_noise
+0.19886632026452528,criticality=wide & uses_coordinate=0
+0.1985829003306566,noise_label=lighting
+0.19839395370807747,error_category=none & is_uncertain=0 & level=L1
+0.19839395370807747,error_category=none & is_correct=1 & is_uncertain=0 & level=L1
+0.19839395370807747,is_correct=1 & is_uncertain=0 & level=L1
+0.19839395370807747,error_category=none & level=L1
+0.19839395370807747,is_correct=1 & level=L1
+0.19839395370807747,error_category=none & is_correct=1 & level=L1
+0.1982994803967879,ai_judgment=cannot_pass & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.1982994803967879,ai_judgment=uncertain & criticality=borderline & uses_coordinate=0
+0.1982994803967879,ai_judgment=uncertain & criticality=borderline & is_correct=0 & uses_coordinate=0
+0.1982994803967879,criticality=borderline & error_category=under_specification & uses_coordinate=0
+0.1982994803967879,ai_judgment=uncertain & criticality=borderline & error_category=under_specification & uses_coordinate=0
+0.1982994803967879,criticality=borderline & is_correct=0 & is_uncertain=1 & uses_coordinate=0
+0.1982994803967879,criticality=borderline & error_category=under_specification & is_uncertain=1 & uses_coordinate=0
+0.1982994803967879,ai_judgment=cannot_pass & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.1982994803967879,ai_judgment=uncertain & criticality=borderline & is_uncertain=1 & uses_coordinate=0
+0.1982994803967879,criticality=borderline & is_uncertain=1 & uses_coordinate=0
+0.1982994803967879,criticality=borderline & error_category=under_specification & is_correct=0 & uses_coordinate=0
+0.19820500708549835,strategy=constraint_boundary_solver
+0.19811053377420879,strategy=dimensionless_ratio_design
+0.19763816721776098,has_formula=1 & noise_keyword_present=1 & uses_coordinate=0
+0.19726027397260273,strategy=real_world_archetype_matrix
+0.19726027397260273,ai_judgment=cannot_pass & error_category=none & has_formula=1 & uses_coordinate=0
+0.19726027397260273,ai_judgment=cannot_pass & has_formula=1 & is_correct=1 & uses_coordinate=0
+0.19641001417099668,ai_judgment=cannot_pass & criticality=borderline & error_category=none & is_uncertain=0
+0.19641001417099668,ai_judgment=cannot_pass & criticality=borderline & error_category=none & is_correct=1
+0.19641001417099668,ai_judgment=cannot_pass & criticality=borderline & error_category=none
+0.19641001417099668,ai_judgment=cannot_pass & criticality=borderline & is_correct=1
+0.19641001417099668,ai_judgment=cannot_pass & criticality=borderline & is_correct=1 & is_uncertain=0
+0.19527633443552198,criticality=wide & has_formula=1
+0.1947094945677846,level=L3 & uses_coordinate=1
+0.19442607463391592,strategy=halton_space_filling
+0.19367028814359943,noise_label=emotional_pressure
+0.1932923948984412,noise_keyword_hit=none & uses_coordinate=1
+0.1932923948984412,noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.1932923948984412,noise_keyword_present=0 & uses_coordinate=1
+0.1917808219178082,criticality=wide & is_uncertain=0
+0.19074161549362306,is_correct=0 & level=L1
+0.19074161549362306,has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.19074161549362306,has_formula=0 & noise_keyword_present=0
+0.19074161549362306,has_formula=0 & noise_keyword_hit=none
+0.18856872933396315,model=gpt-4o
+0.1881908360888049,has_formula=1 & level=L3 & uses_coordinate=1
+0.18790741615493622,is_uncertain=0 & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.18790741615493622,is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.18790741615493622,is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.18752952290977798,criticality=borderline & has_formula=1 & noise_keyword_hit=none & uses_coordinate=0
+0.18752952290977798,criticality=borderline & has_formula=1 & noise_keyword_present=0 & uses_coordinate=0
+0.18715162966461973,error_category=none & is_correct=1 & level=L1 & uses_coordinate=0
+0.18715162966461973,is_correct=1 & level=L1 & uses_coordinate=0
+0.18715162966461973,is_correct=1 & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.18715162966461973,is_correct=0 & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.18715162966461973,error_category=none & level=L1 & uses_coordinate=0
+0.18715162966461973,error_category=none & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.18715162966461973,is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.18715162966461973,is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.1865847897968824,ai_judgment=cannot_pass & is_uncertain=0 & uses_coordinate=1
+0.1865847897968824,ai_judgment=cannot_pass & uses_coordinate=1
+0.1865847897968824,has_formula=1 & noise_keyword_hit=none & uses_coordinate=1
+0.1865847897968824,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.1865847897968824,has_formula=1 & noise_keyword_present=0 & uses_coordinate=1
+0.18639584317430327,is_correct=0 & level=L2
+0.1861124232404346,is_correct=0 & level=L1 & uses_coordinate=0
+0.18592347661785547,has_formula=1 & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.18592347661785547,has_formula=1 & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.18516769012753898,ai_judgment=cannot_pass & has_formula=1 & uses_coordinate=1
+0.18516769012753898,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & uses_coordinate=1
+0.18450637694851205,has_formula=1 & model=gpt-4o
+0.18441190363722249,is_uncertain=0 & level=L3 & uses_coordinate=1
+0.18431743032593292,criticality=borderline & has_formula=1 & is_correct=1
+0.18431743032593292,criticality=borderline & error_category=none & has_formula=1 & is_correct=1
+0.18431743032593292,criticality=borderline & error_category=none & has_formula=1 & is_uncertain=0
+0.18431743032593292,criticality=borderline & error_category=none & has_formula=1
+0.18431743032593292,criticality=borderline & has_formula=1 & is_correct=1 & is_uncertain=0
+0.18422295701464336,criticality=borderline & has_formula=1 & is_uncertain=0 & uses_coordinate=0
+0.18403401039206424,has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.18403401039206424,has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.18403401039206424,has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.18299480396787907,has_formula=1 & is_uncertain=0 & level=L3 & uses_coordinate=1
+0.1829003306565895,has_formula=1 & is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.1829003306565895,has_formula=1 & is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.18261691072272082,ai_judgment=cannot_pass & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.18261691072272082,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.18261691072272082,ai_judgment=cannot_pass & is_correct=0 & noise_keyword_hit=none
+0.18261691072272082,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.18261691072272082,ai_judgment=cannot_pass & is_correct=0 & noise_keyword_present=0
+0.18252243741143126,has_formula=1 & is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.18252243741143126,has_formula=1 & is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.18157770429853567,criticality=wide & noise_keyword_present=0
+0.18157770429853567,criticality=wide & noise_keyword_hit=none
+0.18157770429853567,criticality=wide & noise_keyword_hit=none & noise_keyword_present=0
+0.18110533774208787,is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=1
+0.18110533774208787,is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=1
+0.18110533774208787,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.179782711384034,error_category=none & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.179782711384034,error_category=none & is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.179782711384034,error_category=none & noise_keyword_hit=none & uses_coordinate=0
+0.179782711384034,error_category=none & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.179782711384034,error_category=none & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.179782711384034,is_correct=1 & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.179782711384034,error_category=none & noise_keyword_present=0 & uses_coordinate=0
+0.179782711384034,is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.179782711384034,error_category=none & is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.179782711384034,is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.179782711384034,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.179782711384034,is_correct=0 & level=L2 & uses_coordinate=0
+0.179782711384034,is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.17968823807274445,has_formula=1 & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=1
+0.17968823807274445,has_formula=1 & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=1
+0.17864903164855928,has_formula=0 & is_correct=0
+0.17817666509211147,ai_judgment=uncertain & is_correct=0 & level=L1
+0.17817666509211147,ai_judgment=uncertain & is_correct=0 & is_uncertain=1 & level=L1
+0.17817666509211147,error_category=under_specification & level=L1
+0.17817666509211147,error_category=under_specification & is_uncertain=1 & level=L1
+0.17817666509211147,is_uncertain=1 & level=L1
+0.17817666509211147,ai_judgment=uncertain & error_category=under_specification & is_correct=0 & level=L1
+0.17817666509211147,ai_judgment=uncertain & level=L1
+0.17817666509211147,ai_judgment=uncertain & error_category=under_specification & level=L1
+0.17817666509211147,error_category=under_specification & is_correct=0 & level=L1
+0.17817666509211147,is_correct=0 & is_uncertain=1 & level=L1
+0.17817666509211147,error_category=under_specification & is_correct=0 & is_uncertain=1 & level=L1
+0.17817666509211147,ai_judgment=uncertain & is_uncertain=1 & level=L1
+0.17817666509211147,ai_judgment=uncertain & error_category=under_specification & is_uncertain=1 & level=L1
+0.1780821917808219,ai_judgment=cannot_pass & has_formula=1 & is_correct=0 & noise_keyword_present=0
+0.1780821917808219,ai_judgment=cannot_pass & has_formula=1 & is_correct=0 & noise_keyword_hit=none
+0.17798771846953235,ai_judgment=cannot_pass & level=L3
+0.17798771846953235,ai_judgment=cannot_pass & is_uncertain=0 & level=L3
+0.17638167217760983,level=L3 & noise_keyword_present=0 & uses_coordinate=1
+0.17638167217760983,level=L3 & noise_keyword_hit=none & uses_coordinate=1
+0.17638167217760983,level=L3 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.1760037789324516,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & level=L3
+0.1760037789324516,ai_judgment=cannot_pass & has_formula=1 & level=L3
+0.173547472838923,error_category=under_specification & is_uncertain=1 & level=L1 & uses_coordinate=0
+0.173547472838923,is_correct=0 & is_uncertain=1 & level=L1 & uses_coordinate=0
+0.173547472838923,ai_judgment=uncertain & error_category=under_specification & level=L1 & uses_coordinate=0
+0.173547472838923,error_category=under_specification & is_correct=0 & level=L1 & uses_coordinate=0
+0.173547472838923,ai_judgment=uncertain & is_correct=0 & level=L1 & uses_coordinate=0
+0.173547472838923,error_category=under_specification & level=L1 & uses_coordinate=0
+0.173547472838923,ai_judgment=uncertain & level=L1 & uses_coordinate=0
+0.173547472838923,is_uncertain=1 & level=L1 & uses_coordinate=0
+0.173547472838923,ai_judgment=uncertain & is_uncertain=1 & level=L1 & uses_coordinate=0
+0.1732640529050543,has_formula=0 & is_correct=0 & uses_coordinate=0
+0.17194142654700048,error_category=none & is_uncertain=0 & noise_keyword_present=1
+0.17194142654700048,error_category=none & noise_keyword_present=1
+0.17194142654700048,is_correct=1 & noise_keyword_present=1
+0.17194142654700048,error_category=none & is_correct=1 & noise_keyword_present=1
+0.17194142654700048,is_correct=1 & is_uncertain=0 & noise_keyword_present=1
+0.17194142654700048,error_category=none & is_correct=1 & is_uncertain=0 & noise_keyword_present=1
+0.17146905999055267,ai_judgment=cannot_pass & criticality=borderline & has_formula=1 & uses_coordinate=0
+0.17099669343410487,criticality=borderline & level=L2
+0.17061880018894662,is_uncertain=0 & noise_keyword_present=1 & uses_coordinate=0
+0.1704298535663675,is_correct=0 & level=L2 & noise_keyword_hit=none
+0.1704298535663675,is_correct=0 & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.1704298535663675,is_correct=0 & level=L2 & noise_keyword_present=0
+0.17024090694378838,criticality=wide & is_correct=0
+0.17005196032120926,model=gpt-4o-mini
+0.16986301369863013,has_formula=1 & level=L3 & noise_keyword_hit=none & uses_coordinate=1
+0.16986301369863013,has_formula=1 & level=L3 & noise_keyword_present=0 & uses_coordinate=1
+0.1692017005196032,ai_judgment=cannot_pass & criticality=borderline & has_formula=1 & is_correct=1
+0.1692017005196032,ai_judgment=cannot_pass & criticality=borderline & error_category=none & has_formula=1
+0.16891828058573452,has_formula=1 & level=L1 & noise_keyword_present=1
+0.16882380727444496,criticality=wide & has_formula=1 & is_uncertain=0
+0.1687293339631554,ai_judgment=uncertain & has_formula=0
+0.1687293339631554,error_category=under_specification & has_formula=0 & is_correct=0
+0.1687293339631554,error_category=under_specification & has_formula=0 & is_uncertain=1
+0.1687293339631554,ai_judgment=uncertain & has_formula=0 & is_correct=0
+0.1687293339631554,ai_judgment=uncertain & has_formula=0 & is_uncertain=1
+0.1687293339631554,ai_judgment=uncertain & error_category=under_specification & has_formula=0
+0.1687293339631554,error_category=under_specification & has_formula=0 & is_correct=0 & is_uncertain=1
+0.1687293339631554,has_formula=0 & is_correct=0 & is_uncertain=1
+0.1687293339631554,error_category=under_specification & has_formula=0
+0.1687293339631554,ai_judgment=uncertain & has_formula=0 & is_correct=0 & is_uncertain=1
+0.1687293339631554,has_formula=0 & is_uncertain=1
+0.1687293339631554,ai_judgment=uncertain & error_category=under_specification & has_formula=0 & is_correct=0
+0.1687293339631554,ai_judgment=uncertain & error_category=under_specification & has_formula=0 & is_uncertain=1
+0.16750118091639113,is_correct=0 & level=L3
+0.1663675011809164,is_uncertain=0 & level=L3 & noise_keyword_present=0 & uses_coordinate=1
+0.1663675011809164,is_uncertain=0 & level=L3 & noise_keyword_hit=none & uses_coordinate=1
+0.1660840812470477,ai_judgment=cannot_pass & level=L3 & uses_coordinate=1
+0.1660840812470477,ai_judgment=cannot_pass & is_uncertain=0 & level=L3 & uses_coordinate=1
+0.16532829475673122,criticality=borderline & level=L2 & uses_coordinate=0
+0.16523382144544166,is_correct=0 & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.16523382144544166,is_correct=0 & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.16504487482286254,ai_judgment=cannot_pass & noise_keyword_present=0 & uses_coordinate=1
+0.16504487482286254,ai_judgment=cannot_pass & noise_keyword_hit=none & uses_coordinate=1
+0.16504487482286254,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=1
+0.16504487482286254,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=1
+0.16504487482286254,ai_judgment=cannot_pass & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.1646669815777043,ai_judgment=cannot_pass & has_formula=1 & level=L3 & uses_coordinate=1
+0.1643835616438356,strategy=baseline & uses_coordinate=0
+0.16428908833254605,criticality=borderline & has_formula=1 & is_correct=0 & uses_coordinate=0
+0.16381672177609824,error_category=concept_confusion & is_uncertain=0
+0.16381672177609824,error_category=concept_confusion
+0.16381672177609824,error_category=concept_confusion & is_correct=0
+0.16381672177609824,error_category=concept_confusion & is_correct=0 & is_uncertain=0
+0.16362777515351912,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_present=0 & uses_coordinate=1
+0.16362777515351912,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_hit=none & uses_coordinate=1
+0.16343882853094002,has_formula=0 & is_uncertain=1 & uses_coordinate=0
+0.16343882853094002,ai_judgment=uncertain & has_formula=0 & is_uncertain=1 & uses_coordinate=0
+0.16343882853094002,ai_judgment=uncertain & has_formula=0 & uses_coordinate=0
+0.16343882853094002,has_formula=0 & is_correct=0 & is_uncertain=1 & uses_coordinate=0
+0.16343882853094002,ai_judgment=uncertain & has_formula=0 & is_correct=0 & uses_coordinate=0
+0.16343882853094002,error_category=under_specification & has_formula=0 & is_uncertain=1 & uses_coordinate=0
+0.16343882853094002,ai_judgment=uncertain & error_category=under_specification & has_formula=0 & uses_coordinate=0
+0.16343882853094002,error_category=under_specification & has_formula=0 & is_correct=0 & uses_coordinate=0
+0.16343882853094002,error_category=under_specification & has_formula=0 & uses_coordinate=0
+0.16306093528578178,ai_judgment=cannot_pass & level=L3 & noise_keyword_present=0
+0.16306093528578178,ai_judgment=cannot_pass & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.16306093528578178,ai_judgment=cannot_pass & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.16306093528578178,ai_judgment=cannot_pass & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.16306093528578178,ai_judgment=cannot_pass & level=L3 & noise_keyword_hit=none
+0.1624940954180444,is_correct=0 & level=L3 & noise_keyword_hit=none
+0.1624940954180444,is_correct=0 & level=L3 & noise_keyword_present=0
+0.1624940954180444,is_correct=0 & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.16239962210675485,error_category=concept_confusion & is_uncertain=0 & noise_keyword_present=0
+0.16239962210675485,error_category=concept_confusion & noise_keyword_present=0
+0.16239962210675485,error_category=concept_confusion & is_correct=0 & is_uncertain=0 & noise_keyword_hit=none
+0.16239962210675485,error_category=concept_confusion & is_correct=0 & noise_keyword_present=0
+0.16239962210675485,error_category=concept_confusion & noise_keyword_hit=none
+0.16239962210675485,error_category=concept_confusion & noise_keyword_hit=none & noise_keyword_present=0
+0.16239962210675485,error_category=concept_confusion & is_uncertain=0 & noise_keyword_hit=none
+0.16239962210675485,error_category=concept_confusion & is_correct=0 & noise_keyword_hit=none
+0.16239962210675485,error_category=concept_confusion & is_correct=0 & is_uncertain=0 & noise_keyword_present=0
+0.16239962210675485,error_category=concept_confusion & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.16239962210675485,error_category=concept_confusion & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.16211620217288616,level=L1 & noise_keyword_hit=none & noise_keyword_present=0
+0.16211620217288616,level=L1 & noise_keyword_hit=none
+0.16211620217288616,level=L1 & noise_keyword_present=0
+0.1620217288615966,ai_judgment=cannot_pass & error_category=concept_confusion & is_correct=0
+0.1620217288615966,ai_judgment=cannot_pass & error_category=concept_confusion & is_correct=0 & is_uncertain=0
+0.1620217288615966,ai_judgment=cannot_pass & error_category=concept_confusion & is_uncertain=0
+0.1620217288615966,ai_judgment=cannot_pass & error_category=concept_confusion
+0.16173830892772792,has_formula=0 & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.16173830892772792,has_formula=0 & is_correct=0 & noise_keyword_present=0
+0.16173830892772792,has_formula=0 & is_correct=0 & noise_keyword_hit=none
+0.16145488899385924,error_category=under_specification & has_formula=1
+0.16145488899385924,has_formula=1 & is_uncertain=1
+0.16145488899385924,has_formula=1 & is_correct=0 & is_uncertain=1
+0.16145488899385924,error_category=under_specification & has_formula=1 & is_uncertain=1
+0.16145488899385924,ai_judgment=uncertain & has_formula=1 & is_uncertain=1
+0.16145488899385924,ai_judgment=uncertain & has_formula=1
+0.16145488899385924,error_category=under_specification & has_formula=1 & is_correct=0
+0.16145488899385924,ai_judgment=uncertain & error_category=under_specification & has_formula=1
+0.16145488899385924,ai_judgment=uncertain & error_category=under_specification & has_formula=1 & is_correct=0
+0.16145488899385924,ai_judgment=uncertain & has_formula=1 & is_correct=0
+0.16145488899385924,ai_judgment=uncertain & has_formula=1 & is_correct=0 & is_uncertain=1
+0.16145488899385924,error_category=under_specification & has_formula=1 & is_correct=0 & is_uncertain=1
+0.16145488899385924,ai_judgment=uncertain & error_category=under_specification & has_formula=1 & is_uncertain=1
+0.16117146905999055,error_category=concept_confusion & has_formula=1 & is_uncertain=0
+0.16117146905999055,error_category=concept_confusion & has_formula=1
+0.16117146905999055,error_category=concept_confusion & has_formula=1 & is_correct=0
+0.16117146905999055,error_category=concept_confusion & has_formula=1 & is_correct=0 & is_uncertain=0
+0.161076995748701,ai_judgment=cannot_pass & has_formula=1 & level=L3 & noise_keyword_hit=none
+0.161076995748701,ai_judgment=cannot_pass & has_formula=1 & level=L3 & noise_keyword_present=0
+0.16088804912612187,has_formula=1 & strategy=baseline
+0.16060462919225318,ai_judgment=cannot_pass & error_category=concept_confusion & noise_keyword_present=0
+0.16060462919225318,ai_judgment=cannot_pass & error_category=concept_confusion & is_correct=0 & noise_keyword_present=0
+0.16060462919225318,ai_judgment=cannot_pass & error_category=concept_confusion & is_uncertain=0 & noise_keyword_hit=none
+0.16060462919225318,ai_judgment=cannot_pass & error_category=concept_confusion & noise_keyword_hit=none & noise_keyword_present=0
+0.16060462919225318,ai_judgment=cannot_pass & error_category=concept_confusion & is_correct=0 & noise_keyword_hit=none
+0.16060462919225318,ai_judgment=cannot_pass & error_category=concept_confusion & is_uncertain=0 & noise_keyword_present=0
+0.16060462919225318,ai_judgment=cannot_pass & error_category=concept_confusion & noise_keyword_hit=none
+0.16013226263580538,is_uncertain=0 & model=gpt-4o-mini
+0.16013226263580538,criticality=narrow & has_formula=1
+0.16003778932451582,error_category=concept_confusion & has_formula=1 & is_correct=0 & noise_keyword_present=0
+0.16003778932451582,noise_label=material_color & uses_coordinate=0
+0.16003778932451582,error_category=concept_confusion & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.16003778932451582,error_category=concept_confusion & has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.16003778932451582,error_category=concept_confusion & has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.16003778932451582,error_category=concept_confusion & has_formula=1 & noise_keyword_present=0
+0.16003778932451582,error_category=concept_confusion & has_formula=1 & is_correct=0 & noise_keyword_hit=none
+0.16003778932451582,error_category=concept_confusion & has_formula=1 & noise_keyword_hit=none
+0.15947094945677845,ai_judgment=cannot_pass & error_category=concept_confusion & has_formula=1 & is_uncertain=0
+0.15947094945677845,ai_judgment=cannot_pass & error_category=concept_confusion & has_formula=1
+0.15947094945677845,ai_judgment=cannot_pass & error_category=concept_confusion & has_formula=1 & is_correct=0
+0.15899858290033064,has_formula=1 & level=L1 & noise_keyword_present=1 & uses_coordinate=0
+0.15833726972130374,ai_judgment=cannot_pass & error_category=concept_confusion & has_formula=1 & noise_keyword_hit=none
+0.15833726972130374,ai_judgment=cannot_pass & error_category=concept_confusion & has_formula=1 & noise_keyword_present=0
+0.15805384978743506,noise_keyword_hit=none & noise_label=none & uses_coordinate=0
+0.15805384978743506,noise_label=none & uses_coordinate=0
+0.15805384978743506,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none & uses_coordinate=0
+0.15805384978743506,noise_keyword_present=0 & noise_label=none & uses_coordinate=0
+0.15710911667453945,has_formula=0 & is_uncertain=1 & noise_keyword_hit=none
+0.15710911667453945,has_formula=0 & is_correct=0 & is_uncertain=1 & noise_keyword_hit=none
+0.15710911667453945,ai_judgment=uncertain & has_formula=0 & noise_keyword_present=0
+0.15710911667453945,error_category=under_specification & has_formula=0 & noise_keyword_hit=none
+0.15710911667453945,error_category=under_specification & has_formula=0 & noise_keyword_present=0
+0.15710911667453945,error_category=under_specification & has_formula=0 & is_correct=0 & noise_keyword_present=0
+0.15710911667453945,ai_judgment=uncertain & has_formula=0 & is_correct=0 & noise_keyword_hit=none
+0.15710911667453945,ai_judgment=uncertain & has_formula=0 & is_uncertain=1 & noise_keyword_hit=none
+0.15710911667453945,ai_judgment=uncertain & has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.15710911667453945,ai_judgment=uncertain & has_formula=0 & is_correct=0 & noise_keyword_present=0
+0.15710911667453945,ai_judgment=uncertain & has_formula=0 & is_uncertain=1 & noise_keyword_present=0
+0.15710911667453945,has_formula=0 & is_uncertain=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.15710911667453945,has_formula=0 & is_uncertain=1 & noise_keyword_present=0
+0.15710911667453945,error_category=under_specification & has_formula=0 & is_uncertain=1 & noise_keyword_present=0
+0.15710911667453945,error_category=under_specification & has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.15710911667453945,ai_judgment=uncertain & error_category=under_specification & has_formula=0 & noise_keyword_present=0
+0.15710911667453945,ai_judgment=uncertain & error_category=under_specification & has_formula=0 & noise_keyword_hit=none
+0.15710911667453945,error_category=under_specification & has_formula=0 & is_correct=0 & noise_keyword_hit=none
+0.15710911667453945,error_category=under_specification & has_formula=0 & is_uncertain=1 & noise_keyword_hit=none
+0.15710911667453945,has_formula=0 & is_correct=0 & is_uncertain=1 & noise_keyword_present=0
+0.15710911667453945,ai_judgment=uncertain & has_formula=0 & noise_keyword_hit=none
+0.15635333018422296,has_formula=0 & is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.15635333018422296,has_formula=0 & is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.15616438356164383,level=L1 & noise_keyword_hit=none & uses_coordinate=0
+0.15616438356164383,level=L1 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.15616438356164383,level=L1 & noise_keyword_present=0 & uses_coordinate=0
+0.1557864903164856,criticality=narrow & uses_coordinate=0
+0.1547472838923004,noise_keyword_present=0 & strategy=baseline
+0.1547472838923004,noise_keyword_hit=none & noise_keyword_present=0 & strategy=baseline
+0.1547472838923004,noise_keyword_hit=none & strategy=baseline
+0.1545583372697213,has_formula=1 & noise_label=material_color
+0.1540859707132735,criticality=borderline & level=L3
+0.1536136041568257,noise_label=ambient_noise & uses_coordinate=0
+0.15342465753424658,strategy=real_world_archetype_matrix & uses_coordinate=0
+0.15342465753424658,strategy=constraint_boundary_solver & uses_coordinate=0
+0.15257439773264053,has_formula=1 & is_uncertain=0 & noise_keyword_present=1
+0.1523854511100614,has_formula=1 & noise_label=ambient_noise
+0.15229097779877185,criticality=borderline & has_formula=1 & is_correct=0 & noise_keyword_hit=none
+0.15229097779877185,criticality=borderline & has_formula=1 & is_correct=0 & noise_keyword_present=0
+0.1521965044874823,has_formula=1 & strategy=real_world_archetype_matrix
+0.1521965044874823,strategy=halton_space_filling & uses_coordinate=0
+0.15210203117619273,error_category=none & has_formula=1 & noise_keyword_hit=none & uses_coordinate=0
+0.15210203117619273,has_formula=1 & is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.15210203117619273,has_formula=1 & is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.15210203117619273,error_category=none & has_formula=1 & noise_keyword_present=0 & uses_coordinate=0
+0.1519130845536136,has_formula=1 & strategy=constraint_boundary_solver
+0.15181861124232404,error_category=under_specification & has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.15181861124232404,ai_judgment=uncertain & has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.15181861124232404,ai_judgment=uncertain & has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.15181861124232404,error_category=under_specification & has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.15181861124232404,noise_label=lighting & uses_coordinate=0
+0.15181861124232404,has_formula=0 & is_uncertain=1 & noise_keyword_present=0 & uses_coordinate=0
+0.15181861124232404,has_formula=0 & is_uncertain=1 & noise_keyword_hit=none & uses_coordinate=0
+0.15153519130845536,strategy=dimensionless_ratio_design & uses_coordinate=0
+0.1514407179971658,noise_label=emotional_pressure & uses_coordinate=0
+0.1514407179971658,error_category=under_specification & has_formula=1 & is_correct=0 & uses_coordinate=0
+0.1514407179971658,error_category=under_specification & has_formula=1 & is_uncertain=1 & uses_coordinate=0
+0.1514407179971658,has_formula=1 & is_correct=0 & is_uncertain=1 & uses_coordinate=0
+0.1514407179971658,has_formula=1 & is_uncertain=1 & uses_coordinate=0
+0.1514407179971658,ai_judgment=uncertain & has_formula=1 & is_uncertain=1 & uses_coordinate=0
+0.1514407179971658,ai_judgment=uncertain & has_formula=1 & is_correct=0 & uses_coordinate=0
+0.1514407179971658,ai_judgment=uncertain & error_category=under_specification & has_formula=1 & uses_coordinate=0
+0.1514407179971658,ai_judgment=uncertain & has_formula=1 & uses_coordinate=0
+0.1514407179971658,criticality=borderline & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.1514407179971658,criticality=borderline & level=L2 & noise_keyword_present=0
+0.1514407179971658,criticality=borderline & level=L2 & noise_keyword_hit=none
+0.1514407179971658,error_category=under_specification & has_formula=1 & uses_coordinate=0
+0.1511572980632971,ai_judgment=cannot_pass & level=L3 & noise_keyword_present=0 & uses_coordinate=1
+0.1511572980632971,ai_judgment=cannot_pass & level=L3 & noise_keyword_hit=none & uses_coordinate=1
+0.15030703826169106,ai_judgment=cannot_pass & criticality=narrow
+0.15030703826169106,criticality=narrow & is_correct=1
+0.15030703826169106,criticality=narrow & error_category=none
+0.15030703826169106,criticality=narrow & is_uncertain=0
+0.15030703826169106,ai_judgment=cannot_pass & criticality=narrow & error_category=none
+0.15030703826169106,criticality=narrow & error_category=none & is_correct=1
+0.15030703826169106,criticality=narrow & error_category=none & is_correct=1 & is_uncertain=0
+0.15030703826169106,ai_judgment=cannot_pass & criticality=narrow & error_category=none & is_uncertain=0
+0.15030703826169106,ai_judgment=cannot_pass & criticality=narrow & is_correct=1
+0.15030703826169106,ai_judgment=cannot_pass & criticality=narrow & is_correct=1 & is_uncertain=0
+0.15030703826169106,criticality=narrow & error_category=none & is_uncertain=0
+0.15030703826169106,criticality=narrow & is_correct=1 & is_uncertain=0
+0.15030703826169106,ai_judgment=cannot_pass & criticality=narrow & is_uncertain=0
+0.15030703826169106,ai_judgment=cannot_pass & criticality=narrow & error_category=none & is_correct=1
+0.15011809163911194,criticality=borderline & error_category=none & is_correct=1 & uses_coordinate=0
+0.15011809163911194,criticality=borderline & error_category=none & is_uncertain=0 & uses_coordinate=0
+0.15011809163911194,criticality=borderline & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.15011809163911194,criticality=borderline & error_category=none & uses_coordinate=0
+0.15011809163911194,criticality=borderline & is_correct=1 & uses_coordinate=0
+0.14983467170524326,has_formula=1 & noise_label=lighting
+0.14974019839395372,ai_judgment=uncertain & criticality=borderline & error_category=under_specification & noise_keyword_hit=none
+0.14974019839395372,ai_judgment=uncertain & criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0
+0.14974019839395372,ai_judgment=uncertain & criticality=borderline & is_correct=0 & noise_keyword_present=0
+0.14974019839395372,criticality=borderline & is_correct=0 & is_uncertain=1 & noise_keyword_present=0
+0.14974019839395372,ai_judgment=uncertain & criticality=borderline & is_uncertain=1 & noise_keyword_hit=none
+0.14974019839395372,criticality=borderline & is_uncertain=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.14974019839395372,criticality=borderline & is_correct=0 & is_uncertain=1 & noise_keyword_hit=none
+0.14974019839395372,criticality=borderline & error_category=under_specification & noise_keyword_present=0
+0.14974019839395372,ai_judgment=uncertain & criticality=borderline & noise_keyword_present=0
+0.14974019839395372,ai_judgment=uncertain & criticality=borderline & noise_keyword_hit=none
+0.14974019839395372,ai_judgment=uncertain & criticality=borderline & is_correct=0 & noise_keyword_hit=none
+0.14974019839395372,ai_judgment=uncertain & criticality=borderline & error_category=under_specification & noise_keyword_present=0
+0.14974019839395372,ai_judgment=uncertain & criticality=borderline & is_uncertain=1 & noise_keyword_present=0
+0.14974019839395372,criticality=borderline & error_category=under_specification & is_uncertain=1 & noise_keyword_present=0
+0.14974019839395372,criticality=borderline & error_category=under_specification & noise_keyword_hit=none & noise_keyword_present=0
+0.14974019839395372,criticality=borderline & error_category=under_specification & is_correct=0 & noise_keyword_present=0
+0.14974019839395372,criticality=borderline & error_category=under_specification & noise_keyword_hit=none
+0.14974019839395372,criticality=borderline & error_category=under_specification & is_correct=0 & noise_keyword_hit=none
+0.14974019839395372,criticality=borderline & is_uncertain=1 & noise_keyword_hit=none
+0.14974019839395372,criticality=borderline & is_uncertain=1 & noise_keyword_present=0
+0.14974019839395372,criticality=borderline & error_category=under_specification & is_uncertain=1 & noise_keyword_hit=none
+0.14945677846008504,is_correct=1 & noise_keyword_present=1 & uses_coordinate=0
+0.14945677846008504,error_category=none & is_correct=1 & noise_keyword_present=1 & uses_coordinate=0
+0.14945677846008504,error_category=none & noise_keyword_present=1 & uses_coordinate=0
+0.14945677846008504,is_correct=1 & is_uncertain=0 & noise_keyword_present=1 & uses_coordinate=0
+0.14945677846008504,error_category=none & is_uncertain=0 & noise_keyword_present=1 & uses_coordinate=0
+0.14851204534718943,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.14851204534718943,has_formula=1 & noise_keyword_present=0 & noise_label=none
+0.14851204534718943,has_formula=1 & noise_keyword_hit=none & noise_label=none
+0.14851204534718943,has_formula=1 & noise_label=none
+0.1478507321681625,criticality=borderline & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.1478507321681625,criticality=borderline & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.14718941898913557,criticality=borderline & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.14718941898913557,criticality=borderline & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.14671705243268776,is_correct=0 & strategy=baseline
+0.14624468587623995,criticality=borderline & level=L3 & noise_keyword_present=0
+0.14624468587623995,criticality=borderline & level=L3 & noise_keyword_hit=none
+0.14624468587623995,criticality=borderline & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.1456778460085026,has_formula=1 & noise_label=emotional_pressure
+0.14529995276334434,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_present=0 & uses_coordinate=0
+0.14529995276334434,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_hit=none & uses_coordinate=0
+0.14529995276334434,ai_judgment=cannot_pass & error_category=none & noise_keyword_present=0 & uses_coordinate=0
+0.14529995276334434,ai_judgment=cannot_pass & error_category=none & noise_keyword_hit=none & uses_coordinate=0
+0.14520547945205478,criticality=borderline & has_formula=1 & level=L1
+0.1450165328294757,has_formula=1 & strategy=dimensionless_ratio_design
+0.144733112895607,ai_judgment=cannot_pass & model=gpt-4o-mini
+0.144733112895607,ai_judgment=cannot_pass & is_uncertain=0 & model=gpt-4o-mini
+0.14435521965044876,criticality=wide & is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.14435521965044876,criticality=borderline & error_category=none & noise_keyword_hit=none
+0.14435521965044876,criticality=borderline & error_category=none & is_uncertain=0 & noise_keyword_present=0
+0.14435521965044876,criticality=borderline & error_category=none & is_correct=1 & noise_keyword_present=0
+0.14435521965044876,criticality=borderline & is_correct=1 & noise_keyword_hit=none
+0.14435521965044876,criticality=wide & is_correct=0 & noise_keyword_present=0
+0.14435521965044876,criticality=wide & is_correct=0 & noise_keyword_hit=none
+0.14435521965044876,criticality=borderline & error_category=none & noise_keyword_hit=none & noise_keyword_present=0
+0.14435521965044876,criticality=borderline & error_category=none & is_uncertain=0 & noise_keyword_hit=none
+0.14435521965044876,criticality=borderline & error_category=none & noise_keyword_present=0
+0.14435521965044876,criticality=borderline & error_category=none & is_correct=1 & noise_keyword_hit=none
+0.14435521965044876,criticality=borderline & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.14435521965044876,criticality=borderline & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.14435521965044876,criticality=borderline & is_correct=1 & noise_keyword_present=0
+0.14435521965044876,criticality=borderline & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.14284364666981578,noise_keyword_hit=none & noise_label=material_color
+0.14284364666981578,noise_keyword_present=0 & noise_label=material_color
+0.14284364666981578,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=material_color
+0.14265470004723665,criticality=borderline & is_uncertain=1 & noise_keyword_present=0 & uses_coordinate=0
+0.14265470004723665,ai_judgment=uncertain & criticality=borderline & noise_keyword_present=0 & uses_coordinate=0
+0.14265470004723665,criticality=borderline & error_category=under_specification & noise_keyword_present=0 & uses_coordinate=0
+0.14265470004723665,criticality=borderline & error_category=under_specification & noise_keyword_hit=none & uses_coordinate=0
+0.14265470004723665,criticality=borderline & is_uncertain=1 & noise_keyword_hit=none & uses_coordinate=0
+0.14265470004723665,ai_judgment=uncertain & criticality=borderline & noise_keyword_hit=none & uses_coordinate=0
+0.14218233349078885,criticality=borderline & strategy=constraint_boundary_solver
+0.14189891355692016,criticality=borderline & noise_keyword_present=1
+0.1418044402456306,has_formula=1 & is_correct=0 & level=L1
+0.14152102031176192,criticality=borderline & strategy=dimensionless_ratio_design
+0.1410486537553141,noise_keyword_hit=none & strategy=constraint_boundary_solver
+0.1410486537553141,noise_keyword_hit=none & noise_keyword_present=0 & strategy=constraint_boundary_solver
+0.1410486537553141,noise_keyword_present=0 & strategy=constraint_boundary_solver
+0.14095418044402455,has_formula=1 & strategy=halton_space_filling
+0.13982050070854984,noise_keyword_present=0 & strategy=dimensionless_ratio_design
+0.13982050070854984,noise_keyword_hit=none & strategy=dimensionless_ratio_design
+0.13982050070854984,noise_keyword_hit=none & noise_keyword_present=0 & strategy=dimensionless_ratio_design
+0.13934813415210204,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_present=1
+0.13934813415210204,ai_judgment=cannot_pass & noise_keyword_present=1
+0.13915918752952292,is_uncertain=0 & level=L1 & noise_keyword_present=1
+0.13887576759565423,criticality=borderline & has_formula=0
+0.1386868209730751,criticality=borderline & has_formula=1 & level=L1 & uses_coordinate=0
+0.13859234766178555,noise_keyword_present=0 & strategy=halton_space_filling
+0.13859234766178555,noise_keyword_hit=none & noise_keyword_present=0 & strategy=halton_space_filling
+0.13859234766178555,noise_keyword_hit=none & strategy=halton_space_filling
+0.13840340103920643,is_uncertain=0 & noise_label=material_color
+0.1382144544166273,criticality=narrow & noise_keyword_hit=none
+0.1382144544166273,criticality=narrow & noise_keyword_hit=none & noise_keyword_present=0
+0.1382144544166273,criticality=narrow & noise_keyword_present=0
+0.13811998110533774,noise_keyword_present=0 & strategy=real_world_archetype_matrix
+0.13811998110533774,is_uncertain=0 & noise_label=ambient_noise
+0.13811998110533774,noise_keyword_hit=none & noise_keyword_present=0 & strategy=real_world_archetype_matrix
+0.13811998110533774,noise_keyword_hit=none & strategy=real_world_archetype_matrix
+0.1377420878601795,ai_judgment=cannot_pass & criticality=borderline & is_correct=1 & uses_coordinate=0
+0.1377420878601795,ai_judgment=cannot_pass & criticality=borderline & error_category=none & uses_coordinate=0
+0.1374586679263108,has_formula=1 & is_uncertain=1 & level=L1
+0.1374586679263108,ai_judgment=cannot_pass & criticality=borderline & noise_keyword_hit=none & uses_coordinate=0
+0.1374586679263108,has_formula=1 & is_uncertain=0 & level=L1
+0.1374586679263108,error_category=under_specification & has_formula=1 & is_uncertain=1 & level=L1
+0.1374586679263108,has_formula=1 & is_correct=0 & is_uncertain=1 & level=L1
+0.1374586679263108,error_category=under_specification & has_formula=1 & is_correct=0 & level=L1
+0.1374586679263108,ai_judgment=cannot_pass & criticality=borderline & noise_keyword_present=0 & uses_coordinate=0
+0.1374586679263108,ai_judgment=uncertain & has_formula=1 & is_correct=0 & level=L1
+0.1374586679263108,ai_judgment=uncertain & error_category=under_specification & has_formula=1 & level=L1
+0.1374586679263108,ai_judgment=uncertain & has_formula=1 & is_uncertain=1 & level=L1
+0.1374586679263108,ai_judgment=uncertain & has_formula=1 & level=L1
+0.1374586679263108,error_category=under_specification & has_formula=1 & level=L1
+0.13717524799244213,has_formula=1 & is_correct=0 & level=L1 & uses_coordinate=0
+0.13660840812470476,is_uncertain=0 & strategy=dimensionless_ratio_design
+0.13623051487954652,is_uncertain=0 & strategy=constraint_boundary_solver
+0.1358526216343883,is_uncertain=0 & strategy=baseline
+0.13547472838923005,model=gpt-4o-mini & noise_keyword_hit=none
+0.13547472838923005,error_category=none & is_uncertain=0 & level=L2
+0.13547472838923005,model=gpt-4o-mini & noise_keyword_hit=none & noise_keyword_present=0
+0.13547472838923005,model=gpt-4o-mini & noise_keyword_present=0
+0.13547472838923005,is_correct=1 & level=L2
+0.13547472838923005,error_category=none & level=L2
+0.13547472838923005,error_category=none & is_correct=1 & level=L2
+0.13547472838923005,error_category=none & is_correct=1 & is_uncertain=0 & level=L2
+0.13547472838923005,is_correct=1 & is_uncertain=0 & level=L2
+0.13490788852149269,criticality=borderline & has_formula=0 & uses_coordinate=0
+0.13471894189891356,is_uncertain=0 & noise_label=lighting
+0.13471894189891356,criticality=wide & has_formula=1 & uses_coordinate=0
+0.1338686820973075,is_uncertain=0 & strategy=real_world_archetype_matrix
+0.1338686820973075,criticality=wide & is_uncertain=0 & uses_coordinate=0
+0.13358526216343883,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & level=L2
+0.13358526216343883,ai_judgment=cannot_pass & error_category=none & level=L2
+0.13358526216343883,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & level=L2
+0.13358526216343883,ai_judgment=cannot_pass & error_category=none & is_correct=1 & level=L2
+0.13358526216343883,ai_judgment=cannot_pass & is_correct=1 & level=L2
+0.13330184222957014,criticality=borderline & error_category=none & has_formula=1 & noise_keyword_present=0
+0.13330184222957014,criticality=borderline & error_category=none & has_formula=1 & noise_keyword_hit=none
+0.13330184222957014,criticality=borderline & has_formula=1 & is_correct=1 & noise_keyword_hit=none
+0.13330184222957014,criticality=borderline & has_formula=1 & is_correct=1 & noise_keyword_present=0
+0.13320736891828058,criticality=borderline & has_formula=1 & level=L2
+0.13320736891828058,criticality=borderline & is_correct=0 & level=L1
+0.13311289560699102,has_formula=1 & is_correct=1 & level=L1
+0.13311289560699102,has_formula=1 & is_correct=1 & is_uncertain=0 & level=L1
+0.13311289560699102,error_category=none & has_formula=1 & level=L1
+0.13311289560699102,error_category=none & has_formula=1 & is_uncertain=0 & level=L1
+0.13311289560699102,error_category=none & has_formula=1 & is_correct=1 & level=L1
+0.13282947567312234,error_category=under_specification & has_formula=1 & level=L1 & uses_coordinate=0
+0.13282947567312234,ai_judgment=uncertain & has_formula=1 & level=L1 & uses_coordinate=0
+0.13282947567312234,has_formula=1 & is_uncertain=1 & level=L1 & uses_coordinate=0
+0.13254605573925365,ai_judgment=cannot_pass & criticality=borderline & error_category=none & noise_keyword_present=0
+0.13254605573925365,ai_judgment=cannot_pass & criticality=borderline & error_category=none & noise_keyword_hit=none
+0.13254605573925365,ai_judgment=cannot_pass & criticality=borderline & is_correct=1 & noise_keyword_present=0
+0.13254605573925365,ai_judgment=cannot_pass & criticality=borderline & is_correct=1 & noise_keyword_hit=none
+0.13226263580538497,is_correct=1 & level=L1 & noise_keyword_present=1
+0.13226263580538497,has_formula=1 & is_correct=1 & is_uncertain=0 & level=L2
+0.13226263580538497,error_category=none & has_formula=1 & is_uncertain=0 & level=L2
+0.13226263580538497,error_category=none & is_correct=1 & level=L1 & noise_keyword_present=1
+0.13226263580538497,has_formula=1 & is_correct=1 & level=L2
+0.13226263580538497,error_category=none & has_formula=1 & is_correct=1 & level=L2
+0.13226263580538497,is_correct=1 & is_uncertain=0 & level=L1 & noise_keyword_present=1
+0.13226263580538497,error_category=none & is_uncertain=0 & level=L1 & noise_keyword_present=1
+0.13226263580538497,error_category=none & has_formula=1 & level=L2
+0.13226263580538497,error_category=none & level=L1 & noise_keyword_present=1
+0.13207368918280585,is_uncertain=0 & level=L1 & noise_keyword_present=1 & uses_coordinate=0
+0.1319792158715163,criticality=borderline & is_uncertain=0 & level=L2
+0.13150684931506848,criticality=narrow & error_category=none & has_formula=1 & is_uncertain=0
+0.13150684931506848,ai_judgment=cannot_pass & criticality=narrow & has_formula=1 & is_correct=1
+0.13150684931506848,criticality=narrow & error_category=none & has_formula=1
+0.13150684931506848,criticality=narrow & has_formula=1 & is_correct=1
+0.13150684931506848,ai_judgment=cannot_pass & criticality=narrow & has_formula=1 & is_uncertain=0
+0.13150684931506848,ai_judgment=cannot_pass & criticality=narrow & error_category=none & has_formula=1
+0.13150684931506848,criticality=narrow & has_formula=1 & is_correct=1 & is_uncertain=0
+0.13150684931506848,ai_judgment=cannot_pass & criticality=narrow & has_formula=1
+0.13150684931506848,criticality=narrow & has_formula=1 & is_uncertain=0
+0.13150684931506848,criticality=narrow & error_category=none & has_formula=1 & is_correct=1
+0.13122342938119982,criticality=borderline & is_correct=0 & level=L1 & uses_coordinate=0
+0.13094000944733114,ai_judgment=cannot_pass & criticality=borderline & level=L2
+0.13094000944733114,ai_judgment=cannot_pass & strategy=constraint_boundary_solver
+0.13094000944733114,ai_judgment=cannot_pass & is_uncertain=0 & strategy=constraint_boundary_solver
+0.13094000944733114,ai_judgment=cannot_pass & criticality=borderline & is_uncertain=0 & level=L2
+0.13084553613604158,is_correct=0 & is_uncertain=0 & uses_coordinate=0
+0.13084553613604158,model=gpt-4o & uses_coordinate=0
+0.13075106282475202,is_uncertain=0 & model=gpt-4o-mini & noise_keyword_hit=none
+0.13075106282475202,is_uncertain=0 & model=gpt-4o-mini & noise_keyword_present=0
+0.13075106282475202,is_uncertain=0 & model=gpt-4o-mini & noise_keyword_hit=none & noise_keyword_present=0
+0.1305621162021729,has_formula=1 & is_correct=1 & is_uncertain=0 & noise_keyword_present=1
+0.1305621162021729,has_formula=1 & is_correct=1 & noise_keyword_present=1
+0.1305621162021729,error_category=none & has_formula=1 & is_uncertain=0 & noise_keyword_present=1
+0.1305621162021729,error_category=none & has_formula=1 & is_correct=1 & noise_keyword_present=1
+0.1305621162021729,error_category=none & has_formula=1 & noise_keyword_present=1
+0.13046764289088333,is_uncertain=0 & noise_label=emotional_pressure
+0.13037316957959377,ai_judgment=cannot_pass & has_formula=1 & is_correct=1 & level=L2
+0.13037316957959377,ai_judgment=cannot_pass & error_category=none & has_formula=1 & level=L2
+0.1300897496457251,criticality=borderline & has_formula=1 & is_uncertain=0 & level=L2
+0.1298063297118564,criticality=wide & noise_keyword_hit=none & uses_coordinate=0
+0.1298063297118564,criticality=wide & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=0
+0.1298063297118564,criticality=wide & noise_keyword_present=0 & uses_coordinate=0
+0.1298063297118564,criticality=borderline & noise_keyword_present=1 & uses_coordinate=0
+0.12905054322153992,ai_judgment=cannot_pass & criticality=borderline & has_formula=1 & level=L2
+0.12895606991025035,criticality=wide & has_formula=1 & noise_keyword_present=0
+0.12895606991025035,criticality=wide & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.12895606991025035,criticality=wide & has_formula=1 & noise_keyword_hit=none
+0.1285781766650921,model=gpt-4o & noise_keyword_hit=none & noise_keyword_present=0
+0.1285781766650921,model=gpt-4o & noise_keyword_present=0
+0.1285781766650921,model=gpt-4o & noise_keyword_hit=none
+0.1281058101086443,is_uncertain=0 & noise_keyword_present=0 & noise_label=none
+0.1281058101086443,is_uncertain=0 & noise_keyword_hit=none & noise_label=none
+0.1281058101086443,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.1281058101086443,is_uncertain=0 & noise_label=none
+0.12791686348606518,has_formula=1 & model=gpt-4o & noise_keyword_present=0
+0.12791686348606518,has_formula=1 & model=gpt-4o & noise_keyword_hit=none & noise_keyword_present=0
+0.12791686348606518,has_formula=1 & model=gpt-4o & noise_keyword_hit=none
+0.12782239017477562,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0 & uses_coordinate=0
+0.12782239017477562,ai_judgment=cannot_pass & is_correct=0 & uses_coordinate=0
+0.12772791686348606,criticality=borderline & has_formula=1 & level=L2 & uses_coordinate=0
+0.1276334435521965,is_correct=1 & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.1276334435521965,error_category=none & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.1276334435521965,error_category=none & level=L2 & uses_coordinate=0
+0.1276334435521965,error_category=none & is_correct=1 & level=L2 & uses_coordinate=0
+0.1276334435521965,is_correct=1 & level=L2 & uses_coordinate=0
+0.1276334435521965,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=ambient_noise
+0.1276334435521965,noise_keyword_hit=none & noise_label=ambient_noise
+0.1276334435521965,noise_keyword_present=0 & noise_label=ambient_noise
+0.12753897024090693,ai_judgment=cannot_pass & is_uncertain=0 & level=L1
+0.12753897024090693,ai_judgment=cannot_pass & level=L1
+0.1273500236183278,is_uncertain=0 & model=gpt-4o
+0.12725555030703825,is_uncertain=0 & strategy=halton_space_filling
+0.12678318375059044,has_formula=1 & model=gpt-4o & uses_coordinate=0
+0.1266887104393009,criticality=borderline & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.1264997638167218,has_formula=1 & is_uncertain=0 & model=gpt-4o
+0.1262163438828531,has_formula=1 & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.12612187057156354,is_correct=1 & is_uncertain=0 & uses_coordinate=1
+0.12612187057156354,error_category=none & is_uncertain=0 & uses_coordinate=1
+0.12612187057156354,error_category=none & is_correct=1 & is_uncertain=0 & uses_coordinate=1
+0.12612187057156354,is_correct=1 & uses_coordinate=1
+0.12612187057156354,error_category=none & uses_coordinate=1
+0.12612187057156354,error_category=none & is_correct=1 & uses_coordinate=1
+0.12612187057156354,criticality=wide & has_formula=1 & is_correct=0
+0.12593292394898442,criticality=wide & is_uncertain=0 & noise_keyword_present=0
+0.12593292394898442,criticality=wide & is_uncertain=0 & noise_keyword_hit=none
+0.12593292394898442,criticality=wide & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.1257439773264053,ai_judgment=cannot_pass & error_category=none & level=L2 & uses_coordinate=0
+0.1257439773264053,ai_judgment=cannot_pass & is_correct=1 & level=L2 & uses_coordinate=0
+0.12564950401511574,model=gemini-3-flash-preview
+0.12564950401511574,ai_judgment=cannot_pass & criticality=borderline & level=L2 & uses_coordinate=0
+0.12517713745866793,error_category=none & level=L1 & noise_keyword_present=1 & uses_coordinate=0
+0.12517713745866793,is_correct=1 & level=L1 & noise_keyword_present=1 & uses_coordinate=0
+0.12479924421350969,has_formula=1 & is_correct=1 & uses_coordinate=1
+0.12479924421350969,has_formula=1 & is_correct=1 & is_uncertain=0 & uses_coordinate=1
+0.12479924421350969,error_category=none & has_formula=1 & is_correct=1 & uses_coordinate=1
+0.12479924421350969,error_category=none & has_formula=1 & is_uncertain=0 & uses_coordinate=1
+0.12479924421350969,error_category=none & has_formula=1 & uses_coordinate=1
+0.12461029759093056,model=gpt-5.5
+0.12442135096835144,has_formula=1 & is_correct=1 & level=L2 & uses_coordinate=0
+0.12442135096835144,error_category=none & has_formula=1 & level=L2 & uses_coordinate=0
+0.12394898441190363,criticality=wide & is_correct=0 & uses_coordinate=0
+0.12394898441190363,has_formula=1 & is_uncertain=0 & noise_keyword_present=1 & uses_coordinate=0
+0.12376003778932451,noise_keyword_hit=none & noise_label=lighting
+0.12376003778932451,noise_keyword_present=0 & noise_label=lighting
+0.12376003778932451,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=lighting
+0.12376003778932451,has_formula=1 & is_uncertain=0 & noise_label=material_color
+0.12290977798771847,has_formula=1 & model=gpt-4o-mini
+0.1218705715635333,error_category=none & has_formula=1 & level=L1 & uses_coordinate=0
+0.1218705715635333,has_formula=1 & is_correct=1 & level=L1 & uses_coordinate=0
+0.12177609825224374,has_formula=1 & is_uncertain=0 & strategy=baseline
+0.12168162494095418,ai_judgment=cannot_pass & strategy=real_world_archetype_matrix
+0.12168162494095418,ai_judgment=cannot_pass & is_uncertain=0 & strategy=real_world_archetype_matrix
+0.12149267831837506,error_category=none & level=L3
+0.12149267831837506,error_category=none & is_correct=1 & is_uncertain=0 & level=L3
+0.12149267831837506,is_correct=1 & is_uncertain=0 & level=L3
+0.12149267831837506,error_category=none & is_correct=1 & level=L3
+0.12149267831837506,is_correct=1 & level=L3
+0.12149267831837506,error_category=none & is_uncertain=0 & level=L3
+0.12111478507321681,ai_judgment=cannot_pass & is_uncertain=0 & level=L1 & uses_coordinate=0
+0.12111478507321681,criticality=borderline & error_category=none & has_formula=1 & uses_coordinate=0
+0.12111478507321681,ai_judgment=cannot_pass & level=L1 & uses_coordinate=0
+0.12111478507321681,criticality=borderline & has_formula=1 & is_correct=1 & uses_coordinate=0
+0.12102031176192725,ai_judgment=cannot_pass & is_uncertain=0 & model=gpt-4o-mini & noise_keyword_hit=none
+0.12102031176192725,model=claude-sonnet-4-6-thinking
+0.12102031176192725,ai_judgment=cannot_pass & model=gpt-4o-mini & noise_keyword_hit=none & noise_keyword_present=0
+0.12102031176192725,ai_judgment=cannot_pass & model=gpt-4o-mini & noise_keyword_present=0
+0.12102031176192725,has_formula=1 & is_correct=0 & is_uncertain=0 & uses_coordinate=0
+0.12102031176192725,ai_judgment=cannot_pass & is_uncertain=0 & model=gpt-4o-mini & noise_keyword_present=0
+0.12102031176192725,ai_judgment=cannot_pass & model=gpt-4o-mini & noise_keyword_hit=none
+0.12073689182805858,ai_judgment=uncertain & criticality=borderline & is_correct=0 & level=L1
+0.12073689182805858,has_formula=1 & is_correct=0 & level=L2
+0.12073689182805858,criticality=borderline & error_category=under_specification & is_uncertain=1 & level=L1
+0.12073689182805858,ai_judgment=uncertain & criticality=borderline & is_uncertain=1 & level=L1
+0.12073689182805858,criticality=borderline & error_category=under_specification & level=L1
+0.12073689182805858,model=claude-opus-4-6
+0.12073689182805858,criticality=borderline & error_category=under_specification & is_correct=0 & level=L1
+0.12073689182805858,ai_judgment=uncertain & criticality=borderline & level=L1
+0.12073689182805858,criticality=borderline & is_uncertain=1 & level=L1
+0.12073689182805858,criticality=borderline & is_correct=0 & is_uncertain=1 & level=L1
+0.12073689182805858,ai_judgment=uncertain & criticality=borderline & error_category=under_specification & level=L1
+0.12073689182805858,has_formula=1 & model=claude-opus-4-6
+0.12054794520547946,has_formula=1 & is_uncertain=0 & model=gpt-4o-mini
+0.12007557864903165,error_category=none & strategy=constraint_boundary_solver
+0.12007557864903165,is_correct=1 & is_uncertain=0 & strategy=constraint_boundary_solver
+0.12007557864903165,error_category=none & is_uncertain=0 & strategy=constraint_boundary_solver
+0.12007557864903165,is_correct=1 & strategy=constraint_boundary_solver
+0.12007557864903165,error_category=none & is_correct=1 & is_uncertain=0 & strategy=constraint_boundary_solver
+0.12007557864903165,error_category=none & is_correct=1 & strategy=constraint_boundary_solver
+0.12007557864903165,has_formula=1 & is_uncertain=0 & strategy=constraint_boundary_solver
+0.11998110533774209,has_formula=1 & is_uncertain=0 & noise_label=lighting
+0.11960321209258384,has_formula=1 & is_correct=1 & is_uncertain=0 & level=L3
+0.11960321209258384,has_formula=1 & is_correct=1 & level=L3
+0.11960321209258384,error_category=none & has_formula=1 & level=L3
+0.11960321209258384,error_category=none & has_formula=1 & is_correct=1 & level=L3
+0.11960321209258384,error_category=none & has_formula=1 & is_uncertain=0 & level=L3
+0.11950873878129428,has_formula=1 & is_uncertain=0 & noise_label=ambient_noise
+0.11941426547000472,is_correct=0 & model=gpt-4o
+0.11903637222484648,model=gpt-4o-mini & uses_coordinate=0
+0.11875295229097779,ai_judgment=uncertain & criticality=borderline & level=L1 & uses_coordinate=0
+0.11875295229097779,criticality=borderline & is_uncertain=1 & level=L1 & uses_coordinate=0
+0.11875295229097779,criticality=borderline & error_category=under_specification & level=L1 & uses_coordinate=0
+0.11875295229097779,has_formula=1 & is_uncertain=0 & strategy=real_world_archetype_matrix
+0.11809163911195088,ai_judgment=cannot_pass & has_formula=1 & is_correct=0 & uses_coordinate=0
+0.11799716580066132,is_correct=0 & strategy=halton_space_filling
+0.11790269248937175,has_formula=1 & is_uncertain=0 & strategy=dimensionless_ratio_design
+0.1178082191780822,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_present=1 & uses_coordinate=0
+0.1178082191780822,ai_judgment=cannot_pass & noise_keyword_present=1 & uses_coordinate=0
+0.11752479924421351,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & strategy=constraint_boundary_solver
+0.11752479924421351,ai_judgment=cannot_pass & is_correct=1 & strategy=constraint_boundary_solver
+0.11752479924421351,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & strategy=constraint_boundary_solver
+0.11752479924421351,ai_judgment=cannot_pass & error_category=none & strategy=constraint_boundary_solver
+0.11752479924421351,ai_judgment=cannot_pass & error_category=none & is_correct=1 & strategy=constraint_boundary_solver
+0.11743032593292395,is_correct=0 & is_uncertain=0 & level=L2
+0.11724137931034483,ai_judgment=cannot_pass & is_correct=0 & level=L2
+0.11724137931034483,ai_judgment=cannot_pass & is_correct=0 & is_uncertain=0 & level=L2
+0.11714690599905526,criticality=borderline & has_formula=1 & level=L3
+0.11695795937647614,noise_keyword_hit=none & noise_label=emotional_pressure
+0.11695795937647614,noise_keyword_present=0 & noise_label=emotional_pressure
+0.11695795937647614,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=emotional_pressure
+0.11667453944260746,model=claude-sonnet-4-6-thinking & uses_coordinate=0
+0.11629664619744923,ai_judgment=cannot_pass & noise_label=material_color
+0.11629664619744923,ai_judgment=cannot_pass & is_uncertain=0 & noise_label=material_color
+0.11620217288615967,ai_judgment=cannot_pass & strategy=dimensionless_ratio_design
+0.11620217288615967,ai_judgment=cannot_pass & has_formula=1 & model=gpt-4o-mini
+0.11620217288615967,has_formula=1 & is_correct=0 & model=gpt-4o
+0.11620217288615967,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & model=gpt-4o-mini
+0.11620217288615967,ai_judgment=cannot_pass & is_uncertain=0 & strategy=dimensionless_ratio_design
+0.11582427964100142,has_formula=1 & is_correct=0 & is_uncertain=0 & level=L2
+0.11582427964100142,is_correct=0 & noise_keyword_hit=none & strategy=baseline
+0.11582427964100142,is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0 & strategy=baseline
+0.11582427964100142,is_correct=0 & noise_keyword_present=0 & strategy=baseline
+0.11572980632971186,is_correct=0 & noise_keyword_present=1
+0.1156353330184223,criticality=wide & has_formula=1 & is_uncertain=0 & noise_keyword_present=0
+0.1156353330184223,criticality=wide & has_formula=1 & is_uncertain=0 & noise_keyword_hit=none
+0.1156353330184223,ai_judgment=cannot_pass & has_formula=1 & is_correct=0 & level=L2
+0.11516296646197449,ai_judgment=cannot_pass & has_formula=1 & strategy=constraint_boundary_solver
+0.11516296646197449,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & strategy=constraint_boundary_solver
+0.11506849315068493,ai_judgment=cannot_pass & error_category=none & level=L1
+0.11506849315068493,ai_judgment=cannot_pass & is_correct=1 & level=L1
+0.11506849315068493,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & level=L1
+0.11506849315068493,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & level=L1
+0.11506849315068493,ai_judgment=cannot_pass & error_category=none & is_correct=1 & level=L1
+0.11487954652810581,is_correct=0 & strategy=baseline & uses_coordinate=0
+0.11478507321681625,has_formula=1 & model=gpt-4o-mini & noise_keyword_hit=none & noise_keyword_present=0
+0.11478507321681625,has_formula=1 & model=gpt-4o-mini & noise_keyword_present=0
+0.11478507321681625,has_formula=1 & model=gpt-4o-mini & noise_keyword_hit=none
+0.11459612659423712,has_formula=1 & strategy=baseline & uses_coordinate=0
+0.11450165328294756,criticality=borderline & level=L1 & noise_keyword_present=1
+0.11431270666036844,is_correct=0 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.11431270666036844,has_formula=1 & is_correct=0 & level=L2 & uses_coordinate=0
+0.11431270666036844,is_correct=0 & noise_label=none
+0.11431270666036844,is_correct=0 & noise_keyword_hit=none & noise_label=none
+0.11431270666036844,is_correct=0 & noise_keyword_present=0 & noise_label=none
+0.11421823334907888,has_formula=0 & level=L1
+0.11421823334907888,ai_judgment=cannot_pass & noise_label=ambient_noise
+0.11421823334907888,ai_judgment=cannot_pass & is_uncertain=0 & noise_label=ambient_noise
+0.11421823334907888,has_formula=0 & level=L1 & uses_coordinate=0
+0.11412376003778932,criticality=borderline & uses_coordinate=1
+0.11393481341521021,has_formula=1 & is_uncertain=0 & model=gpt-4o-mini & noise_keyword_present=0
+0.11393481341521021,model=grok-4
+0.11393481341521021,has_formula=1 & is_uncertain=0 & model=gpt-4o-mini & noise_keyword_hit=none
+0.11374586679263109,has_formula=1 & noise_keyword_present=0 & strategy=baseline
+0.11374586679263109,has_formula=1 & noise_keyword_hit=none & strategy=baseline
+0.11374586679263109,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0 & strategy=baseline
+0.11365139348134153,criticality=borderline & is_correct=0 & is_uncertain=0
+0.11365139348134153,criticality=borderline & has_formula=1 & level=L2 & noise_keyword_present=0
+0.11365139348134153,criticality=borderline & has_formula=1 & level=L2 & noise_keyword_hit=none
+0.1134624468587624,ai_judgment=can_pass
+0.1134624468587624,ai_judgment=can_pass & is_uncertain=0
+0.11336797354747284,criticality=borderline & strategy=constraint_boundary_solver & uses_coordinate=0
+0.11317902692489372,has_formula=1 & is_uncertain=0 & noise_keyword_present=0 & noise_label=none
+0.11317902692489372,has_formula=1 & is_uncertain=0 & noise_label=none
+0.11317902692489372,has_formula=1 & is_uncertain=0 & noise_keyword_hit=none & noise_label=none
+0.11308455361360416,has_formula=1 & is_uncertain=0 & noise_label=emotional_pressure
+0.1129900803023146,noise_keyword_hit=none & strategy=baseline & uses_coordinate=0
+0.1129900803023146,is_correct=0 & noise_label=material_color
+0.1129900803023146,noise_keyword_hit=none & noise_keyword_present=0 & strategy=baseline & uses_coordinate=0
+0.1129900803023146,noise_keyword_present=0 & strategy=baseline & uses_coordinate=0
+0.11251771374586679,criticality=borderline & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.11251771374586679,criticality=borderline & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.11251771374586679,criticality=narrow & has_formula=1 & uses_coordinate=0
+0.11232876712328767,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & noise_keyword_present=1
+0.11232876712328767,ai_judgment=cannot_pass & error_category=none & noise_keyword_present=1
+0.11232876712328767,ai_judgment=cannot_pass & error_category=none & is_correct=1 & noise_keyword_present=1
+0.11232876712328767,ai_judgment=cannot_pass & is_correct=1 & noise_keyword_present=1
+0.11232876712328767,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & noise_keyword_present=1
+0.11166745394426075,criticality=borderline & level=L1 & noise_keyword_present=1 & uses_coordinate=0
+0.11157298063297119,ai_judgment=cannot_pass & criticality=borderline & level=L2 & noise_keyword_hit=none
+0.11157298063297119,ai_judgment=cannot_pass & criticality=borderline & level=L2 & noise_keyword_present=0
+0.11138403401039207,is_uncertain=0 & model=gpt-4o & noise_keyword_present=0
+0.11138403401039207,has_formula=1 & is_uncertain=0 & model=gpt-4o & noise_keyword_hit=none
+0.11138403401039207,has_formula=1 & is_uncertain=0 & model=gpt-4o & noise_keyword_present=0
+0.11138403401039207,is_uncertain=0 & model=gpt-4o & noise_keyword_hit=none
+0.11138403401039207,is_uncertain=0 & model=gpt-4o & noise_keyword_hit=none & noise_keyword_present=0
+0.11119508738781295,is_correct=0 & is_uncertain=0 & level=L2 & uses_coordinate=0
+0.11100614076523382,has_formula=1 & is_uncertain=0 & strategy=halton_space_filling
+0.11100614076523382,ai_judgment=cannot_pass & is_correct=0 & level=L2 & uses_coordinate=0
+0.11100614076523382,criticality=wide & has_formula=1 & is_uncertain=0 & uses_coordinate=0
+0.11091166745394426,ai_judgment=cannot_pass & has_formula=1 & model=gpt-4o
+0.11091166745394426,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & model=gpt-4o
+0.11091166745394426,ai_judgment=cannot_pass & is_uncertain=0 & model=gpt-4o
+0.11091166745394426,ai_judgment=cannot_pass & model=gpt-4o
+0.1108171941426547,criticality=borderline & noise_label=material_color
+0.11015588096362777,criticality=borderline & has_formula=1 & uses_coordinate=1
+0.10996693434104865,criticality=borderline & has_formula=1 & noise_keyword_present=1
+0.10987246102975909,ai_judgment=cannot_pass & is_uncertain=0 & noise_label=lighting
+0.10987246102975909,ai_judgment=cannot_pass & noise_label=lighting
+0.10987246102975909,ai_judgment=cannot_pass & has_formula=1 & model=gpt-4o-mini & noise_keyword_hit=none
+0.10987246102975909,ai_judgment=cannot_pass & has_formula=1 & model=gpt-4o-mini & noise_keyword_present=0
+0.10968351440717997,ai_judgment=cannot_pass & has_formula=1 & strategy=real_world_archetype_matrix
+0.10968351440717997,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & strategy=real_world_archetype_matrix
+0.10968351440717997,is_correct=0 & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=0
+0.10968351440717997,is_correct=0 & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=0
+0.1094000944733113,has_formula=1 & strategy=real_world_archetype_matrix & uses_coordinate=0
+0.10930562116202173,criticality=borderline & has_formula=1 & level=L3 & noise_keyword_present=0
+0.10930562116202173,criticality=borderline & has_formula=1 & level=L3 & noise_keyword_hit=none
+0.10911667453944261,error_category=none & level=L2 & noise_keyword_present=0
+0.10911667453944261,error_category=none & is_correct=1 & level=L2 & noise_keyword_hit=none
+0.10911667453944261,is_correct=1 & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.10911667453944261,error_category=none & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.10911667453944261,error_category=none & level=L2 & noise_keyword_hit=none & noise_keyword_present=0
+0.10911667453944261,error_category=none & is_correct=1 & level=L2 & noise_keyword_present=0
+0.10911667453944261,is_correct=1 & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.10911667453944261,criticality=borderline & has_formula=0 & is_correct=0
+0.10911667453944261,error_category=none & level=L2 & noise_keyword_hit=none
+0.10911667453944261,is_uncertain=0 & model=gpt-4o-mini & uses_coordinate=0
+0.10911667453944261,error_category=none & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.10911667453944261,is_correct=1 & level=L2 & noise_keyword_present=0
+0.10911667453944261,is_correct=1 & level=L2 & noise_keyword_hit=none
+0.10911667453944261,is_correct=1 & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.10902220122815305,model=grok-4 & uses_coordinate=0
+0.10883325460557393,ai_judgment=cannot_pass & criticality=borderline & is_correct=0 & is_uncertain=0
+0.10883325460557393,ai_judgment=cannot_pass & criticality=borderline & is_correct=0
+0.1086443079829948,ai_judgment=can_pass & error_category=none & is_uncertain=0
+0.1086443079829948,ai_judgment=can_pass & is_correct=1 & is_uncertain=0
+0.1086443079829948,ai_judgment=can_pass & error_category=none & is_correct=1 & is_uncertain=0
+0.1086443079829948,ai_judgment=cannot_pass & error_category=none & level=L1 & uses_coordinate=0
+0.1086443079829948,ai_judgment=cannot_pass & is_correct=1 & level=L1 & uses_coordinate=0
+0.1086443079829948,ai_judgment=can_pass & is_correct=1
+0.1086443079829948,ai_judgment=can_pass & error_category=none
+0.1086443079829948,ai_judgment=can_pass & error_category=none & is_correct=1
+0.10845536136041568,has_formula=1 & strategy=constraint_boundary_solver & uses_coordinate=0
+0.10826641473783656,has_formula=1 & noise_label=ambient_noise & uses_coordinate=0
+0.108171941426547,is_correct=1 & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.108171941426547,is_correct=1 & level=L3 & noise_keyword_present=0
+0.108171941426547,is_correct=1 & level=L3 & noise_keyword_hit=none
+0.108171941426547,is_correct=1 & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.108171941426547,error_category=none & is_correct=1 & level=L3 & noise_keyword_present=0
+0.108171941426547,error_category=none & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.108171941426547,error_category=none & is_uncertain=0 & level=L3 & noise_keyword_present=0
+0.108171941426547,is_uncertain=0 & model=claude-opus-4-6
+0.108171941426547,has_formula=1 & is_uncertain=0 & model=claude-opus-4-6
+0.108171941426547,error_category=none & is_correct=1 & level=L3 & noise_keyword_hit=none
+0.108171941426547,is_correct=1 & level=L3 & noise_keyword_hit=none & noise_keyword_present=0
+0.108171941426547,error_category=none & level=L3 & noise_keyword_present=0
+0.108171941426547,error_category=none & is_uncertain=0 & level=L3 & noise_keyword_hit=none
+0.108171941426547,error_category=none & level=L3 & noise_keyword_hit=none
+0.10807746811525744,ai_judgment=cannot_pass & noise_keyword_present=0 & noise_label=none
+0.10807746811525744,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_hit=none & noise_label=none
+0.10807746811525744,ai_judgment=cannot_pass & is_uncertain=0 & noise_keyword_present=0 & noise_label=none
+0.10807746811525744,ai_judgment=cannot_pass & is_uncertain=0 & noise_label=none
+0.10807746811525744,ai_judgment=cannot_pass & noise_label=none
+0.10807746811525744,ai_judgment=cannot_pass & noise_keyword_hit=none & noise_label=none
+0.10807746811525744,has_formula=1 & is_correct=1 & noise_keyword_present=1 & uses_coordinate=0
+0.10807746811525744,error_category=none & has_formula=1 & noise_keyword_present=1 & uses_coordinate=0
+0.10807746811525744,has_formula=1 & noise_label=material_color & uses_coordinate=0
+0.10807746811525744,ai_judgment=cannot_pass & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.10788852149267832,ai_judgment=cannot_pass & is_uncertain=0 & noise_label=emotional_pressure
+0.10788852149267832,ai_judgment=cannot_pass & noise_label=emotional_pressure
+0.1076995748700992,is_correct=0 & noise_label=emotional_pressure
+0.10760510155880963,criticality=borderline & noise_keyword_present=0 & noise_label=none
+0.10760510155880963,criticality=borderline & noise_label=none
+0.10760510155880963,criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=none
+0.10760510155880963,criticality=borderline & noise_keyword_hit=none & noise_label=none
+0.10732168162494095,ai_judgment=cannot_pass & is_correct=1 & level=L2 & noise_keyword_present=0
+0.10732168162494095,ai_judgment=cannot_pass & error_category=none & level=L2 & noise_keyword_hit=none
+0.10732168162494095,ai_judgment=cannot_pass & has_formula=1 & noise_keyword_present=1
+0.10732168162494095,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & noise_keyword_present=1
+0.10732168162494095,ai_judgment=cannot_pass & error_category=none & level=L2 & noise_keyword_present=0
+0.10732168162494095,ai_judgment=cannot_pass & is_correct=1 & level=L2 & noise_keyword_hit=none
+0.10713273500236184,criticality=borderline & is_uncertain=0 & level=L3
+0.10703826169107228,is_correct=1 & level=L3 & uses_coordinate=1
+0.10703826169107228,is_correct=1 & is_uncertain=0 & level=L3 & uses_coordinate=1
+0.10703826169107228,error_category=none & is_uncertain=0 & level=L3 & uses_coordinate=1
+0.10703826169107228,criticality=borderline & has_formula=1 & strategy=dimensionless_ratio_design
+0.10703826169107228,error_category=none & level=L3 & uses_coordinate=1
+0.10703826169107228,error_category=none & is_correct=1 & level=L3 & uses_coordinate=1
+0.10703826169107228,criticality=narrow & has_formula=1 & noise_keyword_hit=none
+0.10703826169107228,criticality=narrow & has_formula=1 & noise_keyword_present=0
+0.10703826169107228,criticality=narrow & has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.10694378837978272,has_formula=1 & is_correct=0 & strategy=baseline
+0.10694378837978272,has_formula=1 & noise_keyword_present=0 & noise_label=none & uses_coordinate=0
+0.10694378837978272,criticality=borderline & has_formula=0 & noise_keyword_present=0
+0.10694378837978272,criticality=borderline & has_formula=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.10694378837978272,has_formula=1 & noise_label=none & uses_coordinate=0
+0.10694378837978272,has_formula=1 & noise_keyword_hit=none & noise_label=none & uses_coordinate=0
+0.10694378837978272,criticality=borderline & has_formula=0 & noise_keyword_hit=none
+0.10666036844591403,ai_judgment=cannot_pass & is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.10666036844591403,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0 & strategy=constraint_boundary_solver
+0.10666036844591403,has_formula=1 & noise_keyword_hit=none & strategy=constraint_boundary_solver
+0.10666036844591403,has_formula=1 & noise_keyword_present=0 & strategy=constraint_boundary_solver
+0.10666036844591403,ai_judgment=cannot_pass & is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.10656589513462447,criticality=borderline & strategy=dimensionless_ratio_design & uses_coordinate=0
+0.10656589513462447,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0 & noise_label=material_color
+0.10656589513462447,has_formula=1 & noise_keyword_present=0 & noise_label=material_color
+0.10656589513462447,has_formula=1 & noise_keyword_hit=none & noise_label=material_color
+0.10647142182333491,is_correct=0 & noise_keyword_present=1 & uses_coordinate=0
+0.10637694851204535,ai_judgment=uncertain & criticality=borderline & has_formula=1
+0.10637694851204535,ai_judgment=uncertain & criticality=borderline & error_category=under_specification & has_formula=1
+0.10637694851204535,criticality=borderline & has_formula=1 & is_correct=0 & is_uncertain=1
+0.10637694851204535,criticality=borderline & error_category=under_specification & has_formula=1 & is_uncertain=1
+0.10637694851204535,ai_judgment=uncertain & criticality=borderline & has_formula=1 & is_uncertain=1
+0.10637694851204535,criticality=borderline & has_formula=1 & is_uncertain=1
+0.10637694851204535,criticality=borderline & error_category=under_specification & has_formula=1
+0.10637694851204535,criticality=borderline & error_category=under_specification & has_formula=1 & is_correct=0
+0.10637694851204535,ai_judgment=uncertain & criticality=borderline & has_formula=1 & is_correct=0
+0.10628247520075579,has_formula=1 & is_correct=1 & level=L3 & noise_keyword_present=0
+0.10628247520075579,has_formula=1 & is_correct=1 & level=L3 & noise_keyword_hit=none
+0.10628247520075579,criticality=borderline & has_formula=1 & is_uncertain=0 & level=L3
+0.10628247520075579,criticality=borderline & noise_label=lighting
+0.10628247520075579,error_category=none & has_formula=1 & level=L3 & noise_keyword_hit=none
+0.10628247520075579,error_category=none & has_formula=1 & level=L3 & noise_keyword_present=0
+0.10618800188946623,is_correct=0 & noise_label=lighting
+0.10618800188946623,criticality=borderline & has_formula=1 & strategy=constraint_boundary_solver
+0.10609352857817667,has_formula=1 & is_correct=1 & level=L2 & noise_keyword_present=0
+0.10609352857817667,error_category=none & has_formula=1 & level=L2 & noise_keyword_hit=none
+0.10609352857817667,has_formula=1 & is_correct=1 & level=L2 & noise_keyword_hit=none
+0.10609352857817667,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & noise_label=material_color
+0.10609352857817667,ai_judgment=cannot_pass & has_formula=1 & noise_label=material_color
+0.10609352857817667,error_category=none & has_formula=1 & level=L2 & noise_keyword_present=0
+0.1059990552668871,has_formula=1 & level=L1 & noise_keyword_hit=none & noise_keyword_present=0
+0.1059990552668871,has_formula=1 & level=L1 & noise_keyword_hit=none
+0.1059990552668871,has_formula=1 & level=L1 & noise_keyword_present=0
+0.1059990552668871,criticality=borderline & noise_label=ambient_noise
+0.10590458195559754,criticality=borderline & has_formula=0 & is_correct=0 & uses_coordinate=0
+0.10571563533301842,has_formula=1 & is_correct=1 & strategy=constraint_boundary_solver
+0.10571563533301842,error_category=none & has_formula=1 & strategy=constraint_boundary_solver
+0.10571563533301842,error_category=none & has_formula=1 & is_uncertain=0 & strategy=constraint_boundary_solver
+0.10571563533301842,criticality=borderline & is_uncertain=0 & uses_coordinate=1
+0.10571563533301842,error_category=none & has_formula=1 & is_correct=1 & strategy=constraint_boundary_solver
+0.10571563533301842,error_category=none & has_formula=1 & level=L3 & uses_coordinate=1
+0.10571563533301842,has_formula=1 & is_correct=1 & level=L3 & uses_coordinate=1
+0.10571563533301842,has_formula=1 & is_correct=1 & is_uncertain=0 & strategy=constraint_boundary_solver
+0.10514879546528105,has_formula=1 & noise_label=emotional_pressure & uses_coordinate=0
+0.10495984884270193,criticality=borderline & noise_keyword_present=0 & strategy=constraint_boundary_solver
+0.10495984884270193,criticality=borderline & has_formula=1 & is_uncertain=0 & uses_coordinate=1
+0.10495984884270193,criticality=borderline & noise_keyword_hit=none & strategy=constraint_boundary_solver
+0.10495984884270193,criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0 & strategy=constraint_boundary_solver
+0.10486537553141237,criticality=borderline & has_formula=1 & is_correct=0 & is_uncertain=0
+0.10477090222012282,has_formula=1 & is_correct=0 & level=L2 & noise_keyword_present=0
+0.10477090222012282,ai_judgment=cannot_pass & error_category=none & uses_coordinate=1
+0.10477090222012282,ai_judgment=cannot_pass & error_category=none & is_uncertain=0 & uses_coordinate=1
+0.10477090222012282,ai_judgment=cannot_pass & is_correct=1 & uses_coordinate=1
+0.10477090222012282,has_formula=1 & is_correct=0 & level=L2 & noise_keyword_hit=none
+0.10477090222012282,ai_judgment=cannot_pass & error_category=none & is_correct=1 & uses_coordinate=1
+0.10477090222012282,ai_judgment=cannot_pass & is_correct=1 & is_uncertain=0 & uses_coordinate=1
+0.10477090222012282,criticality=borderline & model=gpt-4o
+0.1045819555975437,has_formula=1 & noise_keyword_hit=none & strategy=real_world_archetype_matrix
+0.1045819555975437,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0 & strategy=real_world_archetype_matrix
+0.1045819555975437,has_formula=1 & noise_keyword_present=0 & strategy=real_world_archetype_matrix
+0.10420406235238545,criticality=narrow & error_category=none & uses_coordinate=0
+0.10420406235238545,criticality=narrow & is_correct=1 & uses_coordinate=0
+0.10420406235238545,criticality=narrow & is_uncertain=0 & uses_coordinate=0
+0.10420406235238545,ai_judgment=cannot_pass & criticality=narrow & uses_coordinate=0
+0.10420406235238545,ai_judgment=cannot_pass & criticality=narrow & error_category=none & uses_coordinate=0
+0.10420406235238545,ai_judgment=cannot_pass & criticality=narrow & is_uncertain=0 & uses_coordinate=0
+0.10420406235238545,criticality=narrow & error_category=none & is_uncertain=0 & uses_coordinate=0
+0.10420406235238545,criticality=narrow & is_correct=1 & is_uncertain=0 & uses_coordinate=0
+0.10420406235238545,ai_judgment=cannot_pass & criticality=narrow & is_correct=1 & uses_coordinate=0
+0.10420406235238545,criticality=narrow & error_category=none & is_correct=1 & uses_coordinate=0
+0.10420406235238545,has_formula=1 & noise_label=lighting & uses_coordinate=0
+0.10373169579593765,criticality=borderline & noise_label=emotional_pressure
+0.10363722248464809,error_category=none & noise_keyword_present=0 & uses_coordinate=1
+0.10363722248464809,is_correct=1 & noise_keyword_present=0 & uses_coordinate=1
+0.10363722248464809,is_correct=1 & noise_keyword_hit=none & uses_coordinate=1
+0.10363722248464809,is_correct=1 & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=1
+0.10363722248464809,is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.10363722248464809,error_category=none & is_correct=1 & noise_keyword_hit=none & uses_coordinate=1
+0.10363722248464809,is_correct=1 & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=1
+0.10363722248464809,error_category=none & is_correct=1 & noise_keyword_present=0 & uses_coordinate=1
+0.10363722248464809,error_category=none & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.10363722248464809,error_category=none & is_uncertain=0 & noise_keyword_hit=none & uses_coordinate=1
+0.10363722248464809,error_category=none & noise_keyword_hit=none & uses_coordinate=1
+0.10363722248464809,error_category=none & is_uncertain=0 & noise_keyword_present=0 & uses_coordinate=1
+0.10354274917335853,ai_judgment=cannot_pass & has_formula=1 & is_correct=1 & strategy=constraint_boundary_solver
+0.10354274917335853,ai_judgment=cannot_pass & error_category=none & has_formula=1 & strategy=constraint_boundary_solver
+0.10344827586206896,is_correct=0 & noise_label=ambient_noise
+0.10344827586206896,ai_judgment=cannot_pass & error_category=none & has_formula=1 & uses_coordinate=1
+0.10344827586206896,has_formula=1 & is_correct=0 & level=L3
+0.10344827586206896,ai_judgment=cannot_pass & has_formula=1 & is_correct=1 & uses_coordinate=1
+0.1033538025507794,error_category=none & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.1033538025507794,is_correct=1 & level=L2 & noise_keyword_present=0 & uses_coordinate=0
+0.1033538025507794,error_category=none & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.1033538025507794,is_correct=1 & level=L2 & noise_keyword_hit=none & uses_coordinate=0
+0.10297590930562116,criticality=borderline & has_formula=0 & noise_keyword_present=0 & uses_coordinate=0
+0.10297590930562116,criticality=borderline & has_formula=0 & noise_keyword_hit=none & uses_coordinate=0
+0.1028814359943316,noise_keyword_hit=none & noise_keyword_present=0 & strategy=constraint_boundary_solver & uses_coordinate=0
+0.1028814359943316,noise_keyword_present=0 & strategy=constraint_boundary_solver & uses_coordinate=0
+0.1028814359943316,noise_keyword_hit=none & strategy=constraint_boundary_solver & uses_coordinate=0
+0.10269248937175247,criticality=wide & is_correct=0 & noise_keyword_hit=none & uses_coordinate=0
+0.10269248937175247,criticality=wide & is_correct=0 & noise_keyword_present=0 & uses_coordinate=0
+0.10259801606046291,noise_keyword_present=0 & strategy=halton_space_filling & uses_coordinate=0
+0.10259801606046291,noise_keyword_hit=none & noise_keyword_present=0 & strategy=halton_space_filling & uses_coordinate=0
+0.10259801606046291,noise_keyword_hit=none & strategy=halton_space_filling & uses_coordinate=0
+0.10250354274917337,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & strategy=dimensionless_ratio_design
+0.10250354274917337,ai_judgment=cannot_pass & has_formula=1 & strategy=dimensionless_ratio_design
+0.10231459612659424,error_category=none & has_formula=1 & noise_keyword_hit=none & uses_coordinate=1
+0.10231459612659424,error_category=none & has_formula=1 & noise_keyword_present=0 & uses_coordinate=1
+0.10231459612659424,has_formula=1 & is_correct=1 & noise_keyword_present=0 & uses_coordinate=1
+0.10231459612659424,has_formula=1 & is_correct=1 & noise_keyword_hit=none & uses_coordinate=1
+0.10231459612659424,criticality=borderline & has_formula=1 & model=gpt-4o
+0.10203117619272556,criticality=borderline & noise_keyword_hit=none & uses_coordinate=1
+0.10203117619272556,criticality=borderline & noise_keyword_present=0 & uses_coordinate=1
+0.10203117619272556,criticality=borderline & noise_keyword_hit=none & noise_keyword_present=0 & uses_coordinate=1
+0.101936702881436,criticality=borderline & level=L3 & uses_coordinate=1
+0.10184222957014644,criticality=narrow & error_category=none & noise_keyword_present=0
+0.10184222957014644,criticality=narrow & is_correct=1 & is_uncertain=0 & noise_keyword_hit=none
+0.10184222957014644,criticality=narrow & is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0
+0.10184222957014644,ai_judgment=cannot_pass & criticality=narrow & is_correct=1 & noise_keyword_present=0
+0.10184222957014644,ai_judgment=cannot_pass & criticality=narrow & error_category=none & noise_keyword_hit=none
+0.10184222957014644,model=gemini-3-flash-preview & noise_keyword_hit=none
+0.10184222957014644,model=gemini-3-flash-preview & noise_keyword_present=0
+0.10184222957014644,model=gemini-3-flash-preview & noise_keyword_hit=none & noise_keyword_present=0
+0.10184222957014644,ai_judgment=cannot_pass & criticality=narrow & is_uncertain=0 & noise_keyword_hit=none
+0.10184222957014644,criticality=narrow & error_category=none & is_uncertain=0 & noise_keyword_hit=none
+0.10184222957014644,criticality=narrow & error_category=none & noise_keyword_hit=none & noise_keyword_present=0
+0.10184222957014644,criticality=narrow & is_correct=1 & is_uncertain=0 & noise_keyword_present=0
+0.10184222957014644,ai_judgment=cannot_pass & criticality=narrow & is_uncertain=0 & noise_keyword_present=0
+0.10184222957014644,ai_judgment=cannot_pass & criticality=narrow & noise_keyword_present=0
+0.10184222957014644,criticality=narrow & is_correct=1 & noise_keyword_present=0
+0.10184222957014644,criticality=narrow & is_uncertain=0 & noise_keyword_hit=none
+0.10184222957014644,criticality=narrow & error_category=none & is_correct=1 & noise_keyword_present=0
+0.10184222957014644,criticality=narrow & error_category=none & noise_keyword_hit=none
+0.10184222957014644,ai_judgment=cannot_pass & criticality=narrow & noise_keyword_hit=none
+0.10184222957014644,criticality=narrow & is_correct=1 & noise_keyword_hit=none
+0.10184222957014644,criticality=narrow & is_uncertain=0 & noise_keyword_present=0
+0.10184222957014644,criticality=narrow & is_correct=1 & noise_keyword_hit=none & noise_keyword_present=0
+0.10184222957014644,criticality=narrow & error_category=none & is_correct=1 & noise_keyword_hit=none
+0.10184222957014644,ai_judgment=cannot_pass & criticality=narrow & is_correct=1 & noise_keyword_hit=none
+0.10184222957014644,ai_judgment=cannot_pass & criticality=narrow & noise_keyword_hit=none & noise_keyword_present=0
+0.10184222957014644,ai_judgment=cannot_pass & criticality=narrow & error_category=none & noise_keyword_present=0
+0.10184222957014644,criticality=narrow & error_category=none & is_uncertain=0 & noise_keyword_present=0
+0.10174775625885688,is_correct=0 & is_uncertain=0 & level=L2 & noise_keyword_present=0
+0.10174775625885688,is_correct=0 & is_uncertain=0 & level=L2 & noise_keyword_hit=none
+0.10165328294756731,noise_keyword_hit=none & noise_keyword_present=0 & noise_label=material_color & uses_coordinate=0
+0.10165328294756731,noise_keyword_hit=none & noise_label=material_color & uses_coordinate=0
+0.10165328294756731,noise_keyword_present=0 & noise_label=material_color & uses_coordinate=0
+0.10155880963627775,ai_judgment=cannot_pass & is_correct=0 & level=L2 & noise_keyword_present=0
+0.10155880963627775,ai_judgment=cannot_pass & is_correct=0 & level=L2 & noise_keyword_hit=none
+0.10146433632498819,ai_judgment=cannot_pass & has_formula=1 & noise_label=ambient_noise
+0.10146433632498819,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & noise_label=ambient_noise
+0.10127538970240907,is_correct=0 & strategy=dimensionless_ratio_design
+0.10118091639111951,criticality=borderline & error_category=under_specification & has_formula=1 & uses_coordinate=0
+0.10118091639111951,ai_judgment=uncertain & criticality=borderline & has_formula=1 & uses_coordinate=0
+0.10118091639111951,criticality=borderline & has_formula=1 & is_uncertain=1 & uses_coordinate=0
+0.10118091639111951,ai_judgment=cannot_pass & has_formula=1 & is_uncertain=0 & noise_label=lighting
+0.10118091639111951,ai_judgment=cannot_pass & has_formula=1 & noise_label=lighting
+0.10099196976854038,is_uncertain=0 & noise_keyword_hit=none & strategy=baseline
+0.10099196976854038,is_uncertain=0 & noise_keyword_hit=none & noise_keyword_present=0 & strategy=baseline
+0.10099196976854038,is_uncertain=0 & noise_keyword_present=0 & strategy=baseline
+0.10089749645725082,ai_judgment=cannot_pass & is_uncertain=0 & model=gpt-4o & noise_keyword_present=0
+0.10089749645725082,criticality=borderline & strategy=baseline
+0.10089749645725082,ai_judgment=cannot_pass & is_uncertain=0 & model=gpt-4o & noise_keyword_hit=none
+0.10089749645725082,ai_judgment=cannot_pass & has_formula=1 & model=gpt-4o & noise_keyword_hit=none
+0.10089749645725082,ai_judgment=cannot_pass & model=gpt-4o & noise_keyword_hit=none & noise_keyword_present=0
+0.10089749645725082,ai_judgment=cannot_pass & has_formula=1 & model=gpt-4o & noise_keyword_present=0
+0.10089749645725082,criticality=wide & has_formula=1 & is_correct=0 & noise_keyword_present=0
+0.10089749645725082,criticality=wide & has_formula=1 & is_correct=0 & noise_keyword_hit=none
+0.10089749645725082,ai_judgment=cannot_pass & model=gpt-4o & noise_keyword_hit=none
+0.10089749645725082,ai_judgment=cannot_pass & model=gpt-4o & noise_keyword_present=0
+0.10080302314596126,ai_judgment=cannot_pass & criticality=wide & is_correct=0 & is_uncertain=0
+0.10080302314596126,criticality=wide & is_correct=0 & is_uncertain=0
+0.10080302314596126,ai_judgment=cannot_pass & criticality=wide & is_uncertain=0
+0.10080302314596126,ai_judgment=cannot_pass & criticality=wide
+0.10080302314596126,ai_judgment=cannot_pass & criticality=wide & is_correct=0
+0.10051960321209258,is_correct=0 & strategy=real_world_archetype_matrix
+0.10042512990080302,noise_keyword_present=0 & strategy=real_world_archetype_matrix & uses_coordinate=0
+0.10042512990080302,noise_keyword_hit=none & strategy=real_world_archetype_matrix & uses_coordinate=0
+0.10042512990080302,noise_keyword_hit=none & noise_keyword_present=0 & strategy=real_world_archetype_matrix & uses_coordinate=0
+0.10033065658951346,ai_judgment=uncertain & criticality=borderline & has_formula=0
+0.10033065658951346,ai_judgment=uncertain & criticality=borderline & error_category=under_specification & has_formula=0
+0.10033065658951346,criticality=borderline & has_formula=0 & is_uncertain=1
+0.10033065658951346,ai_judgment=uncertain & criticality=borderline & has_formula=0 & is_uncertain=1
+0.10033065658951346,criticality=borderline & error_category=under_specification & has_formula=0 & is_uncertain=1
+0.10033065658951346,criticality=borderline & has_formula=0 & is_correct=0 & is_uncertain=1
+0.10033065658951346,ai_judgment=uncertain & criticality=borderline & has_formula=0 & is_correct=0
+0.10033065658951346,criticality=borderline & error_category=under_specification & has_formula=0 & is_correct=0
+0.10033065658951346,criticality=borderline & error_category=under_specification & has_formula=0
+0.1002361832782239,has_formula=1 & strategy=halton_space_filling & uses_coordinate=0
+0.10014170996693435,ai_judgment=cannot_pass & criticality=borderline & has_formula=1 & is_correct=0
+0.10014170996693435,noise_keyword_present=0 & strategy=dimensionless_ratio_design & uses_coordinate=0
+0.10014170996693435,noise_keyword_hit=none & strategy=dimensionless_ratio_design & uses_coordinate=0
+0.10014170996693435,noise_keyword_hit=none & noise_keyword_present=0 & strategy=dimensionless_ratio_design & uses_coordinate=0
+0.10004723665564479,has_formula=1 & level=L1 & noise_keyword_present=0 & uses_coordinate=0
+0.10004723665564479,has_formula=1 & noise_keyword_hit=none & strategy=dimensionless_ratio_design
+0.10004723665564479,has_formula=1 & noise_keyword_present=0 & strategy=dimensionless_ratio_design
+0.10004723665564479,has_formula=1 & noise_keyword_hit=none & noise_keyword_present=0 & strategy=dimensionless_ratio_design
+0.10004723665564479,has_formula=1 & level=L1 & noise_keyword_hit=none & uses_coordinate=0

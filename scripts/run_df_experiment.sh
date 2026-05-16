@@ -8,6 +8,7 @@ WORKERS="${WORKERS:-12}"
 LOG_EVERY="${LOG_EVERY:-5}"
 FLUSH_EVERY="${FLUSH_EVERY:-5}"
 REPEATS="${REPEATS:-3}"
+REPEAT_MODE="${REPEAT_MODE:-copy}"
 PROVIDER="${PROVIDER:-df}"
 
 if [[ -f ".env" ]]; then
@@ -38,6 +39,7 @@ echo "Provider: $PROVIDER"
 echo "DF_API_URL: $DF_API_URL"
 echo "Workers: $WORKERS"
 echo "Repeats: $REPEATS"
+echo "Repeat mode: $REPEAT_MODE"
 echo "Log every: $LOG_EVERY"
 echo "Flush every: $FLUSH_EVERY"
 
@@ -48,6 +50,7 @@ fi
 python scripts/collect_experiment_responses.py \
   --provider "$PROVIDER" \
   --repeats "$REPEATS" \
+  --repeat-mode "$REPEAT_MODE" \
   --workers "$WORKERS" \
   --log-every "$LOG_EVERY" \
   --flush-every "$FLUSH_EVERY"

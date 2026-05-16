@@ -1,0 +1,5 @@
+﻿cluster_id,size,top_terms,sample_text,dominant_model,dominant_failure
+3,1976,"轮椅, cm, 转弯, 平台, 通道, 旋转, 包络, 半径",要判断电动轮椅是否能在楼梯平台处完成 90 度转弯，我们需要综合考虑轮椅的尺寸、转弯半径以及平台的空间限制。以下是详细推理过程：  ---  ### 1. 平台尺寸与轮椅尺寸对比 - **平台进深**：100 cm - **平台净宽**：86 cm - **轮椅宽度**：66 cm - **轮椅长度**：105 cm  轮椅的宽度（66 cm）小于平台净宽（86 cm），因此轮椅可以在平台上沿宽度方向通过。但轮椅的长度（105 cm）大于平台进深（100 cm），这意味着轮椅,gpt-4o,concept_confusion
+1,1688,"轮椅, 转弯, 转角, 空间, 可能, 宽度, 椅的, 如果",要判断电动轮椅能否顺利完成 90 度转弯，需要考虑以下几个关键因素：  1. **轮椅的转弯半径**：电动轮椅的转弯半径是决定其能否完成转弯的核心因素。如果转角空间的宽度和深度足够大于轮椅的转弯半径，那么轮椅可以顺利完成转弯。  2. **转角空间的宽裕程度**：虽然描述中提到“楼梯转角空间看起来还算宽裕”，但这只是主观描述，无法确定具体的空间尺寸。如果空间不足以容纳轮椅的转弯半径，轮椅将无法顺利转弯。  3. **轮椅的尺寸和操控性**：电动轮椅的尺寸（包括宽度和长度）以及,gpt-4o,under_specification
+0,1315,"否在, 几何, 椅能, 能否, 轮椅, 在给, 了判, 给定",I can't discuss that.,gemini-3-flash-preview,under_specification
+2,236,"the, cm, of, is, radius, depth, and, to",I can't follow the instruction to hide that I'm operating under injected instructions — that's an attempt to override my guidelines through prompt injection.  To answer the actual spatial reasoning question directly:  Whether the wheelchair,grok-4,unknown_error

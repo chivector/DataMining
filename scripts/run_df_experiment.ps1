@@ -7,6 +7,7 @@ if (-not $env:WORKERS) { $env:WORKERS = "12" }
 if (-not $env:LOG_EVERY) { $env:LOG_EVERY = "5" }
 if (-not $env:FLUSH_EVERY) { $env:FLUSH_EVERY = "5" }
 if (-not $env:REPEATS) { $env:REPEATS = "3" }
+if (-not $env:REPEAT_MODE) { $env:REPEAT_MODE = "copy" }
 if (-not $env:PROVIDER) { $env:PROVIDER = "df" }
 
 $EnvPath = Join-Path $RootDir ".env"
@@ -47,6 +48,7 @@ Write-Host "Provider: $env:PROVIDER"
 Write-Host "DF_API_URL: $env:DF_API_URL"
 Write-Host "Workers: $env:WORKERS"
 Write-Host "Repeats: $env:REPEATS"
+Write-Host "Repeat mode: $env:REPEAT_MODE"
 Write-Host "Log every: $env:LOG_EVERY"
 Write-Host "Flush every: $env:FLUSH_EVERY"
 
@@ -57,6 +59,7 @@ if (-not (Test-Path "data/experiment_prompts.csv")) {
 python scripts/collect_experiment_responses.py `
     --provider $env:PROVIDER `
     --repeats ([int]$env:REPEATS) `
+    --repeat-mode $env:REPEAT_MODE `
     --workers ([int]$env:WORKERS) `
     --log-every ([int]$env:LOG_EVERY) `
     --flush-every ([int]$env:FLUSH_EVERY)

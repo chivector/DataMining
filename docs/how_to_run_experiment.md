@@ -155,12 +155,18 @@ python scripts/build_experiment_features.py --input data/raw/model_responses_exp
 python scripts/analyze_experiment.py --provider mock --models GPT-4o-sim --repeats 1 --responses data/raw/model_responses_experiment_smoke.csv --input data/processed/behavior_features_experiment_smoke.csv --output-dir outputs_experiment_smoke
 ```
 
-正式采集使用 DF 统一网关，默认读取 `config/experiment.yml` 里的 12 个 `df_models`，默认 `repeats=3` 且开启断点续跑：
+正式采集使用 DF 统一网关，默认读取 `config/experiment.yml` 里的 12 个 `df_models`，默认 `repeats=3`、`--repeat-mode copy` 且开启断点续跑：
 
 ```powershell
 python scripts/collect_experiment_responses.py --provider df
 python scripts/build_experiment_features.py
 python scripts/analyze_experiment.py
+```
+
+`--repeat-mode copy` 只对每个 `(provider, model, prompt_uid)` 调用一次 API，然后复制成 repeat 0/1/2 三行，保留三重复表结构但避免三倍额度消耗。如果需要真实三次独立采样，改用：
+
+```powershell
+python scripts/collect_experiment_responses.py --provider df --repeat-mode api
 ```
 
 如果希望终端输出更密集一些，可以调小详细日志和写盘间隔：
@@ -179,4 +185,10 @@ outputs_experiment/tables/noise_flip_rate_by_strategy.csv
 outputs_experiment/tables/level_consistency_by_strategy.csv
 outputs_experiment/tables/failure_modes_by_strategy.csv
 outputs_experiment/tables/collection_coverage.csv
+```
+
+默认特征构建会丢弃 `status != success` 的 API 失败行，避免网络错误、鉴权错误和超时记录进入挖掘统计。如果需要保留失败行做采集诊断，可运行：
+
+```powershell
+python scripts/build_experiment_features.py --keep-failed
 ```
