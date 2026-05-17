@@ -2,9 +2,9 @@
 
 \subsection{层级与扰动变量}
 
-同一个空间场景被写成三个描述层级。L1 更接近日常语言，只给出转角紧凑、轮椅较宽等模糊描述；L2 给出 $W,D,w,L,R$ 等具体数值，观察模型是否会进行参数比较；L3 将场景表述为 L 形通道、矩形刚体和旋转包络，用来测试形式化描述是否诱发新的概念混淆。三个层级的问题目标和最终回答格式保持一致。
+同一个空间场景被写成三个描述层级。L1 更接近日常语言，只给出转角紧凑、轮椅较宽等模糊描述；L2 给出 $W,D,w,L,R$ 等具体数值，观察模型是否会进行参数比较；L3 将场景表述为可通行区域、矩形刚体和旋转包络，用来测试形式化描述是否诱发新的概念混淆。对于现场图中的真实转角，L3 的理想表达不是完整矩形平台，而是红线多边形 $\Omega$ 与 $121\mathrm{cm}\times68.5\mathrm{cm}$ 轮椅矩形之间的包络相交问题。三个层级的问题目标和最终回答格式保持一致。
 
-扰动条件用于检验模型是否会被非因果信息牵引。扰动文本不改变 $\mathbf{x}$、$\kappa$ 或参考标签，只改变题干中的背景细节，例如墙面材质、环境噪声、光照状态或旁观者催促。若模型在相同空间参数下因为这些信息改变最终判断，就说明其空间推理链条存在不稳定性。
+扰动条件用于检验模型是否会被非因果信息牵引\cite{jia-liang-2017-adversarial,ribeiro-etal-2020-beyond}。扰动文本不改变 $\mathbf{x}$、$\kappa$ 或参考标签，只改变题干中的背景细节，例如墙面材质、环境噪声、光照状态或旁观者催促。若模型在相同空间参数下因为这些信息改变最终判断，就说明其空间推理链条存在不稳定性。
 
 \begin{table}[t]
 \centering
@@ -34,7 +34,12 @@
 
 \input{figures/prompts_gen}
 
-\input{figures/experiment_tensor}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.92\textwidth]{figures/schema_experiment_matrix.png}
+\caption{Prompt--模型--重复采样实验矩阵。1500 条 Prompt 由生成策略、描述层级和扰动条件组合而成，并与 12 个模型、3 次重复采样构成目标规模为 54{,}000 条记录的行为数据张量。}
+\label{fig:experiment-matrix-schema}
+\end{figure*}
 
 \begin{table*}[t]
 \centering
