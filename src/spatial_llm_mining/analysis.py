@@ -185,6 +185,217 @@ def _decision_tree_text(df: pd.DataFrame) -> str:
     return export_text(clf, feature_names=features)
 
 
+def _rate(series: pd.Series) -> float:
+    if series.empty:
+        return 0.0
+    return float(series.mean())
+
+
+def _category_rate(category: str):
+    return lambda s: float((s == category).mean()) if len(s) else 0.0
+
+
+def _margin_risk_summary(df: pd.DataFrame) -> pd.DataFrame:
+    work = df.copy()
+    if "clearance_margin_cm" not in work.columns:
+        return pd.DataFrame()
+    bins = [-np.inf, -20, -5, 0, 2.5, 5, 10, np.inf]
+    labels = [
+        "very_negative",
+        "negative",
+        "near_zero_negative",
+        "near_zero_positive",
+        "small_positive",
+        "moderate_positive",
+        "large_positive",
+    ]
+    work["margin_bin"] = pd.cut(work["clearance_margin_cm"], bins=bins, labels=labels)
+    grouped = (
+        work.groupby(["model", "criticality", "margin_bin"], observed=False)
+        .agg(
+            samples=("prompt_uid", "count"),
+            mean_margin_cm=("clearance_margin_cm", "mean"),
+            accuracy=("is_correct", "mean"),
+            uncertain_rate=("is_uncertain", "mean"),
+            can_pass_reference_rate=("reference_judgment", _category_rate("can_pass")),
+            concept_confusion_rate=("error_category", _category_rate("concept_confusion")),
+            under_specification_rate=("error_category", _category_rate("under_specification")),
+            noise_distraction_rate=("error_category", _category_rate("noise_distraction")),
+        )
+        .reset_index()
+    )
+    return grouped[grouped["samples"] > 0].sort_values(["model", "criticality", "mean_margin_cm"])
+
+
+def _strategy_effect_summary(df: pd.DataFrame) -> pd.DataFrame:
+    if "strategy" not in df.columns:
+        return pd.DataFrame()
+    grouped = (
+        df.groupby(["strategy", "level"], as_index=False)
+        .agg(
+            samples=("prompt_uid", "count"),
+            accuracy=("is_correct", "mean"),
+            uncertain_rate=("is_uncertain", "mean"),
+            formula_rate=("has_formula", "mean"),
+            coordinate_rate=("uses_coordinate", "mean"),
+            concept_confusion_rate=("error_category", _category_rate("concept_confusion")),
+            under_specification_rate=("error_category", _category_rate("under_specification")),
+            noise_distraction_rate=("error_category", _category_rate("noise_distraction")),
+        )
+        .sort_values(["strategy", "level"])
+    )
+    return grouped
+
+
+def _judgment_confusion_matrix(df: pd.DataFrame) -> pd.DataFrame:
+    counts = (
+        df.groupby(["model", "reference_judgment", "ai_judgment"], as_index=False)
+        .agg(samples=("prompt_uid", "count"), accuracy=("is_correct", "mean"))
+        .sort_values(["model", "reference_judgment", "ai_judgment"])
+    )
+    totals = counts.groupby(["model", "reference_judgment"])["samples"].transform("sum")
+    counts["share_within_reference"] = counts["samples"] / totals
+    return counts
+
+
+def _level_transition_patterns(df: pd.DataFrame) -> pd.DataFrame:
+    group_cols = ["model", "case_id", "noise_label", "repeat"]
+    if "strategy" in df.columns:
+        group_cols = ["strategy", *group_cols]
+
+    rows = []
+    for keys, part in df.groupby(group_cols):
+        key_values = keys if isinstance(keys, tuple) else (keys,)
+        key_map = dict(zip(group_cols, key_values))
+        by_level = part.drop_duplicates("level").set_index("level")
+        if not {"L1", "L2", "L3"}.issubset(by_level.index):
+            continue
+        judgments = [str(by_level.loc[level, "ai_judgment"]) for level in ["L1", "L2", "L3"]]
+        correct = [bool(by_level.loc[level, "is_correct"]) for level in ["L1", "L2", "L3"]]
+        if correct[0] and correct[2]:
+            transition_type = "stable_or_recovered_correct"
+        elif (not correct[0]) and correct[2]:
+            transition_type = "mathematical_improvement"
+        elif correct[0] and (not correct[2]):
+            transition_type = "mathematical_collapse"
+        elif judgments[0] == judgments[1] == judgments[2]:
+            transition_type = "stable_wrong_or_uncertain"
+        else:
+            transition_type = "mixed_instability"
+        rows.append(
+            {
+                "strategy": key_map.get("strategy", ""),
+                "model": key_map["model"],
+                "case_id": key_map["case_id"],
+                "noise_label": key_map["noise_label"],
+                "repeat": key_map["repeat"],
+                "reference_judgment": str(by_level.iloc[0]["reference_judgment"]),
+                "path": "->".join(judgments),
+                "transition_type": transition_type,
+                "l1_correct": correct[0],
+                "l2_correct": correct[1],
+                "l3_correct": correct[2],
+            }
+        )
+    if not rows:
+        return pd.DataFrame()
+    paths = pd.DataFrame(rows)
+    summary = (
+        paths.groupby(["model", "transition_type", "path"], as_index=False)
+        .agg(
+            groups=("case_id", "count"),
+            l1_accuracy=("l1_correct", "mean"),
+            l2_accuracy=("l2_correct", "mean"),
+            l3_accuracy=("l3_correct", "mean"),
+        )
+        .sort_values(["model", "groups"], ascending=[True, False])
+    )
+    totals = summary.groupby("model")["groups"].transform("sum")
+    summary["share_within_model"] = summary["groups"] / totals
+    return summary
+
+
+def _noise_keyword_effect(df: pd.DataFrame) -> pd.DataFrame:
+    if "noise_keyword_hit" not in df.columns:
+        return pd.DataFrame()
+    noisy = df[df["noise_label"] != "none"].copy()
+    if noisy.empty:
+        return pd.DataFrame()
+    grouped = (
+        noisy.groupby(["model", "noise_label", "noise_keyword_hit"], as_index=False)
+        .agg(
+            samples=("prompt_uid", "count"),
+            keyword_present=("noise_keyword_present", "mean"),
+            accuracy=("is_correct", "mean"),
+            uncertain_rate=("is_uncertain", "mean"),
+            concept_confusion_rate=("error_category", _category_rate("concept_confusion")),
+            under_specification_rate=("error_category", _category_rate("under_specification")),
+            noise_distraction_rate=("error_category", _category_rate("noise_distraction")),
+        )
+        .sort_values(["model", "noise_label", "samples"], ascending=[True, True, False])
+    )
+    return grouped
+
+
+def _stable_wrong_casebook(df: pd.DataFrame, top_n: int = 80) -> pd.DataFrame:
+    required = {"model", "prompt_uid", "repeat", "ai_judgment", "is_correct", "response", "prompt"}
+    if not required.issubset(df.columns):
+        return pd.DataFrame()
+
+    rows = []
+    for (model, prompt_uid), part in df.groupby(["model", "prompt_uid"]):
+        part = part.dropna(subset=["ai_judgment"])
+        if len(part) < 2 or part["ai_judgment"].nunique() != 1:
+            continue
+        if bool(part["is_correct"].mean() != 0):
+            continue
+        first = part.sort_values("repeat").iloc[0]
+        response = str(first["response"]).replace("\n", " ")
+        prompt = str(first["prompt"]).replace("\n", " ")
+        rows.append(
+            {
+                "model": model,
+                "prompt_uid": prompt_uid,
+                "case_id": first.get("case_id", ""),
+                "strategy": first.get("strategy", ""),
+                "level": first.get("level", ""),
+                "noise_label": first.get("noise_label", ""),
+                "criticality": first.get("criticality", ""),
+                "clearance_margin_cm": first.get("clearance_margin_cm", np.nan),
+                "reference_judgment": first.get("reference_judgment", ""),
+                "stable_wrong_judgment": first.get("ai_judgment", ""),
+                "repeats": int(len(part)),
+                "error_category": first.get("error_category", ""),
+                "prompt_excerpt": prompt[:150],
+                "response_excerpt": response[:220],
+                "evidence": (
+                    f"{len(part)} repeats all gave {first.get('ai_judgment', '')}, "
+                    f"reference={first.get('reference_judgment', '')}"
+                ),
+            }
+        )
+    if not rows:
+        return pd.DataFrame()
+    casebook = pd.DataFrame(rows)
+    priority = {
+        "concept_confusion": 0,
+        "noise_distraction": 1,
+        "under_specification": 2,
+        "unknown_error": 3,
+    }
+    casebook["_priority"] = casebook["error_category"].map(priority).fillna(9)
+    casebook = casebook.sort_values(
+        ["_priority", "model", "criticality", "case_id", "prompt_uid"]
+    ).drop(columns=["_priority"])
+    categories = max(1, int(casebook["error_category"].nunique()))
+    quota = max(1, top_n // categories)
+    selected = casebook.groupby("error_category", group_keys=False).head(quota)
+    if len(selected) < top_n:
+        remainder = casebook.drop(index=selected.index, errors="ignore").head(top_n - len(selected))
+        selected = pd.concat([selected, remainder], ignore_index=False)
+    return selected.head(top_n).reset_index(drop=True)
+
+
 def create_figures(
     df: pd.DataFrame,
     accuracy: pd.DataFrame,
@@ -317,6 +528,12 @@ def run_analysis(df: pd.DataFrame, output_dir: Path) -> dict[str, pd.DataFrame |
     failures = _failure_modes(df)
     boundaries = _model_boundaries(df, consistency, noise)
     tree_text = _decision_tree_text(df)
+    margin_risk = _margin_risk_summary(df)
+    strategy_effect = _strategy_effect_summary(df)
+    judgment_confusion = _judgment_confusion_matrix(df)
+    level_transitions = _level_transition_patterns(df)
+    noise_keyword_effect = _noise_keyword_effect(df)
+    stable_wrong_casebook = _stable_wrong_casebook(df)
 
     fp_cfg = _load_fpgrowth_config()
     rules_result = mine_rules(
@@ -332,6 +549,12 @@ def run_analysis(df: pd.DataFrame, output_dir: Path) -> dict[str, pd.DataFrame |
     failures.to_csv(table_dir / "failure_modes.csv", index=False, encoding="utf-8-sig")
     boundaries.to_csv(table_dir / "model_boundaries.csv", index=False, encoding="utf-8-sig")
     write_json(table_dir / "decision_tree_rules.json", {"rules": tree_text})
+    margin_risk.to_csv(table_dir / "margin_risk_summary.csv", index=False, encoding="utf-8-sig")
+    strategy_effect.to_csv(table_dir / "strategy_effect_summary.csv", index=False, encoding="utf-8-sig")
+    judgment_confusion.to_csv(table_dir / "judgment_confusion_matrix.csv", index=False, encoding="utf-8-sig")
+    level_transitions.to_csv(table_dir / "level_transition_patterns.csv", index=False, encoding="utf-8-sig")
+    noise_keyword_effect.to_csv(table_dir / "noise_keyword_effect.csv", index=False, encoding="utf-8-sig")
+    stable_wrong_casebook.to_csv(table_dir / "stable_wrong_casebook.csv", index=False, encoding="utf-8-sig")
 
     _serialize_rules(rules_result["frequent_itemsets"]).to_csv(
         table_dir / "frequent_itemsets.csv", index=False, encoding="utf-8-sig"
@@ -378,6 +601,12 @@ def run_analysis(df: pd.DataFrame, output_dir: Path) -> dict[str, pd.DataFrame |
         "failures": failures,
         "boundaries": boundaries,
         "decision_tree": tree_text,
+        "margin_risk": margin_risk,
+        "strategy_effect": strategy_effect,
+        "judgment_confusion": judgment_confusion,
+        "level_transitions": level_transitions,
+        "noise_keyword_effect": noise_keyword_effect,
+        "stable_wrong_casebook": stable_wrong_casebook,
         "frequent_itemsets": rules_result["frequent_itemsets"],
         "association_rules": rules_result["rules"],
         "outcome_rules": rules_result["outcome_rules"],

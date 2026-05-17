@@ -14,23 +14,137 @@
 \toprule
 文件或目录 & 说明 \\
 \midrule
-\path{data/experiment_prompts.csv} & 1500 条 Prompt 的统一主表，包含 \code{strategy} 和 \code{prompt_uid}。\\
-\path{data/raw/model_responses_experiment.csv} & 54{,}000 条模型调用记录，保留完整原始回复和失败信息。\\
+\path{data/experiment_prompts.csv} & 1500 条 Prompt 的统一主表，包含 \code{strategy}、\code{level}、\code{noise_label} 和 \code{prompt_uid}。\\
+\path{data/raw/model_responses_experiment.csv} & 多模型 API 原始回复表，保留完整回复、调用状态、重复编号和延迟信息。\\
 \path{data/processed/behavior_features_experiment.csv} & 从原始回复抽取的结构化行为特征表。\\
-\path{outputs_experiment/} & 按策略、层级、扰动、模型和重复编号生成的统计表。\\
+\path{outputs_experiment/tables/} & 按策略、层级、扰动、模型和重复编号生成的统计表。\\
+\path{outputs_experiment/figures/} & 自动生成的热力图、柱状图、聚类图、雷达图和自一致性图。\\
 \bottomrule
 \end{tabularx}
 \end{table}
 
 \subsection{覆盖率与一致性检查}
 
-在解释任何模型差异前，首先检查 \code{collection_coverage.csv}。对每个 \code{strategy}\,$\times$\,\code{model}\,$\times$\,\code{repeat} 组合，期望样本数为 300；对每个模型，期望总样本数为 $1500\times3=4500$。若某个模型存在权限错误、限流或长时间超时，应先在覆盖率表中标记，再决定是否进入跨模型比较。
+在解释任何模型差异前，首先检查 \code{collection_coverage.csv}。对每个 \code{strategy}\,$\times$\,\code{model}\,$\times$\,\code{repeat} 组合，理想样本数为 300；对每个模型，完整实验设计中的期望样本数为 $1500\times3=4500$。若某个模型存在权限错误、限流或长时间超时，应先在覆盖率表中标记，再决定是否进入跨模型比较。
 
 第二个必要检查是重复键唯一性。原始回复表中不应出现重复的
 \[
 (\mcode{provider},\mcode{model},\mcode{repeat},\mcode{prompt_uid})
 \]
 组合。该约束保证断点续跑不会把不同策略下相同 \code{prompt_id} 的样本混在一起。
+
+\subsection{本地运行与文件检查截图}
+
+图 \ref{fig:app-feature-write} 展示了行为特征构建脚本的运行结果。脚本成功写出 10{,}585 条行为特征记录，输出路径为 \path{data/processed/behavior_features_experiment.csv}。图 \ref{fig:app-prompt-check} 展示了 Prompt 主表检查结果：样本总数为 1500，五个策略、三个描述层级和五类扰动条件均保持均衡。
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figures/appendix_feature_write.png}
+\caption{行为特征构建脚本运行结果截图。}
+\label{fig:app-feature-write}
+\end{figure*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figures/appendix_prompt_check.png}
+\caption{Prompt 主表文件检查与分布统计截图。}
+\label{fig:app-prompt-check}
+\end{figure*}
+
+图 \ref{fig:app-raw-stats} 展示了原始模型回复表的检查结果。当前版本包含 10{,}585 条原始回复记录，API 调用状态全部为 \code{success}，重复采样编号覆盖 0、1、2 三类。图 \ref{fig:app-feature-stats} 展示了行为特征表统计结果，包括不同策略、不同模型、最终判断类别、正确性和错误类别的分布。
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figures/appendix_raw_stats.png}
+\caption{原始模型回复表检查截图。}
+\label{fig:app-raw-stats}
+\end{figure*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figures/appendix_feature_stats.png}
+\caption{行为特征表检查与关键字段统计截图。}
+\label{fig:app-feature-stats}
+\end{figure*}
+
+\subsection{自动输出目录与统计文件}
+
+图 \ref{fig:app-output-dirs} 展示了 \path{outputs_experiment/figures/} 与 \path{outputs_experiment/tables/} 的输出文件。除准确率、失败模式、噪声翻转率和层级一致性图外，本版本新增了 \code{self_consistency_by_model}、\code{self_consistency_heatmap_level} 和 \code{self_consistency_vs_accuracy} 等重复采样自一致性结果。
+
+\begin{table*}[t]
+\centering
+\caption{新增深挖统计表与用途}
+\label{tab:appendix-new-tables}
+\footnotesize
+\begin{tabularx}{0.98\textwidth}{p{0.28\textwidth}Y}
+\toprule
+输出文件 & 用途 \\
+\midrule
+\path{margin_risk_summary.csv} & 按模型、临界类别和余量区间统计正确率、不确定率和失效模式，用于解释几何阈值风险。\\
+\path{strategy_effect_summary.csv} & 比较五类 Prompt 生成策略在不同层级下的准确率和错误形态，用于控制题目生成方式。\\
+\path{judgment_confusion_matrix.csv} & 统计参考标签与模型判断之间的方向性混淆，用于区分误放行、误拒绝和不确定拒答。\\
+\path{level_transition_patterns.csv} & 将同一场景的 L1、L2、L3 判断串成路径，用于区分数学化改善、数学化坍塌和稳定错误。\\
+\path{noise_keyword_effect.csv} & 统计模型是否复述无关扰动词及其对应准确率、噪声牵引率，用于分析非因果线索吸收。\\
+\path{stable_wrong_casebook.csv} & 汇总重复采样中稳定错误的代表案例，保留 Prompt 片段、回复片段和错误证据。\\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/appendix_figures_dir.png}\hfill
+\includegraphics[width=0.48\textwidth]{figures/appendix_tables_dir.png}
+\caption{自动统计分析输出目录截图。左图为 figures 目录，右图为 tables 目录。}
+\label{fig:app-output-dirs}
+\end{figure*}
+
+\subsection{阶段性可视化结果}
+
+图 \ref{fig:app-accuracy-failure} 展示了当前版本自动生成的准确率热力图和失败模式分布图。准确率热力图用于比较不同模型在 L1、L2、L3 描述层级下的判断准确率；失败模式图用于观察错误样本中 \code{under_specification}、\code{concept_confusion}、\code{noise_distraction} 等类别的占比差异。
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/accuracy_heatmap.png}\hfill
+\includegraphics[width=0.48\textwidth]{figures/failure_modes.png}
+\caption{阶段性结果可视化之一：描述层级准确率热力图与错误样本失效模式分布。}
+\label{fig:app-accuracy-failure}
+\end{figure*}
+
+图 \ref{fig:app-noise-self} 展示了无关信息导致的判断翻转率和重复采样自一致性结果。前者用于观察情绪压力、光照、环境噪声和材料颜色等非因果信息是否改变模型结论；后者用于比较模型在同一 Prompt 上三次采样是否给出一致判断。
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/noise_flip_rate.png}\hfill
+\includegraphics[width=0.48\textwidth]{figures/self_consistency_by_model.png}
+\caption{阶段性结果可视化之二：噪声翻转率与重复采样自一致性。}
+\label{fig:app-noise-self}
+\end{figure*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.48\textwidth]{figures/self_consistency_heatmap_level.png}\hfill
+\includegraphics[width=0.48\textwidth]{figures/self_consistency_vs_accuracy.png}
+\caption{重复采样自一致性补充图：层级热力图与自一致性-准确率关系图。}
+\label{fig:app-self-extra}
+\end{figure*}
+
+\subsection{自动生成发现截图}
+
+图 \ref{fig:app-findings-core} 和图 \ref{fig:app-findings-repeat} 展示了 \path{outputs_experiment/findings.md} 的主要内容。该文件由分析脚本自动生成，汇总了描述层级变化、无关扰动、失效模式和重复采样自一致性方面的显著现象，可作为后续结果分析章节的文字依据。
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figures/appendix_findings_core.png}
+\caption{自动生成核心规律发现截图。}
+\label{fig:app-findings-core}
+\end{figure*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.96\textwidth]{figures/appendix_findings_repeat.png}
+\caption{自动生成重复采样自一致性发现截图。}
+\label{fig:app-findings-repeat}
+\end{figure*}
 
 \subsection{结果解读原则}
 

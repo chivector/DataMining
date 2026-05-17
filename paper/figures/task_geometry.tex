@@ -1,6 +1,26 @@
 \begin{figure}[t]
 \centering
-\includegraphics[width=\columnwidth,height=0.24\textheight,keepaspectratio]{figures/TaskGeometry.png}
-\caption{轮椅转弯空间推理任务的抽象几何示意。实验并不追求真实工程仿真，而是固定 $W,D,w,L,R$ 等关键变量，用受控 Prompt 观察模型如何利用或误用这些空间信息。}
+\begin{tikzpicture}[x=0.018cm,y=0.018cm]
+  \fill[dmgray] (0,0) -- (220,0) -- (220,70) -- (150,140) -- (0,140) -- cycle;
+  \draw[line width=1.2pt,draw=dmorange] (0,0) -- (220,0) -- (220,70) -- (150,140) -- (0,140) -- cycle;
+  \draw[line width=0.5pt,draw=black!65] (0,0) -- (220,0) -- (220,140) -- (0,140) -- cycle;
+  \draw[line width=0.45pt,draw=black!55,dashed] (150,140) -- (220,140) -- (220,70);
+
+  \draw[<->,line width=0.45pt] (0,-13) -- node[below,font=\scriptsize] {110cm} (110,-13);
+  \draw[<->,line width=0.45pt] (110,-13) -- node[below,font=\scriptsize] {110cm} (220,-13);
+  \draw[<->,line width=0.45pt] (-13,0) -- node[left,font=\scriptsize] {140cm} (-13,140);
+  \draw[<->,line width=0.45pt] (233,0) -- node[right,font=\scriptsize] {70cm} (233,70);
+  \draw[<->,line width=0.45pt] (150,153) -- node[above,font=\scriptsize] {约70cm} (220,153);
+  \draw[<->,line width=0.45pt] (154,133) -- node[above right,font=\scriptsize] {斜边约100--106cm} (216,73);
+
+  \begin{scope}[shift={(70,32)},rotate=14]
+    \draw[fill=dmgreen!15,draw=dmgreen,line width=0.7pt] (0,0) rectangle (121,68.5);
+    \node[font=\scriptsize,align=center] at (60.5,34.25) {轮椅\\121$\times$68.5cm};
+  \end{scope}
+
+  \node[font=\scriptsize,align=center,text=dmorange] at (92,156) {红线围成的实际可通行区域};
+  \node[font=\scriptsize,align=center,text=black!70] at (176,28) {右上角斜边\\压缩旋转空间};
+\end{tikzpicture}
+\caption{根据现场手绘标注校正后的可通行区域示意。红色边界表示轮椅实际可以占用的区域，而不是完整矩形平台；右上角斜边会显著改变旋转包络判断。图中尺寸根据照片中的标注近似整理，用于提示任务建模边界。}
 \label{fig:task-geometry}
 \end{figure}

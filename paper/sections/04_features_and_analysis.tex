@@ -1,5 +1,101 @@
-\section{行为特征构建}
+\section{数据采集与预处理}
 
-原始回复表保留模型完整文本，但直接用于数据挖掘并不方便。因此，特征构建脚本会从每条回复中抽取结构化行为变量，包括 \code{ai_judgment}、\code{is_correct}、\code{reasoning_steps}、\code{has_formula}、\code{uses_coordinate}、\code{noise_keyword_hit} 和 \code{error_category}。这些字段与原始的 \code{strategy}、\code{prompt_uid}、\code{level}、\code{noise_label}、\code{reference_judgment}、\code{model} 和 \code{repeat} 一起保存，使分析可以直接按策略、模型、层级、扰动和临界性切分。
+原始模型回复表记录了模型的完整回复文本，但不适合直接用于数据挖掘。为此，本文在 API 采集之后引入数据预处理环节，将自然语言回复解析为结构化行为特征。该阶段负责将阶段性实验结果整理为可分析的长表结构，并对数据规模、调用状态、判断类别和错误类别进行质量核查。
 
-特征表的定位不是替代原始回复，而是作为挖掘入口。若某个模型在边界样本上准确率较低，分析者仍可回到原始 \code{response} 查看它到底是计算错误、概念混淆、忽视半径，还是被无关环境信息带偏。
+\subsection{数据文件组织}
+
+实验数据以长表形式组织，核心文件分为三类：第一类是 Prompt 主表 \path{data/experiment_prompts.csv}，存储 1500 条实验样本及其几何参数、描述层级、扰动类型和参考标签；第二类是原始回复表 \path{data/raw/model_responses_experiment.csv}，存储每次模型调用的完整回复、调用状态和延迟信息；第三类是行为特征表 \path{data/processed/behavior_features_experiment.csv}，存储从原始回复中解析出的最终判断、正确性标注、失败模式和文本特征。后续统计表和可视化结果统一输出至 \path{outputs_experiment/}。
+
+\begin{table}[t]
+\centering
+\caption{当前数据版本的规模与质量检查结果}
+\label{tab:data-check-current}
+\small
+\begin{tabularx}{\columnwidth}{p{0.58\columnwidth}r}
+\toprule
+项目 & 数量 \\
+\midrule
+Prompt 主表样本数 & 1500 \\
+Prompt 生成策略数 & 5 \\
+每个策略的 Prompt 数 & 300 \\
+描述层级数 & 3 \\
+扰动条件数 & 5 \\
+原始模型回复记录 & 10{,}585 \\
+成功 API 调用记录 & 10{,}585 \\
+行为特征记录 & 10{,}585 \\
+完整实验设计目标 & 54{,}000 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+表 \ref{tab:data-check-current} 给出了当前实验版本的数据规模。Prompt 主表保持 5 类策略的均衡分布，每个策略 300 条，L1、L2、L3 三个描述层级各 500 条，五类扰动条件各 300 条。完整实验设计以 12 个模型、3 次重复调用为目标；当前版本共采集到 10{,}585 条模型回复，且原始回复表与行为特征表行数一致，表明特征构建过程中未出现样本丢失。
+
+\subsection{原始回复采集结果}
+
+原始回复表中每一行对应一次模型 API 调用。除 Prompt 的几何参数和文本内容外，该表还保留 \code{provider}、\code{model}、\code{repeat}、\code{collected_at}、\code{temperature}、\code{max_tokens}、\code{seed}、\code{status}、\code{error_message}、\code{latency_seconds} 和 \code{response} 等字段。其中，\code{response} 是后续文本解析的基础，\code{status} 与 \code{error_message} 用于记录调用成功与否及失败原因。
+
+当前版本的 \code{status} 均为 \code{success}。重复采样编号 \code{repeat}\,$\in\{0,1,2\}$ 的记录数分别为 3653、3468 和 3464，表明当前数据集已包含大量同一 Prompt 的多次采样记录，可支持后续自一致性分析。由于模型调用采用分批采集与断点续跑机制，当前版本尚未达到完整设计规模的 54{,}000 条，但已足以验证采集、预处理与分析流程的正确性。
+
+\subsection{行为特征抽取}
+
+行为特征构建由 \path{scripts/build_experiment_features.py} 完成。脚本读入原始回复表后，依据规则对每条 \code{response} 进行解析，抽取结构化变量，包括 \code{ai_judgment}、\code{is_correct}、\code{is_uncertain}、\code{reasoning_steps}、\code{response_chars}、\code{has_formula}、\code{uses_coordinate}、\code{noise_keyword_hit}、\code{noise_keyword_present} 和 \code{error_category}。上述字段与原始的 \code{strategy}、\code{prompt_uid}、\code{level}、\code{noise_label}、\code{reference_judgment}、\code{model} 和 \code{repeat} 共同存储，以支持按策略、模型、层级、扰动和临界性进行分组分析。
+
+其中，\code{ai_judgment} 表示从回复中解析出的最终判断，取值包括 \code{can_pass}、\code{cannot_pass} 和 \code{uncertain}；\code{is_correct} 表示解析判断与参考标签是否一致；\code{is_uncertain} 用于标记不确定或中间态回答；\code{has_formula} 与 \code{uses_coordinate} 反映模型是否尝试形式化建模；\code{error_category} 则将错误样本进一步归纳为 \code{under_specification}、\code{concept_confusion}、\code{noise_distraction} 和 \code{unknown_error} 等类型。由此，非结构化的自然语言回复被转化为可统计、可建模、可回溯的结构化行为数据。
+
+\begin{table*}[t]
+\centering
+\caption{行为特征字典与后续挖掘用途}
+\label{tab:feature-dictionary}
+\scriptsize
+\begin{tabularx}{0.98\textwidth}{p{0.18\textwidth}p{0.25\textwidth}Y}
+\toprule
+字段组 & 代表字段 & 挖掘用途 \\
+\midrule
+Prompt 条件 & \code{strategy}, \code{level}, \code{noise_label}, \code{criticality} & 定义实验切片，用于比较生成策略、描述层级、无关扰动和临界样本的行为差异。\\
+几何变量 & \code{stair_width_cm}, \code{landing_depth_cm}, \code{turn_radius_cm}, \code{clearance_margin_cm} & 支持按余量和临界阈值分析模型是否真正利用空间约束，而非仅凭直觉进行判断。\\
+模型与采样 & \code{provider}, \code{model}, \code{repeat}, \code{prompt_uid} & 支持跨模型比较、重复采样自一致性分析和稳定错误案例库构建。\\
+判断结果 & \code{reference_judgment}, \code{ai_judgment}, \code{is_correct}, \code{is_uncertain} & 支持准确率统计、混淆矩阵分析、误判方向识别和不确定拒答分析。\\
+推理过程 & \code{reasoning_steps}, \code{response_chars}, \code{has_formula}, \code{uses_coordinate} & 衡量模型是否展开计算、是否使用公式或坐标系，并与正确性、层级迁移和决策树路径相关联。\\
+噪声吸收 & \code{noise_keyword_hit}, \code{noise_keyword_present} & 判断模型是否将无关描述复述进推理链，进而分析非因果线索对输出的影响。\\
+失效标注 & \code{error_category}, \code{response} & 支持失效模式统计、TF-IDF 文本聚类和典型案例回溯。\\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\begin{table}[t]
+\centering
+\caption{行为特征表中的主要统计结果}
+\label{tab:feature-summary-current}
+\small
+\begin{tabularx}{\columnwidth}{p{0.52\columnwidth}r}
+\toprule
+类别 & 数量 \\
+\midrule
+\multicolumn{2}{l}{\textbf{模型最终判断}}\\
+\code{cannot_pass} & 5889 \\
+\code{uncertain} & 3495 \\
+\code{can_pass} & 1201 \\
+\midrule
+\multicolumn{2}{l}{\textbf{判断正确性}}\\
+\code{True} & 4820 \\
+\code{False} & 5765 \\
+\midrule
+\multicolumn{2}{l}{\textbf{错误类别}}\\
+\code{none} & 4820 \\
+\code{under_specification} & 3495 \\
+\code{concept_confusion} & 1734 \\
+\code{noise_distraction} & 313 \\
+\code{unknown_error} & 223 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+表 \ref{tab:feature-summary-current} 给出当前行为特征表的整体分布。模型回复中除明确的"通过"与"不通过"判断外，还包含大量 \code{uncertain} 类型回答。将不确定性单独保留为行为特征具有必要性：若仅进行二分类准确率统计，将掩盖模型在边界场景和模糊描述下的推理犹豫行为。
+
+\subsection{质量检查与可复现输出}
+
+预处理完成后，本文从三个方面进行质量核查。第一，检验 Prompt 主表是否保持 1500 条、5 个策略均衡、3 个层级均衡和 5 类扰动均衡。第二，核验原始回复表与行为特征表的行数是否一致，以排除特征抽取过程中的样本丢失。第三，审查 \code{status}、\code{ai_judgment}、\code{is_correct} 和 \code{error_category} 的分布，确认数据能够支持后续准确率、失效模式、噪声翻转和重复采样一致性分析。
+
+完成质量核查后，运行 \path{scripts/analyze_experiment.py} 生成统计输出。当前输出目录包含 \path{outputs_experiment/tables/} 和 \path{outputs_experiment/figures/} 两类结果，其中表格文件包括 \path{collection_coverage.csv}、\path{accuracy_by_level.csv}、\path{failure_modes.csv}、\path{noise_flip_rate.csv}、\path{level_consistency.csv} 以及新增的 \path{self_consistency_by_model.csv} 等；图像文件包括准确率热力图、失败模式图、噪声翻转率图、模型雷达图、聚类图和自一致性图。运行截图和完整输出文件清单见附录。
+
+为进一步增加挖掘深度，本文在同一分析入口中新增六类派生统计表，分别从几何阈值、Prompt 生成策略、判断混淆、层级迁移路径、噪声关键词复述和稳定错误案例六个维度补充证据链。所有结果均由 \path{data/processed/behavior_features_experiment.csv} 直接生成，不改变原始回复和参考标签。新增输出包括 \path{margin_risk_summary.csv}、\path{strategy_effect_summary.csv}、\path{judgment_confusion_matrix.csv}、\path{level_transition_patterns.csv}、\path{noise_keyword_effect.csv} 和 \path{stable_wrong_casebook.csv}。这些表格使后续结果章节不仅能报告模型的整体准确率，还能够回答"在何种几何余量、何种题目生成策略、何种判断方向、何种层级迁移路径以及何种错误文本中出现失效"等更为精细的研究问题。
