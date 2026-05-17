@@ -2,7 +2,7 @@
 
 \subsection{实验样本范围}
 
-本轮 API 实验不使用全部候选池，而是选取 5 组代表性 Prompt 来源：\path{data/prompts.csv} 作为 baseline，加上当前重点策略 \path{real_world_archetype_matrix}、\path{halton_space_filling}、\path{dimensionless_ratio_design} 和 \path{constraint_boundary_solver}。每组 300 条，共 1500 条 Prompt。这样的分层主样本同时覆盖原始基线、现实原型、空间填充、比例表达和边界临界样本，能够在控制调用成本的同时保留主要实验变量。
+本实验不使用全部候选 Prompt 池，而是选取 5 组代表性来源：\path{data/prompts.csv} 作为 baseline，加上重点策略 \path{real_world_archetype_matrix}、\path{halton_space_filling}、\path{dimensionless_ratio_design} 和 \path{constraint_boundary_solver}。每组 300 条，共 1500 条 Prompt。该分层主样本兼顾原始基线、现实原型、参数空间填充、相对比例表达和临界边界样本，在有效控制调用成本的同时全面覆盖主要实验变量。
 
 合并步骤生成 \code{data/experiment_prompts.csv}。为避免不同策略文件中的 \code{prompt_id} 重复，合并表为每条样本增加
 \begin{equation}
@@ -64,9 +64,9 @@
 
 \subsection{采集脚本与运行流程}
 
-实验流程由四个脚本串联完成。首先运行 \path{scripts/build_experiment_prompts.py}，从选定 Prompt 文件生成 \path{data/experiment_prompts.csv} 并检查 \code{prompt_uid} 唯一性。随后运行 \path{scripts/collect_experiment_responses.py} 调用模型 API，原始输出写入 \path{data/raw/model_responses_experiment.csv}。接着运行 \path{scripts/build_experiment_features.py}，把原始回复转换为 \path{data/processed/behavior_features_experiment.csv}。最后运行 \path{scripts/analyze_experiment.py}，将策略维度和模型维度统计表写入 \path{outputs_experiment/}。
+实验流程由四个脚本串联完成。首先运行 \path{scripts/build_experiment_prompts.py}，从选定 Prompt 文件生成 \path{data/experiment_prompts.csv} 并检查 \code{prompt_uid} 唯一性。随后运行 \path{scripts/collect_experiment_responses.py} 调用模型 API，原始输出写入 \path{data/raw/model_responses_experiment.csv}。接着运行 \path{scripts/build_experiment_features.py}，将原始回复转换为 \path{data/processed/behavior_features_experiment.csv}。最后运行 \path{scripts/analyze_experiment.py}，将策略维度和模型维度统计表写入 \path{outputs_experiment/}。
 
-API 调用使用固定采样参数，当前配置为 \code{temperature=0.2}、\code{max_tokens=900}、\code{timeout_seconds=300}、\code{seed=42}、\code{max_retries=3}。正式运行前先做小样本 smoke test，确认模型可连通、回复非空、最终判断格式可被解析；正式采集时再使用并发 workers 分批推进。
+API 调用使用固定采样参数，当前配置为 \code{temperature=0.2}、\code{max_tokens=900}、\code{timeout_seconds=300}、\code{seed=42}、\code{max_retries=3}。正式运行前先进行小规模冒烟测试，确认模型接口可正常访问、回复不为空且最终判断格式能够被正确解析；正式采集阶段则采用并发 workers 分批执行。
 
 \input{figures/collection_pipeline}
 
@@ -93,7 +93,7 @@ API 调用使用固定采样参数，当前配置为 \code{temperature=0.2}、\c
 \begin{equation}
 (\mcode{provider},\mcode{model},\mcode{repeat},\mcode{prompt_uid}),
 \end{equation}
-而不是只使用 \code{prompt_id}。这样即使不同策略中存在相同文件内编号，也不会在续跑时被误判为已完成。
+而非仅依赖 \code{prompt_id}。由此即使不同策略文件中存在相同的 \code{prompt_id}，在断点续跑时亦不会被误判为已采集。
 
 脚本支持 \code{--resume}、\code{--workers}、\code{--log-every} 和 \code{--flush-every}。其中 \code{--workers} 控制并发数量，\code{--log-every} 控制终端进度打印频率，\code{--flush-every} 控制定期写盘间隔。每次调用都会记录 \code{status}、\code{error_message}、\code{latency_seconds} 和完整 \code{response}。失败调用不会被静默丢弃，而是以 \code{status=failed} 进入原始表，便于检查失败是否集中在特定模型、限流或权限问题上。
 
